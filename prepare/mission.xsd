@@ -1,0 +1,22 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="missions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="mission" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="type" type="xs:string" minOccurs="0" default="UNKNOWN"/>
+              <xs:element name="launch" type="xs:string" minOccurs="0" default="UNKNOWN" />
+              <xs:element name="target" type="xs:string" minOccurs="0" default="UNKNOWN"/>
+              <xs:element name="objective" type="xs:string" minOccurs="0" default="UNKNOWN"/>
+              <xs:element name="wavelength" type="xs:string" minOccurs="0" default="UNKNOWN"/>
+              <xs:element name="mission_name" type="xs:string" default="UNKNOWN"/>
+              <xs:element name="graphic" type="xs:anyURI" default=""/>
+              <xs:element name="weblink" type="xs:anyURI" default=""/>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
