@@ -1,22 +1,93 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-  <xs:element name="missions">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="mission" maxOccurs="unbounded">
-          <xs:complexType>
-            <xs:all>
-              <xs:element name="type" type="xs:string" minOccurs="0" default="UNKNOWN"/>
-              <xs:element name="launch" type="xs:string" minOccurs="0" default="UNKNOWN" />
-              <xs:element name="target" type="xs:string" minOccurs="0" default="UNKNOWN"/>
-              <xs:element name="objective" type="xs:string" minOccurs="0" default="UNKNOWN"/>
-              <xs:element name="wavelength" type="xs:string" minOccurs="0" default="UNKNOWN"/>
-              <xs:element name="mission_name" type="xs:string" default="UNKNOWN"/>
-              <xs:element name="graphic" type="xs:anyURI" default=""/>
-              <xs:element name="weblink" type="xs:anyURI" default=""/>
-            </xs:all>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <!-- Root element for multiple missions -->
+  <xs:element name="missions" type="MissionsType"/>
+
+  <!-- Missions collection type -->
+  <xs:complexType name="MissionsType">
+    <xs:sequence>
+      <xs:element name="mission" type="MissionType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Individual mission type definition -->
+  <xs:complexType name="MissionType">
+    <xs:all>
+      <xs:element name="title" type="xs:string" minOccurs="0"/>
+      <xs:element name="subtitle" type="xs:string" minOccurs="0"/>
+      <xs:element name="url" type="EmptyOrURI" minOccurs="0"/>
+      <xs:element name="date" type="EmptyOrDateTime" minOccurs="0"/>
+      <xs:element name="paragraphs" type="ParagraphsType" minOccurs="0"/>
+      <xs:element name="metadata_table" type="MetadataTableType" minOccurs="0"/>
+      <xs:element name="stories" type="StoriesType" minOccurs="0"/>
+      <xs:element name="stories_page_url" type="EmptyOrURI" minOccurs="0"/>
+      <xs:element name="scraped_at" type="EmptyOrDateTime" minOccurs="0"/>
+    </xs:all>
+  </xs:complexType>
+
+  <!-- FOLLOWING CAN BE EMPTY -->
+  <xs:simpleType name="EmptyOrURI">
+    <xs:union memberTypes="xs:anyURI EmptyString"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="EmptyOrDateTime">
+    <xs:union memberTypes="xs:dateTime EmptyString"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="EmptyString">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value=""/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="ParagraphsType">
+    <xs:sequence>
+      <xs:element name="paragraph" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="MetadataTableType">
+    <xs:sequence>
+      <xs:element name="metadata" type="MetadataType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="MetadataType">
+    <xs:sequence>
+      <xs:element name="key" type="xs:string" minOccurs="0"/>
+      <xs:element name="value" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="StoriesType">
+    <xs:sequence>
+      <xs:element name="story" type="StoryType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="StoryType">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string" minOccurs="0"/>
+      <xs:element name="url" type="EmptyOrURI" minOccurs="0"/>
+      <xs:element name="type" type="StoryTypeEnumOrEmpty" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="StoryTypeEnumOrEmpty">
+    <xs:union memberTypes="StoryTypeEnum EmptyString"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="StoryTypeEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="news"/>
+      <xs:enumeration value="article"/>
+      <xs:enumeration value="blog"/>
+      <xs:enumeration value="press-release"/>
+      <xs:enumeration value="feature"/>
+      <xs:enumeration value="update"/>
+    </xs:restriction>
+  </xs:simpleType>
+
 </xs:schema>

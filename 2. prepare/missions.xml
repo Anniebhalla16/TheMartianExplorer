@@ -1,437 +1,859 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <missions>
   <mission>
-    <mission_name>3D Tissue Chips</mission_name>
-    <type>Experiment</type>
-    <launch>Dec. 5, 2018</launch>
-    <objective>Conduct biomedical research in microgravity</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/3d-tissue-chips-jpg.webp?w=1536</graphic>
-    <weblink>https://science.nasa.gov/mission/3d-tissue-chips/</weblink>
+    <title>MAVEN</title>
+    <subtitle>The Mars Atmosphere and Volatile EvolutioN (MAVEN) mission is the first mission devoted to understanding the Martian upper atmosphere.</subtitle>
+    <url>https://science.nasa.gov/mission/maven/</url>
+    <date>2017-12-04T23:25:33-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/maven/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:48:02.111337</scraped_at>
+    <paragraphs>
+      <paragraph>The Mars Atmosphere and Volatile EvolutioN (MAVEN) mission will determine how much of the Martian atmosphere has been lost over time by measuring the current rate of escape to space and gathering enough information about the relevant processes to allow extrapolation backward in time.</paragraph>
+    </paragraphs>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch / Orbit Insertion</key>
+        <value>Nov. 18, 2013 / Sept. 21, 2014</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Understanding the Martian upper atmosphere</value>
+      </metadata>
+    </metadata_table>
+    <stories/>
   </mission>
   <mission>
-    <mission_name>Able 1 (Pioneer 0)</mission_name>
-    <type>Orbiter</type>
-    <launch>Aug. 17, 1958</launch>
-    <target>Earth's Moon</target>
-    <objective>Orbit Earth's Moon</objective>
-    <graphic>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/07/pioneer_able_main.jpg?w=768&amp;h=655&amp;fit=clip&amp;crop=faces%2Cfocalpoint</graphic>
-    <weblink>https://science.nasa.gov/mission/pioneer-0-able1/</weblink>
+    <title>Mariner 7</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mariner-7/</url>
+    <date>2018-01-25T20:26:03-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mariner-7/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:38.179935</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>Able 2 (Pioneer 1)</mission_name>
-    <type>Orbiter</type>
-    <launch>Aug. 17, 1958</launch>
-    <target>Earth's Moon</target>
-    <objective>Study the Moon</objective>
-    <graphic>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/07/1958_november_pioneer_1.jpg?w=1280&amp;h=1715&amp;fit=clip&amp;crop=faces%2Cfocalpoint</graphic>
-    <weblink>https://science.nasa.gov/mission/pioneer-1-able-2/</weblink>
+    <title>Mars Science Laboratory: Curiosity Rover</title>
+    <subtitle>Part of NASA's Mars Science Laboratory mission, at the time of launch, Curiosity was the largest and most capable rover ever sent to Mars at that time.</subtitle>
+    <url>https://science.nasa.gov/mission/msl-curiosity/</url>
+    <date>2017-11-30T21:05:49-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/msl-curiosity/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:48:00.899669</scraped_at>
+    <paragraphs>
+      <paragraph>Part of NASA's Mars Science Laboratory mission, Curiosity, was the largest and most capable rover ever sent to Mars when it launched in 2011. Curiosity set out to answer the question: Did Mars ever have the right environmental conditions to support small life forms called microbes? Early in its mission, Curiosity's scientific tools found chemical and mineral evidence of past habitable environments on Mars. It continues to explore the rock record from a time when Mars could have been home to microbial life.</paragraph>
+    </paragraphs>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Rover</value>
+      </metadata>
+      <metadata>
+        <key>Launch / Landing</key>
+        <value>Nov. 26, 2011 / Aug. 6, 2012</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Determine if Mars was ever able to support microbial life</value>
+      </metadata>
+    </metadata_table>
+    <stories>
+      <story>
+        <title>NASA’s Curiosity Mars Rover Starts Unpacking Boxwork Formations</title>
+        <url>https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years</title>
+        <url>https://science.nasa.gov/science-research/heliophysics/what-nasa-is-learning-from-the-biggest-geomagnetic-storm-in-20-years/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>Able 4B (Pioneer P-3)</mission_name>
-    <type>Orbiter</type>
-    <launch>Nov. 26, 1959</launch>
-    <target>Earth's Moon</target>
-    <objective>Orbit the Moon</objective>
-    <graphic></graphic>
-    <weblink>https://science.nasa.gov/mission/pioneer-p-3-able-4b/</weblink>
+    <title>Mariner 6</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mariner-6/</url>
+    <date>2017-12-20T20:33:23-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mariner-6/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:37.013882</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>I Am Artemis: Patrick Junen</title>
+        <url>https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-patrick-junen/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>Sparkling Andromeda</title>
+        <url>https://www.nasa.gov/image-article/sparkling-andromeda/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>Able 5A (Pioneer P-30)</mission_name>
-    <type>Orbiter</type>
-    <launch>Sept. 25, 1960</launch>
-    <target>Earth's Moon</target>
-    <objective>Orbit the Moon</objective>
-    <graphic></graphic>
-    <weblink>https://science.nasa.gov/mission/pioneer-p-30-able-5a/</weblink>
+    <title>Mars Polar Lander / Deep Space 2</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mars-polar-lander-deep-space-2/</url>
+    <date>2019-01-17T18:44:28-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:57.481028</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>Able 5B (Pioneer P-31)</mission_name>
-    <type>Orbiter</type>
-    <launch>Dec. 15, 1960</launch>
-    <target>Earth's Moon</target>
-    <objective>Orbit the Moon</objective>
-    <graphic></graphic>
-    <weblink>https://science.nasa.gov/mission/pioneer-p-31-able-5b/</weblink>
+    <title>Mars Reconnaissance Orbiter</title>
+    <subtitle>NASA's Mars Reconnaissance Orbiter searches for evidence that water persisted on the surface of Mars for a long period of time.</subtitle>
+    <url>https://science.nasa.gov/mission/mars-reconnaissance-orbiter/</url>
+    <date>2017-12-05T00:31:14-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mars-reconnaissance-orbiter/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:58.582755</scraped_at>
+    <paragraphs>
+      <paragraph>NASA's Mars Reconnaissance Orbiter blasted off from Cape Canaveral in 2005, on a search for evidence that water persisted on the surface of Mars for long periods of time. While other Mars missions have shown that water flowed across the surface in Mars' history, it remains a mystery whether water was ever around long enough to provide a habitat for life.</paragraph>
+    </paragraphs>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch / Orbit Insertion</key>
+        <value>Aug. 12, 2005 / March 10, 2006</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Gain better knowledge of the distribution and history of water on Mars</value>
+      </metadata>
+    </metadata_table>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA Orbiter Spots Curiosity Rover Making Tracks to Next Science Stop</title>
+        <url>https://www.nasa.gov/missions/mars-science-laboratory/nasa-orbiter-spots-curiosity-rover-making-tracks-to-next-science-stop/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>ACE</mission_name>
-    <type>Orbiter</type>
-    <launch>Aug. 25, 1997</launch>
-    <target>Sun-Earth Interaction</target>
-    <objective>Study spaceborne energetic particles</objective>
-    <graphic>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/07/ace_1.jpg?w=1041&amp;h=781&amp;fit=clip&amp;crop=faces%2Cfocalpoint</graphic>
-    <weblink>https://science.nasa.gov/mission/ace/</weblink>
+    <title>Mars Express</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mars-express/</url>
+    <date>2017-12-05T00:26:53-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:49.439622</scraped_at>
+    <paragraphs>
+      <paragraph>NASA is participating in a mission of ESA (European Space Agency) and the Italian Space Agency called Mars Express, which has been exploring the atmosphere and surface of Mars from polar orbit since arriving at the Red Planet in 2003. Initially, Mars Express also carried a small lander called Beagle 2, named for the ship in which Charles Darwin set sail to explore uncharted areas of Earth in 1831. The lander was lost on arrival in December 2003.</paragraph>
+    </paragraphs>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>June 2, 2003</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+    </metadata_table>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>ACME</mission_name>
-    <type>Experiment</type>
-    <launch>Jun 3, 2017</launch>
-    <objective>Microgravity Research</objective>
-    <graphic></graphic>
-    <weblink>https://science.nasa.gov/mission/acme/</weblink>
+    <title>ExoMars Program</title>
+    <subtitle>ESA’s (European Space Agency) Exobiology on Mars program is a series of missions designed to understand if life ever existed on Mars.</subtitle>
+    <url>https://science.nasa.gov/mission/tgo/</url>
+    <date>2017-12-01T02:14:08-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:31.246411</scraped_at>
+    <paragraphs>
+      <paragraph>ESA’s (European Space Agency) Exobiology on Mars program (ExoMars program) is comprised of two missions: the first, the Trace Gas Orbiter, launched in 2016, while the second, carrying the Rosalind Franklin rover, is scheduled to launch in 2028. Together they will address the question of whether life has ever existed on Mars.</paragraph>
+    </paragraphs>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter and Rover</value>
+      </metadata>
+      <metadata>
+        <key>Missions</key>
+        <value>Trace Gas Orbiter and Rosalind Franklin Rover</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>To address the question of whether life has ever existed on Mars</value>
+      </metadata>
+    </metadata_table>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>ACRIMSAT</mission_name>
-    <type>Orbiter</type>
-    <launch>Dec. 20, 1999</launch>
-    <target>Earth</target>
-    <objective>Study total solar irradiance</objective>
-    <graphic></graphic>
-    <weblink>https://science.nasa.gov/mission/acrimsat/</weblink>
+    <title>ESCAPADE</title>
+    <subtitle>Escape and Plasma Acceleration and Dynamics Explorers</subtitle>
+    <url>https://science.nasa.gov/mission/escapade/</url>
+    <date>2023-06-15T15:07:10-04:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/escapade/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:30.122288</scraped_at>
+    <paragraphs>
+      <paragraph>ESCAPADE will analyze how Mars’ magnetic field guides particle flows around the planet, how energy and momentum are transported from the solar wind through the magnetosphere, and what processes control the flow of energy and matter into and out of the Martian atmosphere.</paragraph>
+      <paragraph>The ESCAPADE mission is managed by the Space Sciences Laboratory at the University of California, Berkeley, with key partners Rocket Lab, NASA's Goddard Space Flight Center, Embry-Riddle Aeronautical University, Advanced Space LLC, and Blue Origin.</paragraph>
+      <paragraph>ESCAPADE will use two identical spacecraft to investigate how the solar wind interacts with Mars’ magnetic environment and how this interaction drives the planet’s atmospheric escape.</paragraph>
+    </paragraphs>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>NET spring 2025</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Study the magnetosphere of Mars</value>
+      </metadata>
+    </metadata_table>
+    <stories>
+      <story>
+        <title>NASA’s Kennedy Space Center Looks to Thrive in 2025</title>
+        <url>https://www.nasa.gov/centers-and-facilities/kennedy/nasa-kennedy-looks-to-thrive-in-2025/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA Stands Down from October Launch for ESCAPADE to Mars</title>
+        <url>https://science.nasa.gov/blogs/escapade/2024/09/06/nasa-stands-down-from-october-launch-for-escapade-to-mars/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>ACT-America</mission_name>
-    <type>Airborne Science</type>
-    <objective>Study the terrestrial carbon cycle</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/act-america.png</graphic>
-    <weblink>https://science.nasa.gov/mission/act-america/</weblink>
+    <title>Mars Global Surveyor</title>
+    <subtitle>Mars Global Surveyor</subtitle>
+    <url>https://science.nasa.gov/mission/mars-global-surveyor/</url>
+    <date>2017-12-20T21:44:02-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mars-global-surveyor/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:50.650280</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>National Space Club Honors NASA, ULA Delta II Program Team</title>
+        <url>https://www.nasa.gov/missions/mars-pathfinder/national-space-club-honors-nasa-ula-delta-ii-program-team/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>Mars Crater May Actually Be Ancient Supervolcano</title>
+        <url>https://www.nasa.gov/solar-system/mars-crater-may-actually-be-ancient-supervolcano/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>ADEOS / Midori</mission_name>
-    <type>Orbiter</type>
-    <launch>Aug. 17, 1996</launch>
-    <target>Earth</target>
-    <objective>Earth environmental research</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/adeos-jpg.webp</graphic>
-    <weblink>https://science.nasa.gov/mission/adeos-midori/</weblink>
+    <title>Spirit</title>
+    <subtitle>Mars Exploration Rover – Spirit</subtitle>
+    <url>https://science.nasa.gov/mission/mer-spirit/</url>
+    <date>2017-12-05T00:55:21-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:48:06.753075</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>Advanced Plant Habitat</mission_name>
-    <type>ISS Experiment</type>
-    <launch>April 18, 2017</launch>
-    <objective>Microgravity Plant Research</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/aph-jpg.webp?w=1536</graphic>
-    <weblink>https://science.nasa.gov/mission/advanced-plant-habitat/</weblink>
+    <title>Opportunity</title>
+    <subtitle>Mars Exploration Rover Opportunity (MER-B)</subtitle>
+    <url>https://science.nasa.gov/mission/mer-opportunity/</url>
+    <date>2017-12-05T00:41:07-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:48:05.608433</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>Sunset on Mars</title>
+        <url>https://www.nasa.gov/image-article/sunset-on-mars/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>Perseverance Rover Witnesses One Martian Dust Devil Eating Another</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>AIM</mission_name>
-    <type>Orbiter</type>
-    <launch>April 25, 2007</launch>
-    <target>Earth</target>
-    <objective>Study night-shining clouds</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/aim-auto18-jpeg.webp</graphic>
-    <weblink>https://science.nasa.gov/mission/aim/</weblink>
+    <title>Viking 1</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/viking-1/</url>
+    <date>2017-12-06T21:24:35-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/viking-1/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:48:07.941455</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories/>
   </mission>
   <mission>
-    <mission_name>AirMOSS</mission_name>
-    <type>Airborne Science</type>
-    <launch>2012-2015</launch>
-    <target>Earth</target>
-    <objective>Observe North American soil moisture</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/mission-2.png</graphic>
-    <weblink>https://science.nasa.gov/mission/airmoss/</weblink>
+    <title>Mars Sample Return</title>
+    <subtitle>Mars Sample Return would be NASA’s most ambitious, multi-mission campaign that would bring carefully selected Martian samples to Earth for the first time.</subtitle>
+    <url>https://science.nasa.gov/mission/mars-sample-return/</url>
+    <date>2023-06-15T15:12:37-04:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mars-sample-return/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:59.729885</scraped_at>
+    <paragraphs>
+      <paragraph>Mars Sample Return (MSR) would be NASA's and ESA’s (European Space Agency) ambitious, multi-mission campaign to bring carefully selected samples to Earth. MSR would fulfill one of the highest priority solar system exploration goals from the science community. Returned samples would revolutionize our understanding of Mars, our solar system and prepare for human explorers to the Red Planet.</paragraph>
+    </paragraphs>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Sample Return</value>
+      </metadata>
+      <metadata>
+        <key>partner</key>
+        <value>European Space Agency</value>
+      </metadata>
+      <metadata>
+        <key>destinations</key>
+        <value>Mars and Earth</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Bring Mars samples collected by the Perseverance rover to Earth</value>
+      </metadata>
+    </metadata_table>
+    <stories>
+      <story>
+        <title>NASA to Explore Two Landing Options for Returning Samples from Mars</title>
+        <url>https://www.nasa.gov/news-release/nasa-to-explore-two-landing-options-for-returning-samples-from-mars/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA to Host Media Call Highlighting Mars Sample Return Update</title>
+        <url>https://www.nasa.gov/news-release/nasa-to-host-media-call-highlighting-mars-sample-return-update/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>Akatsuki</mission_name>
-    <type>Orbiter</type>
-    <launch>May 20, 2010</launch>
-    <target>Venus</target>
-    <objective>Study weather patterns on Venus, confirm lightning in thick clouds, search for signs of active volcanism</objective>
-    <graphic>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/07/akatsuki_main.jpg?w=1500&amp;h=723&amp;fit=clip&amp;crop=faces%2Cfocalpoint</graphic>
-    <weblink>https://science.nasa.gov/mission/akatsuki/</weblink>
+    <title>Nozomi</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/nozomi/</url>
+    <date>2017-12-05T00:38:24-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/nozomi/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:48:04.398995</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>Curiosity Blog, Sols 4580-4581: Something in the Air…</title>
+        <url>https://science.nasa.gov/blog/curiosity-blog-sols-4580-4581-something-in-the-air/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>I Am Artemis: Patrick Junen</title>
+        <url>https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-patrick-junen/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>Apollo 15 Subsatellite</mission_name>
-    <type>Orbiter</type>
-    <launch>Aug. 4, 1971</launch>
-    <target>Earth's Moon</target>
-    <objective>Study the Moon's environment</objective>
-    <graphic>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/07/apollo15subsat.jpg?w=968&amp;h=754&amp;fit=clip&amp;crop=faces%2Cfocalpoint</graphic>
-    <weblink>https://science.nasa.gov/mission/apollo-15-subsatellite/</weblink>
+    <title>Viking 2</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/viking-2/</url>
+    <date>2017-12-06T21:26:48-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/viking-2/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:48:09.166215</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories/>
   </mission>
   <mission>
-    <mission_name>Apollo 16 Subsatellite</mission_name>
-    <type>Orbiter</type>
-    <launch>Apr. 24, 1972</launch>
-    <target>Earth's Moon</target>
-    <objective>Study the Moon's environment</objective>
-    <graphic>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/07/apollo16_subsat.jpg?w=640&amp;h=480&amp;fit=clip&amp;crop=faces%2Cfocalpoint</graphic>
-    <weblink>https://science.nasa.gov/mission/apollo-16-subsatellite/</weblink>
+    <title>Mariner 3</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mariner-3/</url>
+    <date>2017-12-20T20:27:41-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mariner-3/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:34.733491</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories/>
   </mission>
   <mission>
-    <mission_name>Aqua</mission_name>
-    <type>Orbiter</type>
-    <launch>May 4, 2002</launch>
-    <target>Earth</target>
-    <objective>Study Earth's water cycle</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/aqua.jpg?w=1066</graphic>
-    <weblink>https://science.nasa.gov/mission/aqua/</weblink>
+    <title>Mars Cubesat One (MarC0)</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/marco/</url>
+    <date>2017-12-05T00:23:29-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/marco/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:47.113600</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>NASA CubeSat Focuses on Instrument Calibration Enhancement</title>
+        <url>https://www.nasa.gov/blogs/smallsatellites/2025/06/21/nasa-cubesat-focuses-on-instrument-calibration-enhancement/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’S EZIE Begins Study of Auroral Electrojets</title>
+        <url>https://science.nasa.gov/blogs/ezie/2025/05/27/nasas-ezie-begins-study-of-auroral-electrojets/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>Aquarius</mission_name>
-    <type>Orbiter</type>
-    <launch>June 10, 2011</launch>
-    <target>Earth</target>
-    <objective>Observe sea surface salinity</objective>
-    <graphic></graphic>
-    <weblink>https://science.nasa.gov/mission/aquarius/</weblink>
+    <title>MMX</title>
+    <subtitle>Martian Moons eXploration</subtitle>
+    <url>https://science.nasa.gov/mission/mmx/</url>
+    <date>2017-12-05T00:33:14-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mmx/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:48:03.284188</scraped_at>
+    <paragraphs>
+      <paragraph>A Japanese (JAXA) mission to travel to Mars and survey the Red Planet's two moons, Phobos and Deimos. The spacecraft will explore both moons and collect a sample of Phobos and bring it to Earth.</paragraph>
+    </paragraphs>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter, Sample Return</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>2026</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Deimos and Phobos</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Clarify the origin of the two Martian moons and the evolution process of Mars, Phobos and Deimos</value>
+      </metadata>
+    </metadata_table>
+    <stories/>
   </mission>
   <mission>
-    <mission_name>ARCTAS</mission_name>
-    <type>Airborne Science</type>
-    <launch>April-July 2008</launch>
-    <target>Earth</target>
-    <objective>Study changes in the Arctic climate</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/268968main-ed08-0088-15-full-full-jpg.webp</graphic>
-    <weblink>https://science.nasa.gov/mission/arctas/</weblink>
+    <title>Mars Phoenix</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mars-phoenix/</url>
+    <date>2017-12-05T00:47:57-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:56.360625</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>ASCA</mission_name>
-    <type>Space telescope</type>
-    <launch>Feb. 20, 1993</launch>
-    <wavelength>X-rays</wavelength>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/asca-main.jpg</graphic>
-    <weblink>https://science.nasa.gov/mission/asca/</weblink>
+    <title>Mars Orbiter Mission</title>
+    <subtitle>Mars Orbiter Mission</subtitle>
+    <url>https://science.nasa.gov/mission/mom/</url>
+    <date>2017-12-05T00:29:01-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mom/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:54.097827</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>ASTHROS</mission_name>
-    <type>Balloon</type>
-    <launch>TBD</launch>
-    <target>Universe</target>
-    <objective>Research stellar feedback in the Milky Way</objective>
-    <graphic>https://assets.science.nasa.gov/dynamicimage/assets/science/missions/asthros/asthros_beauty_expanding_wide.jpg?w=4836&amp;h=2160&amp;fit=clip&amp;crop=faces%2Cfocalpoint</graphic>
-    <weblink>https://science.nasa.gov/mission/asthros/</weblink>
+    <title>Mars 2020: Perseverance Rover</title>
+    <subtitle>NASA’s Mars Perseverance rover seeks signs of ancient life and collects samples of rock and regolith for possible Earth return.</subtitle>
+    <url>https://science.nasa.gov/mission/mars-2020-perseverance/</url>
+    <date>2017-12-05T00:19:50-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mars-2020-perseverance/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:44.705980</scraped_at>
+    <paragraphs>
+      <paragraph>The Mars 2020 Perseverance Rover searches for signs of ancient microbial life, to advance NASA's quest to explore the past habitability of Mars. The rover is collecting core samples of Martian rock and regolith (broken rock and soil), for potential pickup by a future mission that would bring them to Earth for detailed study.</paragraph>
+    </paragraphs>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Rover</value>
+      </metadata>
+      <metadata>
+        <key>Launch / Landing</key>
+        <value>July 30, 2020 / Feb. 18, 2021</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Jezero Crater, Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Seek signs of ancient life and collect samples of rock and regolith  for possible Earth return</value>
+      </metadata>
+    </metadata_table>
+    <stories>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>Devil’s in Details in Selfie Taken by NASA’s Mars Perseverance Rover</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/devils-in-details-in-selfie-taken-by-nasas-mars-perseverance-rover/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>Astro Observatory 1</mission_name>
-    <type>Space Telescope</type>
-    <launch>Dec. 2, 1990</launch>
-    <objective>Image astronomical objects</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/astro1-jpg.webp</graphic>
-    <weblink>https://science.nasa.gov/mission/astro-observatory-1/</weblink>
+    <title>Mars Odyssey</title>
+    <subtitle>NASA’s 2001 Mars Odyssey mission created the first global map of chemical elements and minerals that make up the Martian surface.</subtitle>
+    <url>https://science.nasa.gov/mission/odyssey/</url>
+    <date>2017-12-04T23:50:42-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/odyssey/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:52.982432</scraped_at>
+    <paragraphs>
+      <paragraph>Mars Odyssey mission was the first spacecraft to make a global map of the chemical elements and minerals that make up the Martian surface. The spacecraft also holds the record for the longest continually active mission in orbit around a planet other than Earth. It successfully completed its primary science mission from February 2002 through August 2004. Odyssey continues its work today, studying clouds, fog, and frost, and mapping surface rocks to make future Mars landings safer, as the orbiter continues to add to its 100,000+ orbits around the Red Planet.</paragraph>
+    </paragraphs>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch / Orbit Insertion</key>
+        <value>April 7, 2001 / Oct. 24, 2001</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Mapping the chemical elements and minerals that make up the Martian surface</value>
+      </metadata>
+    </metadata_table>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Captures Volcano Peeking Above Morning Cloud Tops</title>
+        <url>https://www.nasa.gov/missions/odyssey/nasa-mars-orbiter-captures-volcano-peeking-above-morning-cloud-tops/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years</title>
+        <url>https://science.nasa.gov/science-research/heliophysics/what-nasa-is-learning-from-the-biggest-geomagnetic-storm-in-20-years/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>Astro Observatory 2</mission_name>
-    <type>Space Telescope</type>
-    <launch>March 2, 1995</launch>
-    <objective>Image astronomical objects</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/astro2-jpg.webp</graphic>
-    <weblink>https://science.nasa.gov/mission/astro-observatory-2/</weblink>
+    <title>Viking Project</title>
+    <subtitle>NASA's Viking Project found a place in history when it became the first U.S. mission to land a spacecraft safely on the surface of Mars and return images of the surface.</subtitle>
+    <url>https://science.nasa.gov/mission/viking/</url>
+    <date>2023-09-19T16:54:12-04:00</date>
+    <stories_page_url></stories_page_url>
+    <scraped_at>2025-06-26T22:48:11.546428</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories/>
   </mission>
   <mission>
-    <mission_name>Athena</mission_name>
-    <launch>Summer 2025</launch>
-    <objective>Demonstrate measurement technology from new host​</objective>
-    <graphic>https://assets.science.nasa.gov/dynamicimage/assets/science/missions/athena/athena-mission-banner.png?w=2560&amp;h=1696&amp;fit=clip&amp;crop=faces%2Cfocalpoint</graphic>
-    <weblink>https://science.nasa.gov/mission/athena/</weblink>
+    <title>Mariner Program</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mariner-program/</url>
+    <date>2023-10-05T13:00:55-04:00</date>
+    <stories_page_url></stories_page_url>
+    <scraped_at>2025-06-26T22:47:43.452268</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories/>
   </mission>
   <mission>
-    <mission_name>ATLAS</mission_name>
-    <type>Instrument</type>
-    <launch>March 24, 1992</launch>
-    <target>Sun-Earth Interaction</target>
-    <objective>Study the Sun's influence on Earth's atmosphere</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/ATLAS_SQUARE-jpg.webp</graphic>
-    <weblink>https://science.nasa.gov/mission/atlas/</weblink>
+    <title>Mariner 9</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mariner-9/</url>
+    <date>2017-12-20T20:38:01-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mariner-9/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:40.812241</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories/>
   </mission>
   <mission>
-    <mission_name>Atmospheric Remote-sensing Infrared Exoplanet Large-survey</mission_name>
-    <type>Space Telescope</type>
-    <launch>2028</launch>
-    <target>Universe</target>
-    <objective>Explore the atmospheres of hundreds of exoplanets (planets orbiting stars beyond our Sun) for the first time</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/ariel4-1536x1167-1.png?w=1536</graphic>
-    <weblink>https://science.nasa.gov/mission/ariel/</weblink>
+    <title>Mars Climate Orbiter</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mars-climate-orbiter/</url>
+    <date>2017-12-20T21:42:15-05:00</date>
+    <stories_page_url>https://science.nasa.gov/science.nasa.gov/mars/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:45.966601</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>ATom</mission_name>
-    <type>Airborne Science</type>
-    <launch>Summer 2016 through Spring 2018</launch>
-    <target>Earth</target>
-    <objective>Study the impacts of human-produced air pollution</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/1876-interpolated-met-products-fig1-jpg.webp?w=1024</graphic>
-    <weblink>https://science.nasa.gov/mission/atmospheric-tomography-mission/</weblink>
+    <title>InSight Lander</title>
+    <subtitle>Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight)</subtitle>
+    <url>https://science.nasa.gov/mission/insight/</url>
+    <date>2017-12-04T23:41:36-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/insight/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:33.527371</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>NASA’s InSight Finds Marsquakes From Meteoroids Go Deeper Than Expected</title>
+        <url>https://www.nasa.gov/missions/nasas-insight-finds-marsquakes-from-meteoroids-go-deeper-than-expected/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA Mars Orbiter Spots Retired InSight Lander to Study Dust Movement</title>
+        <url>https://www.nasa.gov/missions/insight/nasa-mars-orbiter-spots-retired-insight-lander-to-study-dust-movement/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>ATS</mission_name>
-    <type>Orbiters</type>
-    <launch>Multiple</launch>
-    <objective>Weather observations, investigation of the space environment</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/ATS_SQUARE-jpg.webp</graphic>
-    <weblink>https://science.nasa.gov/mission/ats/</weblink>
+    <title>Mars Observer</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mars-observer/</url>
+    <date>2017-12-20T21:45:35-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:51.776642</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>ATTREX</mission_name>
-    <type>Airborne Science</type>
-    <launch>2011-2015</launch>
-    <target>Earth</target>
-    <objective>Study Earth's atmosphere</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/ed13-0399-06-jpg.webp</graphic>
-    <weblink>https://science.nasa.gov/mission/attrex/</weblink>
+    <title>Mariner 4</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mariner-4/</url>
+    <date>2017-12-20T20:29:32-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mariner-4/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:35.883094</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories/>
   </mission>
   <mission>
-    <mission_name>Aura</mission_name>
-    <type>Orbiter</type>
-    <launch>July 15, 2004</launch>
-    <target>Earth</target>
-    <objective>Measure trace gases in Earth's atmosphere</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2024/07/pia18178orig.jpg?w=1536</graphic>
-    <weblink>https://science.nasa.gov/mission/aura/</weblink>
+    <title>Mars Pathfinder</title>
+    <subtitle>NASA’s Mars Pathfinder successfully demonstrated a new way to safely land on the Red Planet and deliver the first-ever robotic rover, Sojourner, to the Martian surface.</subtitle>
+    <url>https://science.nasa.gov/mission/mars-pathfinder/</url>
+    <date>2017-12-20T21:48:30-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mars-pathfinder/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:55.228361</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>Perseverance Rover Witnesses One Martian Dust Devil Eating Another</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>Screening Soon: ‘The Pathfinders’ Trains Lens on Mars</title>
+        <url>https://www.nasa.gov/solar-system/screening-soon-the-pathfinders-trains-lens-on-mars/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>AWE</mission_name>
-    <type>Experiment</type>
-    <launch>Nov. 9, 2023</launch>
-    <objective>Study airglow</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2020/09/awe-high-res-1.jpg?w=1536</graphic>
-    <weblink>https://science.nasa.gov/mission/awe/</weblink>
+    <title>ExoMars Rover</title>
+    <subtitle>ExoMars Rosalind Franklin Mission</subtitle>
+    <url>https://science.nasa.gov/mission/rosalind-franklin/</url>
+    <date>2017-12-01T02:11:20-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/rosalind-franklin/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:32.375783</scraped_at>
+    <paragraphs>
+      <paragraph>The European Space Agency's ExoMars rover is part of a series of missions designed to study the potential for past life on the Red Planet.</paragraph>
+    </paragraphs>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Rover</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Not before 2028</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Provide clues about the potential for life on Mars</value>
+      </metadata>
+    </metadata_table>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>BARREL</mission_name>
-    <objective>Study X-rays in Earth’s atmosphere</objective>
-    <graphic>https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001470/GSFC_20171208_Archive_e001470~large.jpg?w=1920&amp;h=1275&amp;fit=clip&amp;crop=faces%2Cfocalpoint</graphic>
-    <weblink>https://science.nasa.gov/mission/barrel/</weblink>
+    <title>Mars Exploration Rovers: Spirit and Opportunity</title>
+    <subtitle>NASA’s Spirit and Opportunity rovers were identical twin robots that helped rewrite our understanding of the early history of Mars.</subtitle>
+    <url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/</url>
+    <date>2024-03-22T10:40:31-04:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:48.242777</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>Sunset on Mars</title>
+        <url>https://www.nasa.gov/image-article/sunset-on-mars/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>Perseverance Rover Witnesses One Martian Dust Devil Eating Another</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
   <mission>
-    <mission_name>BBXRT</mission_name>
-    <type>Space Telescope</type>
-    <launch>Dec. 2, 1990</launch>
-    <target>Universe</target>
-    <objective>Perform X-ray observations of galactic and extragalactic objects</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/sts-35-flight.gif</graphic>
-    <weblink>https://science.nasa.gov/mission/bbxrt/</weblink>
-  </mission>
-  <mission>
-    <mission_name>BECCAL</mission_name>
-    <type>Experiment</type>
-    <launch>2025</launch>
-    <objective>Experimental physics in microgravity</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/beccal-logo-vers-l-300x300-1-jpg.webp?w=300</graphic>
-    <weblink>https://science.nasa.gov/mission/beccal/</weblink>
-  </mission>
-  <mission>
-    <mission_name>BepiColombo</mission_name>
-    <type>Flyby, Orbiter</type>
-    <launch>Oct. 20, 2018</launch>
-    <target>Mercury</target>
-    <objective>Orbit and study Mercury</objective>
-    <graphic>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/07/BepiColombo_Cruise_configuration_1280.jpg?w=1280&amp;h=720&amp;fit=clip&amp;crop=faces%2Cfocalpoint</graphic>
-    <weblink>https://science.nasa.gov/mission/bepicolombo/</weblink>
-  </mission>
-  <mission>
-    <mission_name>Beresheet</mission_name>
-    <type>Lander</type>
-    <launch>Feb. 22, 2019</launch>
-    <target>Earth's Moon</target>
-    <objective>Lunar landing</objective>
-    <graphic>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/07/1706_Beresheet_768.jpg?w=768&amp;h=432&amp;fit=clip&amp;crop=faces%2Cfocalpoint</graphic>
-    <weblink>https://science.nasa.gov/mission/beresheet/</weblink>
-  </mission>
-  <mission>
-    <mission_name>BioExpt-01</mission_name>
-    <type>Artemis 1 Experiment</type>
-    <launch>Nov. 16, 2022</launch>
-    <target>Orbit Moon and return to Earth</target>
-    <objective>Study how life responds to conditions beyond low Earth orbit</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/bio-exp-jpg.webp?w=1536</graphic>
-    <weblink>https://science.nasa.gov/mission/bio-expt-01/</weblink>
-  </mission>
-  <mission>
-    <mission_name>Bion / Biocosmos</mission_name>
-    <type>Orbiter</type>
-    <launch>Oct. 31, 1973</launch>
-    <objective>Biomedical research on animals and plants in microgravity</objective>
-    <graphic></graphic>
-    <weblink>https://science.nasa.gov/mission/bion-biocosmos/</weblink>
-  </mission>
-  <mission>
-    <mission_name>BRIC-24</mission_name>
-    <type>Experiment</type>
-    <launch>June 3, 2021</launch>
-    <objective>Study how plants respond to microgravity</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/iss054e0014852-jpg.webp?w=1536</graphic>
-    <weblink>https://science.nasa.gov/mission/bric-24/</weblink>
-  </mission>
-  <mission>
-    <mission_name>BurstCube</mission_name>
-    <wavelength>Gamma rays</wavelength>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/11/burstcube-s01-667.png</graphic>
-    <weblink>https://science.nasa.gov/mission/burstcube/</weblink>
-  </mission>
-  <mission>
-    <mission_name>CAL</mission_name>
-    <type>Instrument</type>
-    <launch>May 21, 2018</launch>
-    <objective>Study quantum phenomena</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/skynews-nasa-cal-cold-atom-4318092-jpg.webp?w=1536</graphic>
-    <weblink>https://science.nasa.gov/mission/cold-atom-laboratory/</weblink>
-  </mission>
-  <mission>
-    <mission_name>CALIPSO</mission_name>
-    <type>Orbiter</type>
-    <launch>April 28, 2006</launch>
-    <target>Earth</target>
-    <objective>Probe the properties of Earth's thin clouds and aerosols</objective>
-    <graphic></graphic>
-    <weblink>https://science.nasa.gov/mission/calipso/</weblink>
-  </mission>
-  <mission>
-    <mission_name>Carruthers Geocorona Observatory</mission_name>
-    <type>Space Telescope</type>
-    <launch>2025</launch>
-    <target>Sun-Earth Interaction</target>
-    <objective>Survey Earth's exosphere</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/glide-1-jpg.webp?w=330</graphic>
-    <weblink>https://science.nasa.gov/mission/carruthers-geocorona-observatory/</weblink>
-  </mission>
-  <mission>
-    <mission_name>CARVE</mission_name>
-    <type>Airborne Science</type>
-    <target>Earth</target>
-    <objective>Measure carbon dioxide, methane, and carbon monoxide in Earth's atmosphere</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/arctic-winter-co2.jpg</graphic>
-    <weblink>https://science.nasa.gov/mission/carve/</weblink>
-  </mission>
-  <mission>
-    <mission_name>Cassini-Huygens</mission_name>
-    <type>Orbiter, Probe</type>
-    <launch>Oct. 15, 1997</launch>
-    <target>The Saturn System</target>
-    <graphic></graphic>
-    <weblink>https://science.nasa.gov/mission/cassini/</weblink>
-  </mission>
-  <mission>
-    <mission_name>CATS</mission_name>
-    <type>Instrument</type>
-    <launch>Jan. 10, 2015</launch>
-    <target>Earth</target>
-    <objective>Measure Earth's atmospheric aerosols and clouds</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/cats-home-graphic.jpg</graphic>
-    <weblink>https://science.nasa.gov/mission/cats/</weblink>
-  </mission>
-  <mission>
-    <mission_name>CeREs</mission_name>
-    <type>CubeSat</type>
-    <launch>Dec. 16, 2018</launch>
-    <target>Sun-Earth Interaction</target>
-    <objective>Study charged particle dynamics in Earth’s radiation belts</objective>
-    <graphic></graphic>
-    <weblink>https://science.nasa.gov/mission/compact-radiation-belt-explorer/</weblink>
-  </mission>
-  <mission>
-    <mission_name>CGRO</mission_name>
-    <type>Space observatory</type>
-    <launch>April 5, 1991</launch>
-    <wavelength>Gamma rays</wavelength>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/0003356.jpg</graphic>
-    <weblink>https://science.nasa.gov/mission/cgro/</weblink>
-  </mission>
-  <mission>
-    <mission_name>CHAMP</mission_name>
-    <type>Orbiter</type>
-    <launch>July 15, 2000</launch>
-    <target>Earth</target>
-    <objective>Measure Earth's gravity and magnetic field</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/champ-jpg.webp</graphic>
-    <weblink>https://science.nasa.gov/mission/champ/</weblink>
-  </mission>
-  <mission>
-    <mission_name>Chandra</mission_name>
-    <type>Space Telescope</type>
-    <launch>July 23, 1999</launch>
-    <target>Universe</target>
-    <objective>Detect X-ray emissions</objective>
-    <graphic>https://science.nasa.gov/wp-content/uploads/2023/06/nasas-chandra-x-ray-600-jpg.webp?w=600</graphic>
-    <weblink>https://science.nasa.gov/mission/chandra/</weblink>
+    <title>Mariner 8</title>
+    <subtitle></subtitle>
+    <url>https://science.nasa.gov/mission/mariner-8/</url>
+    <date>2017-12-20T20:36:38-05:00</date>
+    <stories_page_url>https://science.nasa.gov/mission/mariner-8/stories/</stories_page_url>
+    <scraped_at>2025-06-26T22:47:39.626277</scraped_at>
+    <paragraphs/>
+    <metadata_table/>
+    <stories>
+      <story>
+        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
+        <type>news</type>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>news</type>
+      </story>
+    </stories>
   </mission>
 </missions>
