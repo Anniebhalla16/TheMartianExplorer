@@ -1,0 +1,22 @@
+{
+  "title": "Mariner 6",
+  "subtitle": "",
+  "url": "https://science.nasa.gov/mission/mariner-6/",
+  "date": "2017-12-20T20:33:23-05:00",
+  "paragraphs": [],
+  "metadata_table": [],
+  "stories": [
+    {
+      "title": "I Am Artemis: Patrick Junen",
+      "url": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-patrick-junen/",
+      "type": "news"
+    },
+    {
+      "title": "Sparkling Andromeda",
+      "url": "https://www.nasa.gov/image-article/sparkling-andromeda/",
+      "type": "news"
+    }
+  ],
+  "stories_page_url": "https://science.nasa.gov/mission/mariner-6/stories/",
+  "scraped_at": "2025-06-26T22:47:37.013882"
+}

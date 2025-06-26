@@ -1,0 +1,22 @@
+{
+  "title": "Mars Pathfinder",
+  "subtitle": "NASA’s Mars Pathfinder successfully demonstrated a new way to safely land on the Red Planet and deliver the first-ever robotic rover, Sojourner, to the Martian surface.",
+  "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+  "date": "2017-12-20T21:48:30-05:00",
+  "paragraphs": [],
+  "metadata_table": [],
+  "stories": [
+    {
+      "title": "Perseverance Rover Witnesses One Martian Dust Devil Eating Another",
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/",
+      "type": "news"
+    },
+    {
+      "title": "Screening Soon: ‘The Pathfinders’ Trains Lens on Mars",
+      "url": "https://www.nasa.gov/solar-system/screening-soon-the-pathfinders-trains-lens-on-mars/",
+      "type": "news"
+    }
+  ],
+  "stories_page_url": "https://science.nasa.gov/mission/mars-pathfinder/stories/",
+  "scraped_at": "2025-06-26T22:48:31.792778"
+}

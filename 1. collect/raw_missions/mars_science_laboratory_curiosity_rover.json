@@ -1,0 +1,41 @@
+{
+  "title": "Mars Science Laboratory: Curiosity Rover",
+  "subtitle": "Part of NASA's Mars Science Laboratory mission, at the time of launch, Curiosity was the largest and most capable rover ever sent to Mars at that time.",
+  "url": "https://science.nasa.gov/mission/msl-curiosity/",
+  "date": "2017-11-30T21:05:49-05:00",
+  "paragraphs": [
+    "Part of NASA's Mars Science Laboratory mission, Curiosity, was the largest and most capable rover ever sent to Mars when it launched in 2011. Curiosity set out to answer the question: Did Mars ever have the right environmental conditions to support small life forms called microbes? Early in its mission, Curiosity's scientific tools found chemical and mineral evidence of past habitable environments on Mars. It continues to explore the rock record from a time when Mars could have been home to microbial life."
+  ],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Rover"
+    },
+    {
+      "key": "Launch / Landing",
+      "value": "Nov. 26, 2011 / Aug. 6, 2012"
+    },
+    {
+      "key": "Target",
+      "value": "Mars"
+    },
+    {
+      "key": "Objective",
+      "value": "Determine if Mars was ever able to support microbial life"
+    }
+  ],
+  "stories": [
+    {
+      "title": "NASA’s Curiosity Mars Rover Starts Unpacking Boxwork Formations",
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/",
+      "type": "news"
+    },
+    {
+      "title": "What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years",
+      "url": "https://science.nasa.gov/science-research/heliophysics/what-nasa-is-learning-from-the-biggest-geomagnetic-storm-in-20-years/",
+      "type": "news"
+    }
+  ],
+  "stories_page_url": "https://science.nasa.gov/mission/msl-curiosity/stories/",
+  "scraped_at": "2025-06-26T22:48:00.899669"
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Mars Reconnaissance Orbiter",
+  "subtitle": "NASA's Mars Reconnaissance Orbiter searches for evidence that water persisted on the surface of Mars for a long period of time.",
+  "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/",
+  "date": "2017-12-05T00:31:14-05:00",
+  "paragraphs": [
+    "NASA's Mars Reconnaissance Orbiter blasted off from Cape Canaveral in 2005, on a search for evidence that water persisted on the surface of Mars for long periods of time. While other Mars missions have shown that water flowed across the surface in Mars' history, it remains a mystery whether water was ever around long enough to provide a habitat for life."
+  ],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Orbiter"
+    },
+    {
+      "key": "Launch / Orbit Insertion",
+      "value": "Aug. 12, 2005 / March 10, 2006"
+    },
+    {
+      "key": "Target",
+      "value": "Mars"
+    },
+    {
+      "key": "Objective",
+      "value": "Gain better knowledge of the distribution and history of water on Mars"
+    }
+  ],
+  "stories": [
+    {
+      "title": "NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space",
+      "url": "https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/",
+      "type": "news"
+    },
+    {
+      "title": "NASA Orbiter Spots Curiosity Rover Making Tracks to Next Science Stop",
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/nasa-orbiter-spots-curiosity-rover-making-tracks-to-next-science-stop/",
+      "type": "news"
+    }
+  ],
+  "stories_page_url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/stories/",
+  "scraped_at": "2025-06-26T22:47:58.582755"
+}

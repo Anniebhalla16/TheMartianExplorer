@@ -1,0 +1,41 @@
+{
+  "title": "Mars Odyssey",
+  "subtitle": "NASA’s 2001 Mars Odyssey mission created the first global map of chemical elements and minerals that make up the Martian surface.",
+  "url": "https://science.nasa.gov/mission/odyssey/",
+  "date": "2017-12-04T23:50:42-05:00",
+  "paragraphs": [
+    "Mars Odyssey mission was the first spacecraft to make a global map of the chemical elements and minerals that make up the Martian surface. The spacecraft also holds the record for the longest continually active mission in orbit around a planet other than Earth. It successfully completed its primary science mission from February 2002 through August 2004. Odyssey continues its work today, studying clouds, fog, and frost, and mapping surface rocks to make future Mars landings safer, as the orbiter continues to add to its 100,000+ orbits around the Red Planet."
+  ],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Orbiter"
+    },
+    {
+      "key": "Launch / Orbit Insertion",
+      "value": "April 7, 2001 / Oct. 24, 2001"
+    },
+    {
+      "key": "Target",
+      "value": "Mars"
+    },
+    {
+      "key": "Objective",
+      "value": "Mapping the chemical elements and minerals that make up the Martian surface"
+    }
+  ],
+  "stories": [
+    {
+      "title": "NASA Mars Orbiter Captures Volcano Peeking Above Morning Cloud Tops",
+      "url": "https://www.nasa.gov/missions/odyssey/nasa-mars-orbiter-captures-volcano-peeking-above-morning-cloud-tops/",
+      "type": "news"
+    },
+    {
+      "title": "What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years",
+      "url": "https://science.nasa.gov/science-research/heliophysics/what-nasa-is-learning-from-the-biggest-geomagnetic-storm-in-20-years/",
+      "type": "news"
+    }
+  ],
+  "stories_page_url": "https://science.nasa.gov/mission/odyssey/stories/",
+  "scraped_at": "2025-06-26T22:47:52.982432"
+}

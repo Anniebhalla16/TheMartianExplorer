@@ -1,0 +1,43 @@
+{
+  "title": "ESCAPADE",
+  "subtitle": "Escape and Plasma Acceleration and Dynamics Explorers",
+  "url": "https://science.nasa.gov/mission/escapade/",
+  "date": "2023-06-15T15:07:10-04:00",
+  "paragraphs": [
+    "ESCAPADE will analyze how Mars’ magnetic field guides particle flows around the planet, how energy and momentum are transported from the solar wind through the magnetosphere, and what processes control the flow of energy and matter into and out of the Martian atmosphere.",
+    "The ESCAPADE mission is managed by the Space Sciences Laboratory at the University of California, Berkeley, with key partners Rocket Lab, NASA's Goddard Space Flight Center, Embry-Riddle Aeronautical University, Advanced Space LLC, and Blue Origin.",
+    "ESCAPADE will use two identical spacecraft to investigate how the solar wind interacts with Mars’ magnetic environment and how this interaction drives the planet’s atmospheric escape."
+  ],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Orbiter"
+    },
+    {
+      "key": "Launch",
+      "value": "NET spring 2025"
+    },
+    {
+      "key": "Target",
+      "value": "Mars"
+    },
+    {
+      "key": "Objective",
+      "value": "Study the magnetosphere of Mars"
+    }
+  ],
+  "stories": [
+    {
+      "title": "NASA’s Kennedy Space Center Looks to Thrive in 2025",
+      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-kennedy-looks-to-thrive-in-2025/",
+      "type": "news"
+    },
+    {
+      "title": "NASA Stands Down from October Launch for ESCAPADE to Mars",
+      "url": "https://science.nasa.gov/blogs/escapade/2024/09/06/nasa-stands-down-from-october-launch-for-escapade-to-mars/",
+      "type": "news"
+    }
+  ],
+  "stories_page_url": "https://science.nasa.gov/mission/escapade/stories/",
+  "scraped_at": "2025-06-26T22:48:09.411192"
+}
