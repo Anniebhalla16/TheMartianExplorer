@@ -16,29 +16,11 @@ export function buildXQuery(filters: FilterState): string {
     conditions.push(`(${typeConditions})`)
   }
 
-  // Launch Date - from metadata_table/metadata[key='Launch / Landing']/value
-  if (filters.launchDate) {
-    conditions.push(`metadata_table/metadata[key='Launch / Landing']/value >= "${filters.launchDate}"`)
-  }
-
-  // Landing Date - from metadata_table/metadata[key='Launch / Landing']/value
-  if (filters.landingDate) {
-    conditions.push(`metadata_table/metadata[key='Launch / Landing']/value <= "${filters.landingDate}"`)
-  }
-
-  // Data Timestamp - before/after filter on top-level <date>
-  if (filters.dataTimestampAfter) {
-    conditions.push(`date >= "${filters.dataTimestampAfter}"`)
-  }
-  if (filters.dataTimestampBefore) {
-    conditions.push(`date <= "${filters.dataTimestampBefore}"`)
-  }
-
   // Upcoming vs Historical toggle
   if (filters.isUpcoming === true) {
-    conditions.push(`date > current-date()`)
+    conditions.push(`xs:dateTime(date) gt current-dateTime()`)
   } else if (filters.isUpcoming === false) {
-    conditions.push(`date <= current-date()`)
+    conditions.push(`xs:dateTime(date) le current-dateTime()`)
   }
 
   // Target - dropdown on metadata_table/metadata[key='Target']/value
@@ -71,27 +53,14 @@ export function buildXQuery(filters: FilterState): string {
     conditions.push(`exists(stories/story)`)
   }
 
-  // News Stories Count - numeric range over count(stories/story)
-  if (filters.newsStoriesCountMin > 0) {
-    conditions.push(`count(stories/story) >= ${filters.newsStoriesCountMin}`)
-  }
-  if (filters.newsStoriesCountMax < 100) {
-    conditions.push(`count(stories/story) <= ${filters.newsStoriesCountMax}`)
-  }
 
-  // Paragraph Content - snippet search across <paragraph> elements
+  // Paragraph Content
   if (filters.paragraphContent.trim()) {
-    conditions.push(`contains(lower-case(paragraph), "${filters.paragraphContent.toLowerCase()}")`)
-  }
-
-  // Scrape Date - date-range on <scraped_at>
-  if (filters.scrapeDateFrom) {
-    conditions.push(`scraped_at >= "${filters.scrapeDateFrom}"`)
-  }
-  if (filters.scrapeDateTo) {
-    conditions.push(`scraped_at <= "${filters.scrapeDateTo}"`)
-  }
-
+  const kw = filters.paragraphContent.toLowerCase()
+  conditions.push(
+    `exists(paragraphs/paragraph[contains(lower-case(.), "${kw}")])`
+  )
+}
   // Build the complete XQuery
   const whereClause = conditions.length > 0 ? `[${conditions.join(" and ")}]` : ""
 

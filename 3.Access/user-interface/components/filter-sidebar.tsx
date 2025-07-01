@@ -1,7 +1,7 @@
 "use client"
 
-import { useState } from "react"
 import type { FilterState } from "@/types/filters"
+import { useState } from "react"
 
 interface FilterSidebarProps {
   filters: FilterState
@@ -12,8 +12,8 @@ interface FilterSidebarProps {
 
 export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading }: FilterSidebarProps) {
   const [availableOptions, setAvailableOptions] = useState({
-    missionTypes: ["Orbiter", "Lander", "Rover", "Flyby", "Sample Return"],
-    targets: ["Mars", "Phobos", "Deimos", "Mars Orbit"],
+    missionTypes: ["Orbiter", "Lander", "Rover", "Sample Return"],
+    targets: ["Mars", "Phobos", "Deimos", "Mars Orbit" , "Jezero Crater, Mars"],
     partners: ["NASA", "ESA", "Roscosmos", "JAXA", "ISRO", "CNSA"],
   })
 
@@ -35,7 +35,7 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
           onChange={(e) => onFilterChange({ missionName: e.target.value })}
           placeholder="Search mission names..."
           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          disabled={loading}
+          // disabled={loading}
         />
       </div>
 
@@ -89,7 +89,7 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
 
       {/* Data Timestamp */}
       <div>
-        <label className="block text-sm font-medium text-gray-700 mb-2">Data Timestamp</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">Story Publish Date</label>
         <div className="space-y-3">
           <div className="grid grid-cols-2 gap-3">
             <input
@@ -174,23 +174,11 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
           onChange={(e) => onFilterChange({ objectiveKeywords: e.target.value })}
           placeholder="Search objectives..."
           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          disabled={loading}
+          // disabled={loading}
         />
       </div>
 
-      {/* Subtitle Keywords */}
-      <div>
-        <label className="block text-sm font-medium text-gray-700 mb-2">Subtitle Keywords</label>
-        <input
-          type="text"
-          value={filters.subtitleKeywords}
-          onChange={(e) => onFilterChange({ subtitleKeywords: e.target.value })}
-          placeholder="Search subtitles..."
-          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          disabled={loading}
-        />
-      </div>
-
+    
       {/* Partner/Agency */}
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-2">Partner / Agency</label>
@@ -229,33 +217,6 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
         </label>
       </div>
 
-      {/* News Stories Count Range */}
-      <div>
-        <label className="block text-sm font-medium text-gray-700 mb-2">
-          News Stories Count: {filters.newsStoriesCountMin} - {filters.newsStoriesCountMax}
-        </label>
-        <div className="grid grid-cols-2 gap-3">
-          <input
-            type="range"
-            min="0"
-            max="100"
-            value={filters.newsStoriesCountMin}
-            onChange={(e) => onFilterChange({ newsStoriesCountMin: Number.parseInt(e.target.value) })}
-            className="w-full"
-            disabled={loading}
-          />
-          <input
-            type="range"
-            min="0"
-            max="100"
-            value={filters.newsStoriesCountMax}
-            onChange={(e) => onFilterChange({ newsStoriesCountMax: Number.parseInt(e.target.value) })}
-            className="w-full"
-            disabled={loading}
-          />
-        </div>
-      </div>
-
       {/* Paragraph Content */}
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-2">Paragraph Content</label>
@@ -265,30 +226,10 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
           onChange={(e) => onFilterChange({ paragraphContent: e.target.value })}
           placeholder="Search paragraph content..."
           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          disabled={loading}
+          // disabled={loading}
         />
       </div>
 
-      {/* Scrape Date Range */}
-      <div>
-        <label className="block text-sm font-medium text-gray-700 mb-2">Scrape Date Range</label>
-        <div className="grid grid-cols-2 gap-3">
-          <input
-            type="date"
-            value={filters.scrapeDateFrom}
-            onChange={(e) => onFilterChange({ scrapeDateFrom: e.target.value })}
-            className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            disabled={loading}
-          />
-          <input
-            type="date"
-            value={filters.scrapeDateTo}
-            onChange={(e) => onFilterChange({ scrapeDateTo: e.target.value })}
-            className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            disabled={loading}
-          />
-        </div>
-      </div>
     </div>
   )
 }

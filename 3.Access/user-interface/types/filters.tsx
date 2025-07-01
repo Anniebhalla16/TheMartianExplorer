@@ -11,9 +11,5 @@ export interface FilterState {
   subtitleKeywords: string
   partners: string[]
   hasNewsStories: boolean | null
-  newsStoriesCountMin: number
-  newsStoriesCountMax: number
   paragraphContent: string
-  scrapeDateFrom: string
-  scrapeDateTo: string
 }

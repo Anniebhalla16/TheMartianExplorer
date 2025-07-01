@@ -1,6 +1,7 @@
 export interface Mission {
   id: string
   title: string
+  url:  string 
   subtitle: string
   type: string
   target: string
@@ -11,5 +12,4 @@ export interface Mission {
   partners: string[]
   newsStoriesCount: number
   paragraphs: string[]
-  scrapedAt: string
 }

@@ -4,7 +4,7 @@ import { FilterSidebar } from "@/components/filter-sidebar"
 import { ResultsGrid } from "@/components/results-grid"
 import { useMissions } from "@/hooks/use-missions"
 import type { FilterState } from "@/types/filters"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const initialFilters: FilterState = {
   missionName: "",
@@ -19,11 +19,7 @@ const initialFilters: FilterState = {
   subtitleKeywords: "",
   partners: [],
   hasNewsStories: null,
-  newsStoriesCountMin: 0,
-  newsStoriesCountMax: 100,
-  paragraphContent: "",
-  scrapeDateFrom: "",
-  scrapeDateTo: "",
+  paragraphContent: ""
 }
 
 export default function MartianExplorerPage() {
@@ -33,6 +29,9 @@ export default function MartianExplorerPage() {
   const handleFilterChange = (newFilters: Partial<FilterState>) => {
     setFilters((prev) => ({ ...prev, ...newFilters }))
   }
+  useEffect(()=>{
+    console.log(filters)
+  },[filters])
 
   const handleClearFilters = () => {
     setFilters(initialFilters)

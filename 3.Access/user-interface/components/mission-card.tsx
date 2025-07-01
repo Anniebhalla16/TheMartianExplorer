@@ -24,9 +24,8 @@ export function MissionCard({ mission }: MissionCardProps) {
     }
     return colors[type] || "bg-gray-100 text-gray-800"
   }
-
   return (
-    <div className="bg-white rounded-lg shadow-sm border hover:shadow-md transition-shadow">
+    <a href={mission.url} target="_blank" className="bg-white rounded-lg shadow-sm border hover:shadow-md transition-shadow">
       <div className="p-6">
         <div className="flex items-start justify-between mb-3">
           <h3 className="text-lg font-semibold text-gray-900 line-clamp-2">{mission.title}</h3>
@@ -118,6 +117,6 @@ export function MissionCard({ mission }: MissionCardProps) {
           <div className="mt-2 text-xs text-gray-400">Data updated: {formatDate(mission.dataTimestamp)}</div>
         )}
       </div>
-    </div>
+    </a>
   )
 }

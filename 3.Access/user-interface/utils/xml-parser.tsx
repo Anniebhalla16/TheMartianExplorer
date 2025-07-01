@@ -17,6 +17,7 @@ export function parseXMLResponse(xmlText: string): Mission[] {
       const mission: Mission = {
         id: missionEl.getAttribute("id") || `mission-${index}`,
         title: getTextContent(missionEl, "title") || "Untitled Mission",
+        url: getTextContent(missionEl, "url") || "",
         subtitle: getTextContent(missionEl, "subtitle") || "",
         type: getMetadataValue(missionEl, "Type") || "",
         target: getMetadataValue(missionEl, "Target") || "",
@@ -27,7 +28,6 @@ export function parseXMLResponse(xmlText: string): Mission[] {
         partners: getMetadataValues(missionEl, "partner"),
         newsStoriesCount: missionEl.querySelectorAll("stories story").length,
         paragraphs: Array.from(missionEl.querySelectorAll("paragraph")).map((p) => p.textContent || ""),
-        scrapedAt: getTextContent(missionEl, "scraped_at") || "",
       }
 
       missions.push(mission)
