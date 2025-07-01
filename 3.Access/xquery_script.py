@@ -46,3 +46,17 @@ if __name__ == "__main__":
     # collect all distinct-values() results from the returned XML
     types = [t.strip() for t in root2.xpath("//*[local-name()='string']|//text()") if t.strip()]
     print("Mission types:", types)
+
+    q3 = '''xquery version "3.1";
+       distinct-values(
+         doc("/db/martian-explorer/missions.xml")
+           /missions/mission
+           /metadata_table/metadata
+             [key = 'Target']
+             /value/text()
+       )
+     '''
+     
+    root3 = run_xquery(q3)
+    targets = [t.strip() for t in root3.xpath("//*[local-name()='string']|//text()") if t.strip()]
+    print("Mission targets:", targets)
