@@ -7,7 +7,7 @@ EXIST_URL    = "http://localhost:8080/exist/webdav/db"
 COLLECTION   = "martian-explorer"
 XML_FILE     = "missions.xml"
 USERNAME     = "admin"
-PASSWORD     = ""  # default
+PASSWORD     = ""  
 
 auth = HTTPBasicAuth(USERNAME, PASSWORD)
 
