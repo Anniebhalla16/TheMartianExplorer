@@ -4,8 +4,26 @@
   "url": "https://science.nasa.gov/mission/viking-2/",
   "date": "2017-12-06T21:26:48-05:00",
   "paragraphs": [],
-  "metadata_table": [],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Orbiter, Lander"
+    },
+    {
+      "key": "Launch",
+      "value": "Sept. 9, 1975"
+    },
+    {
+      "key": "Target",
+      "value": "Mars"
+    },
+    {
+      "key": "Status",
+      "value": "Successful"
+    }
+  ],
   "stories": [],
+  "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/viking-2/stories/",
-  "scraped_at": "2025-06-26T22:48:09.166215"
+  "scraped_at": "2025-07-03T10:11:16.938741"
 }

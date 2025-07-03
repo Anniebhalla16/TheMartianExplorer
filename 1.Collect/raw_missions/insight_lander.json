@@ -4,7 +4,24 @@
   "url": "https://science.nasa.gov/mission/insight/",
   "date": "2017-12-04T23:41:36-05:00",
   "paragraphs": [],
-  "metadata_table": [],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Lander"
+    },
+    {
+      "key": "Launch",
+      "value": "May 5, 2018"
+    },
+    {
+      "key": "Target",
+      "value": "Mars"
+    },
+    {
+      "key": "Objective",
+      "value": "Study Mars' interior structure"
+    }
+  ],
   "stories": [
     {
       "title": "NASA’s InSight Finds Marsquakes From Meteoroids Go Deeper Than Expected",
@@ -17,6 +34,7 @@
       "type": "news"
     }
   ],
+  "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/insight/stories/",
-  "scraped_at": "2025-06-26T22:47:33.527371"
+  "scraped_at": "2025-07-03T10:10:45.244124"
 }

@@ -4,8 +4,26 @@
   "url": "https://science.nasa.gov/mission/mariner-3/",
   "date": "2017-12-20T20:27:41-05:00",
   "paragraphs": [],
-  "metadata_table": [],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Flyby"
+    },
+    {
+      "key": "Launch",
+      "value": "Nov. 5, 1964"
+    },
+    {
+      "key": "Target",
+      "value": "Mars"
+    },
+    {
+      "key": "Results",
+      "value": "Unsuccessful"
+    }
+  ],
   "stories": [],
+  "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-3/stories/",
-  "scraped_at": "2025-06-26T22:47:34.733491"
+  "scraped_at": "2025-07-03T10:10:46.315459"
 }

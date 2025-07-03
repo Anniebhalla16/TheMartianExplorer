@@ -3,24 +3,48 @@ import type { FilterState } from "@/types/filters"
 export function buildXQuery(filters: FilterState): string {
   const conditions: string[] = []
 
-  // Mission Name - free-text search on <title>
+    // Mission Name - free-text search on <title>
   if (filters.missionName.trim()) {
-    conditions.push(`contains(lower-case(title), "${filters.missionName.toLowerCase()}")`)
+    conditions.push(
+      `contains(lower-case(title), "${filters.missionName.toLowerCase()}")`
+    )
   }
-
-  // Mission Type - multi-select on metadata_table/metadata[key='Type']/value
+  // Mission Type - substring match on metadata_table/metadata[key='Type']/value
   if (filters.missionTypes.length > 0) {
     const typeConditions = filters.missionTypes
-      .map((type) => `metadata_table/metadata[key='Type']/value = "${type}"`)
+      .map(
+        (type) =>
+          `contains(lower-case(metadata_table/metadata[key='Type']/value), "${type.toLowerCase()}")`
+      )
       .join(" or ")
     conditions.push(`(${typeConditions})`)
   }
 
-  // Upcoming vs Historical toggle
-  if (filters.isUpcoming === true) {
-    conditions.push(`xs:dateTime(date) gt current-dateTime()`)
-  } else if (filters.isUpcoming === false) {
-    conditions.push(`xs:dateTime(date) le current-dateTime()`)
+  if (filters.missionStatus.length > 0 && !filters.missionStatus.includes("all")) {
+    const statusConds = filters.missionStatus
+      .map(
+        (s) =>
+          `string(missions_status) = "${s}"`
+      )
+      .join(" or ")
+    conditions.push(`(${statusConds})`)
+  }
+
+ // Mission Article Publish Date Range — compare only the YYYY-MM-DD part
+  if (filters.articlePublishedFrom || filters.articlePublishedTo) {
+    const pubDateExpr = 
+      `xs:date(substring-before(string(date),"T"))`
+
+    if (filters.articlePublishedFrom) {
+      conditions.push(
+        `${pubDateExpr} >= xs:date("${filters.articlePublishedFrom}")`
+      )
+    }
+    if (filters.articlePublishedTo) {
+      conditions.push(
+        `${pubDateExpr} <= xs:date("${filters.articlePublishedTo}")`
+      )
+    }
   }
 
   // Target - dropdown on metadata_table/metadata[key='Target']/value
@@ -38,14 +62,6 @@ export function buildXQuery(filters: FilterState): string {
   // Subtitle Keywords - free-text on <subtitle>
   if (filters.subtitleKeywords.trim()) {
     conditions.push(`contains(lower-case(subtitle), "${filters.subtitleKeywords.toLowerCase()}")`)
-  }
-
-  // Partner/Agency - multi-select on metadata_table/metadata[key='partner']/value
-  if (filters.partners.length > 0) {
-    const partnerConditions = filters.partners
-      .map((partner) => `metadata_table/metadata[key='partner']/value = "${partner}"`)
-      .join(" or ")
-    conditions.push(`(${partnerConditions})`)
   }
 
   // Has News Stories - checkbox (at least one <stories>/<story>)

@@ -4,8 +4,26 @@
   "url": "https://science.nasa.gov/mission/mariner-9/",
   "date": "2017-12-20T20:38:01-05:00",
   "paragraphs": [],
-  "metadata_table": [],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Orbiter"
+    },
+    {
+      "key": "Launch",
+      "value": "May 30, 1971"
+    },
+    {
+      "key": "Target",
+      "value": "Mars"
+    },
+    {
+      "key": "entered mars orbit",
+      "value": "Nov. 14, 1971"
+    }
+  ],
   "stories": [],
+  "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-9/stories/",
-  "scraped_at": "2025-06-26T22:47:40.812241"
+  "scraped_at": "2025-07-03T10:10:51.671920"
 }

@@ -4,8 +4,26 @@
   "url": "https://science.nasa.gov/mission/mariner-program/",
   "date": "2023-10-05T13:00:55-04:00",
   "paragraphs": [],
-  "metadata_table": [],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Flybys, Orbiters"
+    },
+    {
+      "key": "Duration",
+      "value": "1962-1975"
+    },
+    {
+      "key": "Targets",
+      "value": "Mars, Venus, and Mercury"
+    },
+    {
+      "key": "results",
+      "value": "Successful"
+    }
+  ],
   "stories": [],
+  "mission_status": "past",
   "stories_page_url": null,
-  "scraped_at": "2025-06-26T22:47:43.452268"
+  "scraped_at": "2025-07-03T10:10:53.479166"
 }

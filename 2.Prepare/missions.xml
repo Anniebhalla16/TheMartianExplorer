@@ -6,7 +6,7 @@
     <url>https://science.nasa.gov/mission/maven/</url>
     <date>2017-12-04T23:25:33-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/maven/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:48:02.111337</scraped_at>
+    <scraped_at>2025-07-03T10:11:10.536301</scraped_at>
     <paragraphs>
       <paragraph>The Mars Atmosphere and Volatile EvolutioN (MAVEN) mission will determine how much of the Martian atmosphere has been lost over time by measuring the current rate of escape to space and gathering enough information about the relevant processes to allow extrapolation backward in time.</paragraph>
     </paragraphs>
@@ -29,6 +29,7 @@
       </metadata>
     </metadata_table>
     <stories/>
+    <missions_status>active</missions_status>
   </mission>
   <mission>
     <title>Mariner 7</title>
@@ -36,21 +37,39 @@
     <url>https://science.nasa.gov/mission/mariner-7/</url>
     <date>2018-01-25T20:26:03-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-7/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:38.179935</scraped_at>
+    <scraped_at>2025-07-03T10:10:49.526433</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Flyby</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>March 27, 1969</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Mars Flyby</value>
+      </metadata>
+    </metadata_table>
     <stories>
+      <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
       <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mars Science Laboratory: Curiosity Rover</title>
@@ -58,7 +77,7 @@
     <url>https://science.nasa.gov/mission/msl-curiosity/</url>
     <date>2017-11-30T21:05:49-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/msl-curiosity/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:48:00.899669</scraped_at>
+    <scraped_at>2025-07-03T10:11:09.466205</scraped_at>
     <paragraphs>
       <paragraph>Part of NASA's Mars Science Laboratory mission, Curiosity, was the largest and most capable rover ever sent to Mars when it launched in 2011. Curiosity set out to answer the question: Did Mars ever have the right environmental conditions to support small life forms called microbes? Early in its mission, Curiosity's scientific tools found chemical and mineral evidence of past habitable environments on Mars. It continues to explore the rock record from a time when Mars could have been home to microbial life.</paragraph>
     </paragraphs>
@@ -92,6 +111,7 @@
         <type>news</type>
       </story>
     </stories>
+    <missions_status>active</missions_status>
   </mission>
   <mission>
     <title>Mariner 6</title>
@@ -99,21 +119,39 @@
     <url>https://science.nasa.gov/mission/mariner-6/</url>
     <date>2017-12-20T20:33:23-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-6/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:37.013882</scraped_at>
+    <scraped_at>2025-07-03T10:10:48.464610</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Flyby</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Feb. 25,1969</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>status</key>
+        <value>Successful</value>
+      </metadata>
+    </metadata_table>
     <stories>
       <story>
-        <title>I Am Artemis: Patrick Junen</title>
-        <url>https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-patrick-junen/</url>
+        <title>NASA Discovers Interstellar Comet Moving Through Solar System</title>
+        <url>https://science.nasa.gov/blogs/planetary-defense/2025/07/02/nasa-discovers-interstellar-comet-moving-through-solar-system/</url>
         <type>news</type>
       </story>
       <story>
-        <title>Sparkling Andromeda</title>
-        <url>https://www.nasa.gov/image-article/sparkling-andromeda/</url>
+        <title>NASA Sets Briefings for SpaceX Crew-11 Mission to Space Station</title>
+        <url>https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-11-mission-to-space-station/</url>
         <type>news</type>
       </story>
     </stories>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mars Polar Lander / Deep Space 2</title>
@@ -121,21 +159,39 @@
     <url>https://science.nasa.gov/mission/mars-polar-lander-deep-space-2/</url>
     <date>2019-01-17T18:44:28-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:57.481028</scraped_at>
+    <scraped_at>2025-07-03T10:11:06.276707</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Lander, Probe</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Jan. 3, 1999</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Deploy a lander and two penetrators on Mars</value>
+      </metadata>
+    </metadata_table>
     <stories>
+      <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
       <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status></missions_status>
   </mission>
   <mission>
     <title>Mars Reconnaissance Orbiter</title>
@@ -143,7 +199,7 @@
     <url>https://science.nasa.gov/mission/mars-reconnaissance-orbiter/</url>
     <date>2017-12-05T00:31:14-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-reconnaissance-orbiter/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:58.582755</scraped_at>
+    <scraped_at>2025-07-03T10:11:07.346334</scraped_at>
     <paragraphs>
       <paragraph>NASA's Mars Reconnaissance Orbiter blasted off from Cape Canaveral in 2005, on a search for evidence that water persisted on the surface of Mars for long periods of time. While other Mars missions have shown that water flowed across the surface in Mars' history, it remains a mystery whether water was ever around long enough to provide a habitat for life.</paragraph>
     </paragraphs>
@@ -177,6 +233,7 @@
         <type>news</type>
       </story>
     </stories>
+    <missions_status>active</missions_status>
   </mission>
   <mission>
     <title>Mars Express</title>
@@ -184,7 +241,7 @@
     <url>https://science.nasa.gov/mission/mars-express/</url>
     <date>2017-12-05T00:26:53-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:49.439622</scraped_at>
+    <scraped_at>2025-07-03T10:10:58.802406</scraped_at>
     <paragraphs>
       <paragraph>NASA is participating in a mission of ESA (European Space Agency) and the Italian Space Agency called Mars Express, which has been exploring the atmosphere and surface of Mars from polar orbit since arriving at the Red Planet in 2003. Initially, Mars Express also carried a small lander called Beagle 2, named for the ship in which Charles Darwin set sail to explore uncharted areas of Earth in 1831. The lander was lost on arrival in December 2003.</paragraph>
     </paragraphs>
@@ -204,16 +261,17 @@
     </metadata_table>
     <stories>
       <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
+      <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status>active</missions_status>
   </mission>
   <mission>
     <title>ExoMars Program</title>
@@ -221,7 +279,7 @@
     <url>https://science.nasa.gov/mission/tgo/</url>
     <date>2017-12-01T02:14:08-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:31.246411</scraped_at>
+    <scraped_at>2025-07-03T10:10:43.073813</scraped_at>
     <paragraphs>
       <paragraph>ESA’s (European Space Agency) Exobiology on Mars program (ExoMars program) is comprised of two missions: the first, the Trace Gas Orbiter, launched in 2016, while the second, carrying the Rosalind Franklin rover, is scheduled to launch in 2028. Together they will address the question of whether life has ever existed on Mars.</paragraph>
     </paragraphs>
@@ -245,16 +303,17 @@
     </metadata_table>
     <stories>
       <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
+      <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status>active</missions_status>
   </mission>
   <mission>
     <title>ESCAPADE</title>
@@ -262,7 +321,7 @@
     <url>https://science.nasa.gov/mission/escapade/</url>
     <date>2023-06-15T15:07:10-04:00</date>
     <stories_page_url>https://science.nasa.gov/mission/escapade/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:30.122288</scraped_at>
+    <scraped_at>2025-07-03T10:10:42.015236</scraped_at>
     <paragraphs>
       <paragraph>ESCAPADE will analyze how Mars’ magnetic field guides particle flows around the planet, how energy and momentum are transported from the solar wind through the magnetosphere, and what processes control the flow of energy and matter into and out of the Martian atmosphere.</paragraph>
       <paragraph>The ESCAPADE mission is managed by the Space Sciences Laboratory at the University of California, Berkeley, with key partners Rocket Lab, NASA's Goddard Space Flight Center, Embry-Riddle Aeronautical University, Advanced Space LLC, and Blue Origin.</paragraph>
@@ -298,6 +357,7 @@
         <type>news</type>
       </story>
     </stories>
+    <missions_status>future</missions_status>
   </mission>
   <mission>
     <title>Mars Global Surveyor</title>
@@ -305,9 +365,26 @@
     <url>https://science.nasa.gov/mission/mars-global-surveyor/</url>
     <date>2017-12-20T21:44:02-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-global-surveyor/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:50.650280</scraped_at>
+    <scraped_at>2025-07-03T10:10:59.885137</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Nov. 7, 1996</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Mission End</key>
+        <value>Nov. 14, 2006</value>
+      </metadata>
+    </metadata_table>
     <stories>
       <story>
         <title>National Space Club Honors NASA, ULA Delta II Program Team</title>
@@ -320,6 +397,7 @@
         <type>news</type>
       </story>
     </stories>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Spirit</title>
@@ -327,21 +405,39 @@
     <url>https://science.nasa.gov/mission/mer-spirit/</url>
     <date>2017-12-05T00:55:21-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:48:06.753075</scraped_at>
+    <scraped_at>2025-07-03T10:11:14.802788</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Rover</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>June 10, 2003</value>
+      </metadata>
+      <metadata>
+        <key>Mission End</key>
+        <value>May 25, 2011</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Clues of Past Water</value>
+      </metadata>
+    </metadata_table>
     <stories>
+      <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
       <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status></missions_status>
   </mission>
   <mission>
     <title>Opportunity</title>
@@ -349,9 +445,26 @@
     <url>https://science.nasa.gov/mission/mer-opportunity/</url>
     <date>2017-12-05T00:41:07-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:48:05.608433</scraped_at>
+    <scraped_at>2025-07-03T10:11:13.746083</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Rover</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>July 7, 2003</value>
+      </metadata>
+      <metadata>
+        <key>Science Target</key>
+        <value>Martian Surface</value>
+      </metadata>
+      <metadata>
+        <key>Status</key>
+        <value>Successful</value>
+      </metadata>
+    </metadata_table>
     <stories>
       <story>
         <title>Sunset on Mars</title>
@@ -364,6 +477,7 @@
         <type>news</type>
       </story>
     </stories>
+    <missions_status></missions_status>
   </mission>
   <mission>
     <title>Viking 1</title>
@@ -371,10 +485,28 @@
     <url>https://science.nasa.gov/mission/viking-1/</url>
     <date>2017-12-06T21:24:35-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/viking-1/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:48:07.941455</scraped_at>
+    <scraped_at>2025-07-03T10:11:15.872982</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter, Lander</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Aug. 20, 1975</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Results</key>
+        <value>Successful</value>
+      </metadata>
+    </metadata_table>
     <stories/>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mars Sample Return</title>
@@ -382,7 +514,7 @@
     <url>https://science.nasa.gov/mission/mars-sample-return/</url>
     <date>2023-06-15T15:12:37-04:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-sample-return/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:59.729885</scraped_at>
+    <scraped_at>2025-07-03T10:11:08.401791</scraped_at>
     <paragraphs>
       <paragraph>Mars Sample Return (MSR) would be NASA's and ESA’s (European Space Agency) ambitious, multi-mission campaign to bring carefully selected samples to Earth. MSR would fulfill one of the highest priority solar system exploration goals from the science community. Returned samples would revolutionize our understanding of Mars, our solar system and prepare for human explorers to the Red Planet.</paragraph>
     </paragraphs>
@@ -416,6 +548,7 @@
         <type>news</type>
       </story>
     </stories>
+    <missions_status>future</missions_status>
   </mission>
   <mission>
     <title>Nozomi</title>
@@ -423,21 +556,39 @@
     <url>https://science.nasa.gov/mission/nozomi/</url>
     <date>2017-12-05T00:38:24-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/nozomi/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:48:04.398995</scraped_at>
+    <scraped_at>2025-07-03T10:11:12.661024</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>July 3, 1998</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Study the upper atmosphere of Mars</value>
+      </metadata>
+    </metadata_table>
     <stories>
       <story>
-        <title>Curiosity Blog, Sols 4580-4581: Something in the Air…</title>
-        <url>https://science.nasa.gov/blog/curiosity-blog-sols-4580-4581-something-in-the-air/</url>
+        <title>NASA Discovers Interstellar Comet Moving Through Solar System</title>
+        <url>https://science.nasa.gov/blogs/planetary-defense/2025/07/02/nasa-discovers-interstellar-comet-moving-through-solar-system/</url>
         <type>news</type>
       </story>
       <story>
-        <title>I Am Artemis: Patrick Junen</title>
-        <url>https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-patrick-junen/</url>
+        <title>NASA Sets Briefings for SpaceX Crew-11 Mission to Space Station</title>
+        <url>https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-11-mission-to-space-station/</url>
         <type>news</type>
       </story>
     </stories>
+    <missions_status></missions_status>
   </mission>
   <mission>
     <title>Viking 2</title>
@@ -445,10 +596,28 @@
     <url>https://science.nasa.gov/mission/viking-2/</url>
     <date>2017-12-06T21:26:48-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/viking-2/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:48:09.166215</scraped_at>
+    <scraped_at>2025-07-03T10:11:16.938741</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter, Lander</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Sept. 9, 1975</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Status</key>
+        <value>Successful</value>
+      </metadata>
+    </metadata_table>
     <stories/>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mariner 3</title>
@@ -456,10 +625,28 @@
     <url>https://science.nasa.gov/mission/mariner-3/</url>
     <date>2017-12-20T20:27:41-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-3/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:34.733491</scraped_at>
+    <scraped_at>2025-07-03T10:10:46.315459</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Flyby</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Nov. 5, 1964</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Results</key>
+        <value>Unsuccessful</value>
+      </metadata>
+    </metadata_table>
     <stories/>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mars Cubesat One (MarC0)</title>
@@ -467,9 +654,26 @@
     <url>https://science.nasa.gov/mission/marco/</url>
     <date>2017-12-05T00:23:29-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/marco/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:47.113600</scraped_at>
+    <scraped_at>2025-07-03T10:10:56.681138</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>CubeSat</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>May 5, 2018</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Technology Demonstration, CubeSat/SmallSat</value>
+      </metadata>
+    </metadata_table>
     <stories>
       <story>
         <title>NASA CubeSat Focuses on Instrument Calibration Enhancement</title>
@@ -482,6 +686,7 @@
         <type>news</type>
       </story>
     </stories>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>MMX</title>
@@ -489,7 +694,7 @@
     <url>https://science.nasa.gov/mission/mmx/</url>
     <date>2017-12-05T00:33:14-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mmx/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:48:03.284188</scraped_at>
+    <scraped_at>2025-07-03T10:11:11.605318</scraped_at>
     <paragraphs>
       <paragraph>A Japanese (JAXA) mission to travel to Mars and survey the Red Planet's two moons, Phobos and Deimos. The spacecraft will explore both moons and collect a sample of Phobos and bring it to Earth.</paragraph>
     </paragraphs>
@@ -512,6 +717,7 @@
       </metadata>
     </metadata_table>
     <stories/>
+    <missions_status>future</missions_status>
   </mission>
   <mission>
     <title>Mars Phoenix</title>
@@ -519,21 +725,39 @@
     <url>https://science.nasa.gov/mission/mars-phoenix/</url>
     <date>2017-12-05T00:47:57-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:56.360625</scraped_at>
+    <scraped_at>2025-07-03T10:11:05.198471</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Mission Type</key>
+        <value>Lander</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Aug. 4, 2007</value>
+      </metadata>
+      <metadata>
+        <key>Destination</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Search for evidence of past or present microbial life</value>
+      </metadata>
+    </metadata_table>
     <stories>
+      <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
       <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mars Orbiter Mission</title>
@@ -541,21 +765,39 @@
     <url>https://science.nasa.gov/mission/mom/</url>
     <date>2017-12-05T00:29:01-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mom/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:54.097827</scraped_at>
+    <scraped_at>2025-07-03T10:11:03.077111</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Nov. 5, 2013</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Study Mars from orbit</value>
+      </metadata>
+    </metadata_table>
     <stories>
+      <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
       <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status></missions_status>
   </mission>
   <mission>
     <title>Mars 2020: Perseverance Rover</title>
@@ -563,7 +805,7 @@
     <url>https://science.nasa.gov/mission/mars-2020-perseverance/</url>
     <date>2017-12-05T00:19:50-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-2020-perseverance/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:44.705980</scraped_at>
+    <scraped_at>2025-07-03T10:10:54.553743</scraped_at>
     <paragraphs>
       <paragraph>The Mars 2020 Perseverance Rover searches for signs of ancient microbial life, to advance NASA's quest to explore the past habitability of Mars. The rover is collecting core samples of Martian rock and regolith (broken rock and soil), for potential pickup by a future mission that would bring them to Earth for detailed study.</paragraph>
     </paragraphs>
@@ -587,16 +829,17 @@
     </metadata_table>
     <stories>
       <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
+      <story>
         <title>NASA’s Perseverance Rover Scours Mars for Science</title>
         <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>Devil’s in Details in Selfie Taken by NASA’s Mars Perseverance Rover</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/devils-in-details-in-selfie-taken-by-nasas-mars-perseverance-rover/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status>active</missions_status>
   </mission>
   <mission>
     <title>Mars Odyssey</title>
@@ -604,7 +847,7 @@
     <url>https://science.nasa.gov/mission/odyssey/</url>
     <date>2017-12-04T23:50:42-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/odyssey/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:52.982432</scraped_at>
+    <scraped_at>2025-07-03T10:11:02.022320</scraped_at>
     <paragraphs>
       <paragraph>Mars Odyssey mission was the first spacecraft to make a global map of the chemical elements and minerals that make up the Martian surface. The spacecraft also holds the record for the longest continually active mission in orbit around a planet other than Earth. It successfully completed its primary science mission from February 2002 through August 2004. Odyssey continues its work today, studying clouds, fog, and frost, and mapping surface rocks to make future Mars landings safer, as the orbiter continues to add to its 100,000+ orbits around the Red Planet.</paragraph>
     </paragraphs>
@@ -638,6 +881,7 @@
         <type>news</type>
       </story>
     </stories>
+    <missions_status>active</missions_status>
   </mission>
   <mission>
     <title>Viking Project</title>
@@ -645,10 +889,28 @@
     <url>https://science.nasa.gov/mission/viking/</url>
     <date>2023-09-19T16:54:12-04:00</date>
     <stories_page_url></stories_page_url>
-    <scraped_at>2025-06-26T22:48:11.546428</scraped_at>
+    <scraped_at>2025-07-03T10:11:18.770540</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter &amp; Lander</value>
+      </metadata>
+      <metadata>
+        <key>Landing</key>
+        <value>Viking 1 July 20, 1976&lt;br&gt;&lt;br&gt;Viking 2 Sept. 3, 1976</value>
+      </metadata>
+      <metadata>
+        <key>Destination</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Land and orbit Mars</value>
+      </metadata>
+    </metadata_table>
     <stories/>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mariner Program</title>
@@ -656,10 +918,28 @@
     <url>https://science.nasa.gov/mission/mariner-program/</url>
     <date>2023-10-05T13:00:55-04:00</date>
     <stories_page_url></stories_page_url>
-    <scraped_at>2025-06-26T22:47:43.452268</scraped_at>
+    <scraped_at>2025-07-03T10:10:53.479166</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Flybys, Orbiters</value>
+      </metadata>
+      <metadata>
+        <key>Duration</key>
+        <value>1962-1975</value>
+      </metadata>
+      <metadata>
+        <key>Targets</key>
+        <value>Mars, Venus, and Mercury</value>
+      </metadata>
+      <metadata>
+        <key>results</key>
+        <value>Successful</value>
+      </metadata>
+    </metadata_table>
     <stories/>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mariner 9</title>
@@ -667,10 +947,28 @@
     <url>https://science.nasa.gov/mission/mariner-9/</url>
     <date>2017-12-20T20:38:01-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-9/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:40.812241</scraped_at>
+    <scraped_at>2025-07-03T10:10:51.671920</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>May 30, 1971</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>entered mars orbit</key>
+        <value>Nov. 14, 1971</value>
+      </metadata>
+    </metadata_table>
     <stories/>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mars Climate Orbiter</title>
@@ -678,21 +976,39 @@
     <url>https://science.nasa.gov/mission/mars-climate-orbiter/</url>
     <date>2017-12-20T21:42:15-05:00</date>
     <stories_page_url>https://science.nasa.gov/science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:45.966601</scraped_at>
+    <scraped_at>2025-07-03T10:10:55.619518</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Dec. 11, 1998</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Status</key>
+        <value>Unsuccessful</value>
+      </metadata>
+    </metadata_table>
     <stories>
+      <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
       <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>InSight Lander</title>
@@ -700,9 +1016,26 @@
     <url>https://science.nasa.gov/mission/insight/</url>
     <date>2017-12-04T23:41:36-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/insight/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:33.527371</scraped_at>
+    <scraped_at>2025-07-03T10:10:45.244124</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Lander</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>May 5, 2018</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Study Mars' interior structure</value>
+      </metadata>
+    </metadata_table>
     <stories>
       <story>
         <title>NASA’s InSight Finds Marsquakes From Meteoroids Go Deeper Than Expected</title>
@@ -715,6 +1048,7 @@
         <type>news</type>
       </story>
     </stories>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mars Observer</title>
@@ -722,21 +1056,39 @@
     <url>https://science.nasa.gov/mission/mars-observer/</url>
     <date>2017-12-20T21:45:35-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:51.776642</scraped_at>
+    <scraped_at>2025-07-03T10:11:00.948362</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Sept. 25, 1992</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Take high-resolution photos of Mars</value>
+      </metadata>
+    </metadata_table>
     <stories>
+      <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
       <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status></missions_status>
   </mission>
   <mission>
     <title>Mariner 4</title>
@@ -744,10 +1096,28 @@
     <url>https://science.nasa.gov/mission/mariner-4/</url>
     <date>2017-12-20T20:29:32-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-4/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:35.883094</scraped_at>
+    <scraped_at>2025-07-03T10:10:47.388279</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Flyby</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Nov. 28, 1964</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>flyby</key>
+        <value>July 14, 1965</value>
+      </metadata>
+    </metadata_table>
     <stories/>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mars Pathfinder</title>
@@ -755,9 +1125,26 @@
     <url>https://science.nasa.gov/mission/mars-pathfinder/</url>
     <date>2017-12-20T21:48:30-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-pathfinder/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:55.228361</scraped_at>
+    <scraped_at>2025-07-03T10:11:04.138634</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>mission Type</key>
+        <value>Lander, Rover</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>Dec. 4, 1996</value>
+      </metadata>
+      <metadata>
+        <key>objective</key>
+        <value>Land a rover on Mars</value>
+      </metadata>
+      <metadata>
+        <key>landing</key>
+        <value>July 4, 1997</value>
+      </metadata>
+    </metadata_table>
     <stories>
       <story>
         <title>Perseverance Rover Witnesses One Martian Dust Devil Eating Another</title>
@@ -770,6 +1157,7 @@
         <type>news</type>
       </story>
     </stories>
+    <missions_status></missions_status>
   </mission>
   <mission>
     <title>ExoMars Rover</title>
@@ -777,7 +1165,7 @@
     <url>https://science.nasa.gov/mission/rosalind-franklin/</url>
     <date>2017-12-01T02:11:20-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/rosalind-franklin/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:32.375783</scraped_at>
+    <scraped_at>2025-07-03T10:10:44.132140</scraped_at>
     <paragraphs>
       <paragraph>The European Space Agency's ExoMars rover is part of a series of missions designed to study the potential for past life on the Red Planet.</paragraph>
     </paragraphs>
@@ -801,16 +1189,17 @@
     </metadata_table>
     <stories>
       <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
+      <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status>future</missions_status>
   </mission>
   <mission>
     <title>Mars Exploration Rovers: Spirit and Opportunity</title>
@@ -818,9 +1207,26 @@
     <url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/</url>
     <date>2024-03-22T10:40:31-04:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:48.242777</scraped_at>
+    <scraped_at>2025-07-03T10:10:57.743472</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Mission Type</key>
+        <value>Rover pair</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Look for signs of past water on Mars</value>
+      </metadata>
+      <metadata>
+        <key>Destination</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>LandingS</key>
+        <value>(Spirit) Jan. 3, 2004 and (Opportunity) Jan. 24, 2004</value>
+      </metadata>
+    </metadata_table>
     <stories>
       <story>
         <title>Sunset on Mars</title>
@@ -833,6 +1239,7 @@
         <type>news</type>
       </story>
     </stories>
+    <missions_status>past</missions_status>
   </mission>
   <mission>
     <title>Mariner 8</title>
@@ -840,20 +1247,38 @@
     <url>https://science.nasa.gov/mission/mariner-8/</url>
     <date>2017-12-20T20:36:38-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-8/stories/</stories_page_url>
-    <scraped_at>2025-06-26T22:47:39.626277</scraped_at>
+    <scraped_at>2025-07-03T10:10:50.590195</scraped_at>
     <paragraphs/>
-    <metadata_table/>
+    <metadata_table>
+      <metadata>
+        <key>Type</key>
+        <value>Orbiter</value>
+      </metadata>
+      <metadata>
+        <key>Launch</key>
+        <value>May 9, 1971</value>
+      </metadata>
+      <metadata>
+        <key>Target</key>
+        <value>Mars</value>
+      </metadata>
+      <metadata>
+        <key>Objective</key>
+        <value>Orbit Mars</value>
+      </metadata>
+    </metadata_table>
     <stories>
+      <story>
+        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
+        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
+        <type>news</type>
+      </story>
       <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
         <type>news</type>
       </story>
-      <story>
-        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
-      </story>
     </stories>
+    <missions_status>past</missions_status>
   </mission>
 </missions>

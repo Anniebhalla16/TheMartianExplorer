@@ -12,9 +12,11 @@ interface FilterSidebarProps {
 
 export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading }: FilterSidebarProps) {
   const [availableOptions, setAvailableOptions] = useState({
-    missionTypes: ["Orbiter", "Lander", "Rover", "Sample Return"],
+    missionTypes: ["Orbiter", "Lander", "Rover", "Sample Return", "Fly by"],
     targets: ["Mars", "Phobos", "Deimos", "Mars Orbit" , "Jezero Crater, Mars"],
     partners: ["NASA", "ESA", "Roscosmos", "JAXA", "ISRO", "CNSA"],
+    status: ["past", "active", "future", "all"]
+
   })
 
   return (
@@ -63,89 +65,66 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
         </div>
       </div>
 
-      {/* Launch & Landing Dates */}
-      <div className="grid grid-cols-2 gap-3">
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">Launch Date</label>
-          <input
-            type="date"
-            value={filters.launchDate}
-            onChange={(e) => onFilterChange({ launchDate: e.target.value })}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            disabled={loading}
-          />
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">Landing Date</label>
-          <input
-            type="date"
-            value={filters.landingDate}
-            onChange={(e) => onFilterChange({ landingDate: e.target.value })}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            disabled={loading}
-          />
-        </div>
-      </div>
-
-      {/* Data Timestamp */}
+      {/* Article Published Date */}
       <div>
-        <label className="block text-sm font-medium text-gray-700 mb-2">Story Publish Date</label>
-        <div className="space-y-3">
-          <div className="grid grid-cols-2 gap-3">
-            <input
-              type="date"
-              value={filters.dataTimestampAfter}
-              onChange={(e) => onFilterChange({ dataTimestampAfter: e.target.value })}
-              placeholder="After"
-              className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              disabled={loading}
-            />
-            <input
-              type="date"
-              value={filters.dataTimestampBefore}
-              onChange={(e) => onFilterChange({ dataTimestampBefore: e.target.value })}
-              placeholder="Before"
-              className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              disabled={loading}
-            />
-          </div>
-          <div className="flex items-center space-x-4">
-            <label className="flex items-center">
-              <input
-                type="radio"
-                name="timeframe"
-                checked={filters.isUpcoming === true}
-                onChange={() => onFilterChange({ isUpcoming: true })}
-                className="mr-2"
-                disabled={loading}
-              />
-              <span className="text-sm text-gray-700">Upcoming</span>
-            </label>
-            <label className="flex items-center">
-              <input
-                type="radio"
-                name="timeframe"
-                checked={filters.isUpcoming === false}
-                onChange={() => onFilterChange({ isUpcoming: false })}
-                className="mr-2"
-                disabled={loading}
-              />
-              <span className="text-sm text-gray-700">Historical</span>
-            </label>
-            <label className="flex items-center">
-              <input
-                type="radio"
-                name="timeframe"
-                checked={filters.isUpcoming === null}
-                onChange={() => onFilterChange({ isUpcoming: null })}
-                className="mr-2"
-                disabled={loading}
-              />
-              <span className="text-sm text-gray-700">All</span>
-            </label>
-          </div>
-        </div>
+      <label className="block text-sm font-medium text-gray-700 mb-2">
+        Article Published
+      </label>
+      <div className="flex flex-col items-center space-x-2">
+        <input
+          type="date"
+          value={filters.articlePublishedFrom}
+          onChange={(e) => onFilterChange({ articlePublishedFrom: e.target.value })}
+          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          disabled={loading}
+        />
+        <span className="text-gray-500">to</span>
+        <input
+          type="date"
+          value={filters.articlePublishedTo}
+          onChange={(e) => onFilterChange({ articlePublishedTo: e.target.value })}
+          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          disabled={loading}
+        />
       </div>
+    </div>
+
+    {/* Mission Status */}
+    <div>
+      <label className="block text-sm font-medium text-gray-700 mb-2">
+        Mission Status
+      </label>
+      <div className="space-y-2">
+        {availableOptions.status.map((status) => (
+          <label key={status} className="flex items-center">
+            <input
+              type="checkbox"
+              checked={filters.missionStatus.includes(status)}
+              onChange={(e) => {
+                let newStatuses = filters.missionStatus.includes(status)
+                  ? filters.missionStatus.filter((s) => s !== status)
+                  : [...filters.missionStatus, status]
+
+                if (status === "all" && e.target.checked) {
+                  newStatuses = ["all"]
+                } else if (status !== "all" && e.target.checked) {
+                  newStatuses = newStatuses.filter((s) => s !== "all")
+                }
+
+                onFilterChange({ missionStatus: newStatuses })
+              }}
+              className="mr-2"
+              disabled={loading}
+            />
+            <span className="text-sm text-gray-700">
+              {status.charAt(0).toUpperCase() + status.slice(1)}
+            </span>
+          </label>
+        ))}
+      </div>
+    </div>
+
+
 
       {/* Target */}
       <div>
@@ -180,7 +159,7 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
 
     
       {/* Partner/Agency */}
-      <div>
+      {/* <div>
         <label className="block text-sm font-medium text-gray-700 mb-2">Partner / Agency</label>
         <div className="space-y-2">
           {availableOptions.partners.map((partner) => (
@@ -201,7 +180,7 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
             </label>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Has News Stories */}
       <div>

@@ -149,6 +149,42 @@ if __name__ == "__main__":
           <storyCount>{$count}</storyCount>
         </mission>
     '''
+    
+    q13  = '''xquery version "3.1";
+        for $m in doc("/db/martian-explorer/missions.xml")/missions/mission
+        let $d := xs:date(
+            substring-before(
+              string($m/date),
+              "T"
+            )
+          )
+        where $d = xs:date("2023-06-15")
+        return 
+          <mission name="{data($m/title)}">
+            <date>{$d}</date>
+          </mission>
+    '''
+    
+    q14='''
+        xquery version "3.1";
+
+        declare variable $from as xs:date := xs:date("2017-06-01");
+        declare variable $to   as xs:date := xs:date("2025-06-30");
+
+        for $m in doc("/db/martian-explorer/missions.xml")/missions/mission
+        let $pub := xs:date(
+                      substring-before(
+                        string($m/date),
+                        "T"
+                      )
+                    )
+        where $pub >= $from
+          and $pub <= $to
+        return
+          <mission name="{data($m/title)}">
+            <date>{$pub}</date>
+          </mission>
+  '''
 
     # Store queries in a dict for easy iteration
     queries = {
@@ -164,6 +200,8 @@ if __name__ == "__main__":
         'subtitle_rover': q10,
         'recent_first': q11,
         'story_counts': q12,
+        'article_published': q13,
+        'article_range_date': q14
     }
 
     # Execute and print each result

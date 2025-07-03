@@ -4,19 +4,37 @@
   "url": "https://science.nasa.gov/mission/mariner-8/",
   "date": "2017-12-20T20:36:38-05:00",
   "paragraphs": [],
-  "metadata_table": [],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Orbiter"
+    },
+    {
+      "key": "Launch",
+      "value": "May 9, 1971"
+    },
+    {
+      "key": "Target",
+      "value": "Mars"
+    },
+    {
+      "key": "Objective",
+      "value": "Orbit Mars"
+    }
+  ],
   "stories": [
+    {
+      "title": "An Update from the 2025 Mars 2020 Science Team Meeting",
+      "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/",
+      "type": "news"
+    },
     {
       "title": "NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space",
       "url": "https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/",
       "type": "news"
-    },
-    {
-      "title": "NASA’s Perseverance Rover Scours Mars for Science",
-      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/",
-      "type": "news"
     }
   ],
+  "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-8/stories/",
-  "scraped_at": "2025-06-26T22:47:39.626277"
+  "scraped_at": "2025-07-03T10:10:50.590195"
 }

@@ -4,8 +4,26 @@
   "url": "https://science.nasa.gov/mission/viking/",
   "date": "2023-09-19T16:54:12-04:00",
   "paragraphs": [],
-  "metadata_table": [],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Orbiter & Lander"
+    },
+    {
+      "key": "Landing",
+      "value": "Viking 1 July 20, 1976<br><br>Viking 2 Sept. 3, 1976"
+    },
+    {
+      "key": "Destination",
+      "value": "Mars"
+    },
+    {
+      "key": "Objective",
+      "value": "Land and orbit Mars"
+    }
+  ],
   "stories": [],
+  "mission_status": "past",
   "stories_page_url": null,
-  "scraped_at": "2025-06-26T22:48:11.546428"
+  "scraped_at": "2025-07-03T10:11:18.770540"
 }

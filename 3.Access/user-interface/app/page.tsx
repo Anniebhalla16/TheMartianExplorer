@@ -9,15 +9,12 @@ import { useEffect, useState } from "react"
 const initialFilters: FilterState = {
   missionName: "",
   missionTypes: [],
-  launchDate: "",
-  landingDate: "",
-  dataTimestampBefore: "",
-  dataTimestampAfter: "",
-  isUpcoming: null,
+  missionStatus: [],
+  articlePublishedFrom: "",
+  articlePublishedTo: "",
   target: "",
   objectiveKeywords: "",
   subtitleKeywords: "",
-  partners: [],
   hasNewsStories: null,
   paragraphContent: ""
 }

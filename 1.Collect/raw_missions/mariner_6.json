@@ -4,19 +4,37 @@
   "url": "https://science.nasa.gov/mission/mariner-6/",
   "date": "2017-12-20T20:33:23-05:00",
   "paragraphs": [],
-  "metadata_table": [],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Flyby"
+    },
+    {
+      "key": "Launch",
+      "value": "Feb. 25,1969"
+    },
+    {
+      "key": "Target",
+      "value": "Mars"
+    },
+    {
+      "key": "status",
+      "value": "Successful"
+    }
+  ],
   "stories": [
     {
-      "title": "I Am Artemis: Patrick Junen",
-      "url": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-patrick-junen/",
+      "title": "NASA Discovers Interstellar Comet Moving Through Solar System",
+      "url": "https://science.nasa.gov/blogs/planetary-defense/2025/07/02/nasa-discovers-interstellar-comet-moving-through-solar-system/",
       "type": "news"
     },
     {
-      "title": "Sparkling Andromeda",
-      "url": "https://www.nasa.gov/image-article/sparkling-andromeda/",
+      "title": "NASA Sets Briefings for SpaceX Crew-11 Mission to Space Station",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-11-mission-to-space-station/",
       "type": "news"
     }
   ],
+  "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-6/stories/",
-  "scraped_at": "2025-06-26T22:47:37.013882"
+  "scraped_at": "2025-07-03T10:10:48.464610"
 }

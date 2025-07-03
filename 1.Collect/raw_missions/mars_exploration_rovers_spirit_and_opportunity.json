@@ -4,7 +4,24 @@
   "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
   "date": "2024-03-22T10:40:31-04:00",
   "paragraphs": [],
-  "metadata_table": [],
+  "metadata_table": [
+    {
+      "key": "Mission Type",
+      "value": "Rover pair"
+    },
+    {
+      "key": "Objective",
+      "value": "Look for signs of past water on Mars"
+    },
+    {
+      "key": "Destination",
+      "value": "Mars"
+    },
+    {
+      "key": "LandingS",
+      "value": "(Spirit) Jan. 3, 2004 and (Opportunity) Jan. 24, 2004"
+    }
+  ],
   "stories": [
     {
       "title": "Sunset on Mars",
@@ -17,6 +34,7 @@
       "type": "news"
     }
   ],
+  "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/",
-  "scraped_at": "2025-06-26T22:47:48.242777"
+  "scraped_at": "2025-07-03T10:10:57.743472"
 }

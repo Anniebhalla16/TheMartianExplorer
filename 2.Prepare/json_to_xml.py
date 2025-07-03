@@ -2,9 +2,9 @@ import json
 import os
 from lxml import etree
 
-JSON_DIR = "/Users/anniebhalla/Desktop/Universität Stuttgart/Projects/TheMartianExplorer/1. collect/raw_missions/"
-XML_OUTPUT = "/Users/anniebhalla/Desktop/Universität Stuttgart/Projects/TheMartianExplorer/2. prepare/missions.xml"
-XSD_PATH = "/Users/anniebhalla/Desktop/Universität Stuttgart/Projects/TheMartianExplorer/2. prepare/mission.xsd"
+JSON_DIR = "/Users/anniebhalla/Desktop/Universität Stuttgart/Projects/TheMartianExplorer/1.Collect/raw_missions/"
+XML_OUTPUT = "/Users/anniebhalla/Desktop/Universität Stuttgart/Projects/TheMartianExplorer/2.Prepare/missions.xml"
+XSD_PATH = "/Users/anniebhalla/Desktop/Universität Stuttgart/Projects/TheMartianExplorer/2.Prepare/mission.xsd"
 
 # Read all JSON files from directory
 data = []
@@ -50,6 +50,10 @@ for entry in data:
             etree.SubElement(story_el, "title").text = story.get("title", "")
             etree.SubElement(story_el, "url").text = story.get("url", "")
             etree.SubElement(story_el, "type").text = story.get("type", "")
+            
+    status = entry.get("mission_status", "")
+    status_el = etree.SubElement(mission_el, "missions_status")
+    status_el.text = status or ""
 
 xml_tree = etree.ElementTree(missions_el)
 

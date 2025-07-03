@@ -77,29 +77,42 @@ class MarsMissionScraper:
                     for p in meta_section.find_all('p', class_='p-lg'):
                         text = p.get_text(strip=True)
                         if text and len(text) > 20:
-                            paragraphs.append(text)
+                            paragraphs.append(text)            
             
-            # Extract metadata table from mission details
+            # --- extract metadata from both possible containers ---
             metadata_table = []
-            seen_keys = set()  # if a key is already added we skip
-            meta_section = soup.find('div', class_='mission-single-meta')
-            if meta_section:
-                grid_rows = meta_section.find_all('div', class_='grid-row')
-                for row in grid_rows:
-                    cols = row.find_all('div', class_='grid-col-6')
-                    for col in cols:
-                        label_elem = col.find('p', class_='label')
-                        value_elem = col.find('div', class_='p-lg')
-                        
-                        if label_elem and value_elem:
-                            key = label_elem.get_text(strip=True)
-                            value = value_elem.get_text(strip=True)
-                            
-                            # Only add if we haven't seen this key before
-                            if key and value and key not in seen_keys:
-                                metadata_table.append({"key": key, "value": value})
-                                seen_keys.add(key)
+            seen_keys = set()
+
+            # grab all the <div class="grid-row"> blocks living under either meta‐section
+            rows = soup.select(
+                "div.mission-single-meta div.grid-row, div.hds-mission-header div.grid-row"
+            )
+
+            for row in rows:
+                # within each row, the label/value lives in either
+                #   <div class="grid-col-6">…</div>
+                # or
+                #   <div class="grid-col">…</div>
+                blocks = row.select("div.grid-col-6, div.grid-col")
+
+                for blk in blocks:
+                    label_elem = blk.find("p", class_="label")
+                    value_elem = blk.find("div", class_="p-lg")
+
+                    if not (label_elem and value_elem):
+                        continue
+
+                    key = label_elem.get_text(strip=True)
+                    value = value_elem.get_text(strip=True)
+
+                    # only add each key once
+                    if key and value and key not in seen_keys:
+                        metadata_table.append({"key": key, "value": value})
+                        seen_keys.add(key)
             
+            # --- extract mission status ---
+            mission_status = self.scrape_mission_status(soup)
+                   
             # [CHALLENGE] Extract publication/last updated date - here we try multiple approaches
             pub_date = self.extract_publication_date(soup, url)
             
@@ -117,6 +130,7 @@ class MarsMissionScraper:
                 "paragraphs": paragraphs,
                 "metadata_table": metadata_table,
                 "stories": stories,
+                'mission_status' : mission_status,
                 "stories_page_url": stories_page_url,
                 "scraped_at": datetime.now().isoformat()
             }
@@ -265,8 +279,36 @@ class MarsMissionScraper:
         except Exception as e:
             logger.error(f"Error scraping stories page {stories_url}: {e}")
             return []
+       
+    def scrape_mission_status(self, soup):
+        badge = soup.find("div", class_="label tag tag-mission")
+        if not badge:
+            return None
         
-        
+        icon = badge.find("div", class_="mission-status-icon")
+        if icon:
+            classes = icon.get("class", [])
+            if "bg-carbon-30" in classes:
+                return "past"
+            if "bg-active-green" in classes:
+                return "active"
+            if "bg-nasa-blue-tint" in classes:
+                return "future"
+
+        # text if icon not found ( this will not happen, there will always be the badge)
+        span = badge.find("span")
+        if span:
+            txt = span.get_text(strip=True).lower()
+            if "occurred" in txt:
+                return "past"
+            if "active mission" in txt:
+                return "active"
+            if "future mission" in txt:
+                return "future"
+
+        return None
+
+
     def scrape_individual_story(self, story_url):
         """Scrape content from an individual story/article"""
         try:

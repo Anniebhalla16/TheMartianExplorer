@@ -4,7 +4,24 @@
   "url": "https://science.nasa.gov/mission/mars-pathfinder/",
   "date": "2017-12-20T21:48:30-05:00",
   "paragraphs": [],
-  "metadata_table": [],
+  "metadata_table": [
+    {
+      "key": "mission Type",
+      "value": "Lander, Rover"
+    },
+    {
+      "key": "Launch",
+      "value": "Dec. 4, 1996"
+    },
+    {
+      "key": "objective",
+      "value": "Land a rover on Mars"
+    },
+    {
+      "key": "landing",
+      "value": "July 4, 1997"
+    }
+  ],
   "stories": [
     {
       "title": "Perseverance Rover Witnesses One Martian Dust Devil Eating Another",
@@ -17,6 +34,7 @@
       "type": "news"
     }
   ],
+  "mission_status": null,
   "stories_page_url": "https://science.nasa.gov/mission/mars-pathfinder/stories/",
-  "scraped_at": "2025-06-26T22:47:55.228361"
+  "scraped_at": "2025-07-03T10:11:04.138634"
 }

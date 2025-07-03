@@ -24,6 +24,7 @@
       <xs:element name="stories" type="StoriesType" minOccurs="0"/>
       <xs:element name="stories_page_url" type="EmptyOrURI" minOccurs="0"/>
       <xs:element name="scraped_at" type="EmptyOrDateTime" minOccurs="0"/>
+      <xs:element name="missions_status" type="MissionStatusEnumOrEmpty" minOccurs="0"/>
     </xs:all>
   </xs:complexType>
 
@@ -66,6 +67,19 @@
       <xs:element name="story" type="StoryType" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
+
+
+  <xs:simpleType name="MissionStatusEnumOrEmpty">
+    <xs:union memberTypes="MissionStatusEnum EmptyString"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="MissionStatusEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="past"/>
+      <xs:enumeration value="active"/>
+      <xs:enumeration value="future"/>
+    </xs:restriction>
+  </xs:simpleType>
 
   <xs:complexType name="StoryType">
     <xs:sequence>

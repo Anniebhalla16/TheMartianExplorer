@@ -4,8 +4,26 @@
   "url": "https://science.nasa.gov/mission/mariner-4/",
   "date": "2017-12-20T20:29:32-05:00",
   "paragraphs": [],
-  "metadata_table": [],
+  "metadata_table": [
+    {
+      "key": "Type",
+      "value": "Flyby"
+    },
+    {
+      "key": "Launch",
+      "value": "Nov. 28, 1964"
+    },
+    {
+      "key": "Target",
+      "value": "Mars"
+    },
+    {
+      "key": "flyby",
+      "value": "July 14, 1965"
+    }
+  ],
   "stories": [],
+  "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-4/stories/",
-  "scraped_at": "2025-06-26T22:47:35.883094"
+  "scraped_at": "2025-07-03T10:10:47.388279"
 }
