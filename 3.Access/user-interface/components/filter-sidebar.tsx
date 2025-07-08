@@ -195,20 +195,6 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
           <span className="text-sm font-medium text-gray-700">Has News Stories</span>
         </label>
       </div>
-
-      {/* Paragraph Content
-      <div>
-        <label className="block text-sm font-medium text-gray-700 mb-2">Paragraph Content</label>
-        <input
-          type="text"
-          value={filters.paragraphContent}
-          onChange={(e) => onFilterChange({ paragraphContent: e.target.value })}
-          placeholder="Search paragraph content..."
-          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          // disabled={loading}
-        />
-      </div> */}
-
     </div>
   )
 }

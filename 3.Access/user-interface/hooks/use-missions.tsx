@@ -8,6 +8,7 @@ import { useCallback, useEffect, useState } from "react"
 
 interface UseMissionsResult {
   missions: Mission[]
+  stories: Story[]
   loading: boolean
   error: string | null
   refetch: () => void
@@ -15,7 +16,7 @@ interface UseMissionsResult {
 
 export function useMissions(filters: FilterState): UseMissionsResult {
   const [missions, setMissions] = useState<Mission[]>([])
-  const [stories, setStories] = useState<Story[]>()
+  const [stories, setStories] = useState<Story[]>([])
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -57,6 +58,7 @@ export function useMissions(filters: FilterState): UseMissionsResult {
 
   return {
     missions,
+    stories,
     loading,
     error,
     refetch: fetchMissions,

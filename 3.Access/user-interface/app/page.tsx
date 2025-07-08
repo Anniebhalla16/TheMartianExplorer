@@ -21,7 +21,7 @@ const initialFilters: FilterState = {
 
 export default function MartianExplorerPage() {
   const [filters, setFilters] = useState<FilterState>(initialFilters)
-  const { missions, loading, error, refetch } = useMissions(filters)
+  const { missions, stories , loading, error, refetch } = useMissions(filters)
 
   const handleFilterChange = (newFilters: Partial<FilterState>) => {
     setFilters((prev) => ({ ...prev, ...newFilters }))
@@ -57,7 +57,7 @@ export default function MartianExplorerPage() {
 
           {/* Results Grid */}
           <div className="flex-1">
-            <ResultsGrid missions={missions} loading={loading} error={error} onRefresh={refetch} />
+            <ResultsGrid missions={missions} stories = {stories} loading={loading} error={error} onRefresh={refetch} />
           </div>
         </div>
       </div>

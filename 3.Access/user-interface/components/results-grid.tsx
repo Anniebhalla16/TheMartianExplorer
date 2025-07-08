@@ -1,16 +1,18 @@
 "use client"
 
+import type { Mission, Story } from "@/types/mission"
 import { MissionCard } from "./mission-card"
-import type { Mission } from "@/types/mission"
+import { StoryCard } from "./story-card"
 
 interface ResultsGridProps {
+  stories: Story[]
   missions: Mission[]
   loading: boolean
   error: string | null
   onRefresh: () => void
 }
 
-export function ResultsGrid({ missions, loading, error, onRefresh }: ResultsGridProps) {
+export function ResultsGrid({ missions, stories, loading, error, onRefresh }: ResultsGridProps) {
   if (loading) {
     return (
       <div className="bg-white rounded-lg shadow-sm border p-8">
@@ -93,7 +95,12 @@ export function ResultsGrid({ missions, loading, error, onRefresh }: ResultsGrid
         {missions.map((mission) => (
           <MissionCard key={mission.id} mission={mission} />
         ))}
+        {stories.map((story)=>(
+          <StoryCard key={story.id} story={story}/>
+        ))}
       </div>
+
+
     </div>
   )
 }
