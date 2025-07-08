@@ -24,17 +24,13 @@
   ],
   "stories": [
     {
-      "title": "NASA Discovers Interstellar Comet Moving Through Solar System",
-      "url": "https://science.nasa.gov/blogs/planetary-defense/2025/07/02/nasa-discovers-interstellar-comet-moving-through-solar-system/",
-      "type": "news"
-    },
-    {
-      "title": "NASA Sets Briefings for SpaceX Crew-11 Mission to Space Station",
-      "url": "https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-11-mission-to-space-station/",
-      "type": "news"
+      "url": "https://www.nasa.gov/history/50-years-ago-mariner-6-and-7-explore-mars/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2019/07/mariner_6-7.png?w=300px",
+      "title": "50 Years Ago: Mariner 6 and 7 Explore Mars",
+      "type": "Article"
     }
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-6/stories/",
-  "scraped_at": "2025-07-03T10:10:48.464610"
+  "scraped_at": "2025-07-08T14:46:55.454972"
 }

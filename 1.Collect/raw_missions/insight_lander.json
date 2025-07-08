@@ -24,17 +24,67 @@
   ],
   "stories": [
     {
-      "title": "NASA’s InSight Finds Marsquakes From Meteoroids Go Deeper Than Expected",
       "url": "https://www.nasa.gov/missions/nasas-insight-finds-marsquakes-from-meteoroids-go-deeper-than-expected/",
-      "type": "news"
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/02/1-pia26518-hirise-views-an-impact-crater-matched-to-insights-seismic-data.jpg?w=300px",
+      "title": "NASA’s InSight Finds Marsquakes From Meteoroids Go Deeper Than Expected",
+      "type": "Article"
     },
     {
-      "title": "NASA Mars Orbiter Spots Retired InSight Lander to Study Dust Movement",
       "url": "https://www.nasa.gov/missions/insight/nasa-mars-orbiter-spots-retired-insight-lander-to-study-dust-movement/",
-      "type": "news"
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/12/pia26515-hirise-crop.jpg?w=300px",
+      "title": "NASA Mars Orbiter Spots Retired InSight Lander to Study Dust Movement",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px",
+      "title": "UPDATED: 10 Things for Mars 10",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/solar-system/moon/nasa-to-measure-moonquakes-with-help-from-insight-mars-mission/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/05/1-pia26298-fss-move-pre-tilt.jpg?w=300px",
+      "title": "NASA to Measure Moonquakes With Help From InSight Mars Mission",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/insight/nasa-insight-study-finds-mars-is-spinning-faster/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2023/08/2-insight_illo_rise_short_cap-not_for_pj.jpg?w=300px",
+      "title": "NASA InSight Study Finds Mars Is Spinning Faster",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/insight/nasa-insight-study-provides-clearest-look-ever-at-martian-core/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2023/04/1-pia25680-insights-seismometer-1041.jpg?w=300px",
+      "title": "NASA InSight Study Provides Clearest Look Ever at Martian Core",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2022/12/insight_0.jpg?w=300px",
+      "title": "NASA Retires InSight Mars Lander Mission After Years of Science",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/insight/nasa-prepares-to-say-farewell-to-insight-spacecraft/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2022/11/1-pia22876-for-slider-before-1041.jpg?w=300px",
+      "title": "NASA Prepares to Say ‘Farewell’ to InSight Spacecraft",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/insight/nasas-insight-lander-detects-stunning-meteoroid-impact-on-mars/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2022/10/1-pia25583-hirise-views-1041.jpg?w=300px",
+      "title": "NASA’s InSight Lander Detects Stunning Meteoroid Impact on Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/insight/nasas-insight-waits-out-dust-storm/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2022/10/pia25412-1041.jpg?w=300px",
+      "title": "NASA’s InSight Waits Out Dust Storm",
+      "type": "Article"
     }
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/insight/stories/",
-  "scraped_at": "2025-07-03T10:10:45.244124"
+  "scraped_at": "2025-07-08T14:46:52.084952"
 }

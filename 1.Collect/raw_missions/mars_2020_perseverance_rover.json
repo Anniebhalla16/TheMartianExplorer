@@ -26,17 +26,67 @@
   ],
   "stories": [
     {
-      "title": "An Update from the 2025 Mars 2020 Science Team Meeting",
-      "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/",
-      "type": "news"
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/06/1-pia26575-fcam-abrade-1531.jpg?w=300px",
+      "title": "NASA’s Perseverance Rover Scours Mars for Science",
+      "type": "Article"
     },
     {
-      "title": "NASA’s Perseverance Rover Scours Mars for Science",
-      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/",
-      "type": "news"
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/devils-in-details-in-selfie-taken-by-nasas-mars-perseverance-rover/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/05/pia26574-fig-a-m2020-5th-selfie-16.jpg?w=300px",
+      "title": "Devil’s in Details in Selfie Taken by NASA’s Mars Perseverance Rover",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-mars-rover-to-take-bite-out-of-krokodillen/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26573-navcam-nlf-1503-0800373830-316fdr-n0731522ncam13503-0a0195j01-srgb-scaled-stretched-cropped.png?w=300px",
+      "title": "NASA’s Perseverance Mars Rover to Take Bite Out of ‘Krokodillen’",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/robots-rovers-and-regolith-nasa-brings-exploration-to-first-robotics-2025/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/04/jsc2025e039509.jpg?w=300px",
+      "title": "Robots, Rovers, and Regolith: NASA Brings Exploration to FIRST Robotics 2025",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-mars-rover-studies-trove-of-rocks-on-crater-rim/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/04/1-pia26530-mosaic-enhanced-2500.jpg?w=300px",
+      "title": "NASA’s Perseverance Mars Rover Studies Trove of Rocks on Crater Rim",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/04/1-pia26528-dust-devil-lunch-navcam-sol1398-dd.gif?w=300px",
+      "title": "Perseverance Rover Witnesses One Martian Dust Devil Eating Another",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/how-nasas-perseverance-is-helping-prepare-astronauts-for-mars/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/03/1-enhanced-percy-spacesuit-materials.jpg?w=300px",
+      "title": "How NASA’s Perseverance Is Helping Prepare Astronauts for Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-reaches-top-of-jezero-crater-rim/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/12/1-pia26511-perseverances-view-from-the-top-16.jpg?w=300px",
+      "title": "NASA’s Perseverance Rover Reaches Top of Jezero Crater Rim",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/ingenuity-helicopter/nasa-performs-first-aircraft-accident-investigation-on-another-world/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/12/1-pia26238-ingentuity-ripples-cropped.jpg?w=300px",
+      "title": "NASA Performs First Aircraft Accident Investigation on Another World",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-captures-googly-eye-during-solar-eclipse/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/10/pia26380-phobos-transit-4x-thumb.jpg?w=300px",
+      "title": "NASA’s Perseverance Captures ‘Googly Eye’ During Solar Eclipse",
+      "type": "Article"
     }
   ],
   "mission_status": "active",
   "stories_page_url": "https://science.nasa.gov/mission/mars-2020-perseverance/stories/",
-  "scraped_at": "2025-07-03T10:10:54.553743"
+  "scraped_at": "2025-07-08T14:47:01.672902"
 }

@@ -22,19 +22,8 @@
       "value": "Orbit Mars"
     }
   ],
-  "stories": [
-    {
-      "title": "An Update from the 2025 Mars 2020 Science Team Meeting",
-      "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/",
-      "type": "news"
-    },
-    {
-      "title": "NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space",
-      "url": "https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/",
-      "type": "news"
-    }
-  ],
+  "stories": [],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-8/stories/",
-  "scraped_at": "2025-07-03T10:10:50.590195"
+  "scraped_at": "2025-07-08T14:46:57.701438"
 }

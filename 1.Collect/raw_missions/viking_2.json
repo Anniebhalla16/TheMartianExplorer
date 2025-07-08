@@ -22,8 +22,27 @@
       "value": "Successful"
     }
   ],
-  "stories": [],
+  "stories": [
+    {
+      "url": "https://www.nasa.gov/missions/nasas-search-for-life-astrobiology-in-the-solar-system-and-beyond/",
+      "story_image_url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px",
+      "title": "NASA’s Search for Life: Astrobiology in the Solar System and Beyond",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/viking/president-bush-marks-vikings-silver-anniversary-to-the-red-planet/",
+      "story_image_url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px",
+      "title": "President Bush Marks Viking’s Silver Anniversary to the Red Planet",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/viking/nasa-celebrates-25th-anniversary-of-mars-landing/",
+      "story_image_url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px",
+      "title": "NASA Celebrates 25th Anniversary of Mars Landing",
+      "type": "Article"
+    }
+  ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/viking-2/stories/",
-  "scraped_at": "2025-07-03T10:11:16.938741"
+  "scraped_at": "2025-07-08T14:47:25.802360"
 }

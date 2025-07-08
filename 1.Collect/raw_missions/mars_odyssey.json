@@ -26,17 +26,67 @@
   ],
   "stories": [
     {
-      "title": "NASA Mars Orbiter Captures Volcano Peeking Above Morning Cloud Tops",
       "url": "https://www.nasa.gov/missions/odyssey/nasa-mars-orbiter-captures-volcano-peeking-above-morning-cloud-tops/",
-      "type": "news"
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/06/1-themis-views-mars-arsia-mons-volcano-crop1.jpg?w=300px",
+      "title": "NASA Mars Orbiter Captures Volcano Peeking Above Morning Cloud Tops",
+      "type": "Article"
     },
     {
-      "title": "What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years",
       "url": "https://science.nasa.gov/science-research/heliophysics/what-nasa-is-learning-from-the-biggest-geomagnetic-storm-in-20-years/",
-      "type": "news"
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/space-weather/240511_青森鳥居とオーロラ_14mm_R5B01760.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px",
+      "title": "UPDATED: 10 Things for Mars 10",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/odyssey/nasas-mars-odyssey-captures-huge-volcano-nears-100000-orbits/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/06/1-pia26305-odyssey-views-olympus-mons.png?w=300px",
+      "title": "NASA’s Mars Odyssey Captures Huge Volcano, Nears 100,000 Orbits",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/odyssey/nasa-orbiter-snaps-stunning-views-of-mars-horizon/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2023/11/1-pia26203-odysseys-themis-views-the-horizon-of-mars.png?w=300px",
+      "title": "NASA Orbiter Snaps Stunning Views of Mars Horizon",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/odyssey/engineers-keep-an-eye-on-fuel-supply-of-nasas-oldest-mars-orbiter/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2023/03/1-pia04244-1041.jpg?w=300px",
+      "title": "Engineers Keep an Eye on Fuel Supply of NASA’s Oldest Mars Orbiter",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/odyssey/science-at-sunrise-solving-the-mystery-of-frost-hiding-on-mars/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2022/05/1-pia25233-1041.jpg?w=300px",
+      "title": "Science at Sunrise: Solving the Mystery of Frost Hiding on Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/solar-system/update-nasa-extends-exploration-for-8-planetary-science-missions/",
+      "story_image_url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px",
+      "title": "Update: NASA Extends Exploration for 8 Planetary Science Missions",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/solar-system/nasas-mars-fleet-lies-low-with-sun-between-earth-and-red-planet/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2021/09/pia24838_0.jpg?w=300px",
+      "title": "NASA’s Mars Fleet Lies Low With Sun Between Earth and Red Planet",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/universe/nasas-fermi-spots-a-supernovas-fizzled-gamma-ray-burst/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2021/07/short-long-grb-still.jpg?w=300px",
+      "title": "NASA’s Fermi Spots a Supernova’s ‘Fizzled’ Gamma-Ray Burst",
+      "type": "Article"
     }
   ],
   "mission_status": "active",
   "stories_page_url": "https://science.nasa.gov/mission/odyssey/stories/",
-  "scraped_at": "2025-07-03T10:11:02.022320"
+  "scraped_at": "2025-07-08T14:47:10.150367"
 }

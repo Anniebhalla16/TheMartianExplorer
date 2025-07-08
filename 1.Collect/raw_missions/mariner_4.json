@@ -22,8 +22,15 @@
       "value": "July 14, 1965"
     }
   ],
-  "stories": [],
+  "stories": [
+    {
+      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/maven-continues-mars-exploration-begun-50-years-ago-by-mariner-4/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2015/03/helmet_0.jpg?w=300px",
+      "title": "MAVEN Continues Mars Exploration Begun 50 Years Ago by Mariner 4",
+      "type": "Article"
+    }
+  ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-4/stories/",
-  "scraped_at": "2025-07-03T10:10:47.388279"
+  "scraped_at": "2025-07-08T14:46:54.339407"
 }

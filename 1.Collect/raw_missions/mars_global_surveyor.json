@@ -24,17 +24,49 @@
   ],
   "stories": [
     {
-      "title": "National Space Club Honors NASA, ULA Delta II Program Team",
       "url": "https://www.nasa.gov/missions/mars-pathfinder/national-space-club-honors-nasa-ula-delta-ii-program-team/",
-      "type": "news"
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2019/05/lsp_delta_ii_award_photo.jpg?w=300px",
+      "title": "National Space Club Honors NASA, ULA Delta II Program Team",
+      "type": "Article"
     },
     {
-      "title": "Mars Crater May Actually Be Ancient Supervolcano",
       "url": "https://www.nasa.gov/solar-system/mars-crater-may-actually-be-ancient-supervolcano/",
-      "type": "news"
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2015/02/combined.jpg?w=300px",
+      "title": "Mars Crater May Actually Be Ancient Supervolcano",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/nasa-orbiter-finds-possible-cave-skylights-on-mars/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/1/1240_20070921_Cave_02-full2.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "NASA Orbiter Finds Possible Cave Skylights on Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/nasa-findings-suggest-jets-bursting-from-martian-ice-cap/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/1/1096_artist-concept_img1-full2.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "NASA Findings Suggest Jets Bursting From Martian Ice Cap",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/mars-may-be-emerging-from-an-ice-age/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/1127_Icy_Mars-full2.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "Mars May Be Emerging From an Ice Age",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/delta-like-fan-on-mars-suggests-ancient-rivers-were-persistent/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/3109_20031113_20031113a-01_br-full2.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "Delta-Like Fan On Mars Suggests Ancient Rivers Were Persistent",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/mars-orbiter-cameras-100000th-image/",
+      "story_image_url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px",
+      "title": "Mars Orbiter Camera’s 100,000th Image",
+      "type": "Article"
     }
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mars-global-surveyor/stories/",
-  "scraped_at": "2025-07-03T10:10:59.885137"
+  "scraped_at": "2025-07-08T14:47:07.924257"
 }

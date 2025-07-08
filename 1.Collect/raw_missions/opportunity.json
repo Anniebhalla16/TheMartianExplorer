@@ -24,17 +24,61 @@
   ],
   "stories": [
     {
-      "title": "Sunset on Mars",
-      "url": "https://www.nasa.gov/image-article/sunset-on-mars/",
-      "type": "news"
+      "url": "https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px",
+      "title": "UPDATED: 10 Things for Mars 10",
+      "type": "Article"
     },
     {
-      "title": "Perseverance Rover Witnesses One Martian Dust Devil Eating Another",
-      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/",
-      "type": "news"
+      "url": "https://www.nasa.gov/missions/mer/20-years-after-landing-how-nasas-twin-rovers-changed-mars-science/",
+      "story_image_url": "https://images-assets.nasa.gov/image/PIA06739/PIA06739~orig.jpg?w=300px",
+      "title": "20 Years After Landing: How NASA’s Twin Rovers Changed Mars Science",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/nasas-search-for-life-astrobiology-in-the-solar-system-and-beyond/",
+      "story_image_url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px",
+      "title": "NASA’s Search for Life: Astrobiology in the Solar System and Beyond",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/mer/six-things-to-know-about-nasas-opportunity-rover/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/news_items/main_images/8414_1_MAIN_mars-rover-opportunity-tracks-Sol3754B-pia18605-CROPPED.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "Six Things to Know About NASA’s Opportunity Rover",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/mer/nasas-opportunity-rover-mission-on-mars-comes-to-end/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/news_items/main_images/8413_PIA06739-16x9-1.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "NASA’s Opportunity Rover Mission on Mars Comes to End",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/storm-chasers-on-mars-searching-for-dusty-secrets/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2018/07/dust-storm-comic_1.jpg?w=300px",
+      "title": "“Storm Chasers” on Mars Searching for Dusty Secrets",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/10-things-massive-dust-storm-on-mars/",
+      "story_image_url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/internal_resources/1183/Animated_GIF_of_dust_thickening_in_the_skies_of_Mars-1.gif?w=1041&h=928&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "10 Things: Massive Dust Storm on Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/moon/where-to-find-mission-raw-images/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/06/pia21973.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "Where to Find Mission Raw Images",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mer/nasa-celebrates-decade-of-mars-exploration-by-spirit-opportunity/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2015/03/opportunity_checkout-web.jpg?w=300px",
+      "title": "NASA Celebrates Decade of Mars Exploration by Spirit, Opportunity",
+      "type": "Article"
     }
   ],
   "mission_status": null,
   "stories_page_url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/",
-  "scraped_at": "2025-07-03T10:11:13.746083"
+  "scraped_at": "2025-07-08T14:47:22.438278"
 }

@@ -26,17 +26,67 @@
   ],
   "stories": [
     {
-      "title": "NASA’s Curiosity Mars Rover Starts Unpacking Boxwork Formations",
       "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/",
-      "type": "news"
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/06/e2-pia26558-curiosity-views-a-fractured-boxwork-ridge-up-close.png?w=300px",
+      "title": "NASA’s Curiosity Mars Rover Starts Unpacking Boxwork Formations",
+      "type": "Article"
     },
     {
-      "title": "What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years",
       "url": "https://science.nasa.gov/science-research/heliophysics/what-nasa-is-learning-from-the-biggest-geomagnetic-storm-in-20-years/",
-      "type": "news"
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/space-weather/240511_青森鳥居とオーロラ_14mm_R5B01760.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/nasa-orbiter-spots-curiosity-rover-making-tracks-to-next-science-stop/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/04/1-pia26553-hirise-views-curiosity-during-a-drive-figure-a.png?w=300px",
+      "title": "NASA Orbiter Spots Curiosity Rover Making Tracks to Next Science Stop",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/centers-and-facilities/ames/nasas-curiosity-rover-may-have-solved-mars-missing-carbonate-mystery/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/04/1-pia26554-curiosity-surveys-the-ubajara-sampling-site-4-figure-a.jpg?w=300px",
+      "title": "NASA’s Curiosity Rover May Have Solved Mars’ Missing Carbonate Mystery",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/mars-science-laboratory/nasas-curiosity-rover-detects-largest-organic-molecules-found-on-mars/",
+      "story_image_url": "https://assets.science.nasa.gov/content/dam/science/missions/msl/Cumberland%20Drill%20Hole.gif?w=989&h=664&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "NASA’s Curiosity Rover Detects Largest Organic Molecules Found on Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/nasas-curiosity-rover-captures-colorful-clouds-drifting-over-mars/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/02/pia26519-curiosity-views-blackborders.jpg?w=300px",
+      "title": "NASA’s Curiosity Rover Captures Colorful Clouds Drifting Over Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-takes-a-last-look-at-mysterious-sulfur/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/11/e1-pia26471-curiosity-3000pixels.jpg?w=300px",
+      "title": "NASA’s Curiosity Mars Rover Takes a Last Look at Mysterious Sulfur",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/solar-system/christine-knudson-uses-earthly-experience-to-study-martian-geology/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/10/maunaloa22-ck-rotated.jpg?w=300px",
+      "title": "Christine Knudson Uses Earthly Experience to Study Martian Geology",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/nasa-new-insights-into-how-mars-became-uninhabitable/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2024/09/mars-wet-lpi-16x9-1.jpg?w=1024?w=300px",
+      "title": "NASA: New Insights into How Mars Became Uninhabitable",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/heres-how-curiositys-sky-crane-changed-the-way-nasa-explores-mars/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2016/07/pia14839.jpg?w=300px",
+      "title": "Here’s How Curiosity’s Sky Crane Changed the Way NASA Explores Mars",
+      "type": "Article"
     }
   ],
   "mission_status": "active",
   "stories_page_url": "https://science.nasa.gov/mission/msl-curiosity/stories/",
-  "scraped_at": "2025-07-03T10:11:09.466205"
+  "scraped_at": "2025-07-08T14:47:17.936492"
 }

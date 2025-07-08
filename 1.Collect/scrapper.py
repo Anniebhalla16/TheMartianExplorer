@@ -51,76 +51,32 @@ class MarsMissionScraper:
             
             soup = BeautifulSoup(response.text, 'html.parser')
             
-            # Extract main title (h1)
+            # --- Extract main title (h1) ---
             title_element = soup.find('h1', class_='page-heading-md')
             title = title_element.get_text(strip=True) if title_element else "Unknown Mission"
             
-            # Extract mission description (subtitle)
+            # --- Extract mission description (subtitle) ---
             subtitle_element = soup.find('p', class_='p-lg')
             subtitle = subtitle_element.get_text(strip=True) if subtitle_element else ""
             
-            # Extract all narrative paragraphs from the main content
-            paragraphs = []
-            entry_content = soup.find('div', class_='entry-content')
-            if entry_content:
-                # Get paragraphs from encyclopedic content
-                content_columns = entry_content.find('div', class_='hds-encyclopedic-primary-column')
-                if content_columns:
-                    for p in content_columns.find_all('p'):
-                        text = p.get_text(strip=True)
-                        if text and len(text) > 20:  # Filter out very short paragraphs
-                            paragraphs.append(text)
-                
-                # Also get paragraphs from mission meta description
-                meta_section = entry_content.find('div', class_='mission-single-meta')
-                if meta_section:
-                    for p in meta_section.find_all('p', class_='p-lg'):
-                        text = p.get_text(strip=True)
-                        if text and len(text) > 20:
-                            paragraphs.append(text)            
+            # --- extract all narrative paragraphs from the main content ---
+            paragraphs = self.get_text_content(soup)
             
             # --- extract metadata from both possible containers ---
-            metadata_table = []
-            seen_keys = set()
-
-            # grab all the <div class="grid-row"> blocks living under either meta‐section
-            rows = soup.select(
-                "div.mission-single-meta div.grid-row, div.hds-mission-header div.grid-row"
-            )
-
-            for row in rows:
-                # within each row, the label/value lives in either
-                #   <div class="grid-col-6">…</div>
-                # or
-                #   <div class="grid-col">…</div>
-                blocks = row.select("div.grid-col-6, div.grid-col")
-
-                for blk in blocks:
-                    label_elem = blk.find("p", class_="label")
-                    value_elem = blk.find("div", class_="p-lg")
-
-                    if not (label_elem and value_elem):
-                        continue
-
-                    key = label_elem.get_text(strip=True)
-                    value = value_elem.get_text(strip=True)
-
-                    # only add each key once
-                    if key and value and key not in seen_keys:
-                        metadata_table.append({"key": key, "value": value})
-                        seen_keys.add(key)
+            metadata_table = self.get_metadata(soup)
             
             # --- extract mission status ---
             mission_status = self.scrape_mission_status(soup)
                    
-            # [CHALLENGE] Extract publication/last updated date - here we try multiple approaches
-            pub_date = self.extract_publication_date(soup, url)
+            # --- [CHALLENGE] Extract publication/last updated date - here we try multiple approaches ---
+            pub_date = self.extract_publication_date(soup)
             
-            # [EXTENDED SCRAPPING] Get mission stories/news links from the main page
-            stories = self.extract_mission_stories(soup, url)
+            # --- Find and scrape the dedicated stories/news page ---
+            stories_page_url = self.find_mission_stories_page_url(soup, url)
             
-            # Find and scrape the dedicated stories/news page
-            stories_page_url = self.find_mission_stories_page(soup, url)
+            # --- Extended scrapping ---
+            stories = self.extract_all_mission_stories(stories_page_url)
+            
 
             return {
                 "title": title,
@@ -132,14 +88,35 @@ class MarsMissionScraper:
                 "stories": stories,
                 'mission_status' : mission_status,
                 "stories_page_url": stories_page_url,
-                "scraped_at": datetime.now().isoformat()
+                "scraped_at": datetime.now().isoformat(),
             }
             
         except Exception as e:
             logger.error(f"Error scraping {url}: {e}")
             return None
     
-    def extract_publication_date(self, soup, url):
+    def get_text_content(self, soup):
+        paragraphs= []
+        entry_content = soup.find('div', class_='entry-content')
+        if entry_content:
+            # Get paragraphs from encyclopedic content
+            content_columns = entry_content.find('div', class_='hds-encyclopedic-primary-column')
+            if content_columns:
+                for p in content_columns.find_all('p'):
+                    text = p.get_text(strip=True)
+                    if text and len(text) > 20:  # Filter out very short paragraphs
+                        paragraphs.append(text)
+                
+            # Also get paragraphs from mission meta description
+            meta_section = entry_content.find('div', class_='mission-single-meta')
+            if meta_section:
+                for p in meta_section.find_all('p', class_='p-lg'):
+                    text = p.get_text(strip=True)
+                    if text and len(text) > 20:
+                        paragraphs.append(text)      
+        return paragraphs      
+        
+    def extract_publication_date(self, soup):
         """Extract publication date from various sources"""
         # Try to find date in meta tags
         date_meta = soup.find('meta', {'property': 'article:published_time'})
@@ -159,28 +136,95 @@ class MarsMissionScraper:
         # Default to current date if not found
         return datetime.now().isoformat()
     
-    def extract_mission_stories(self, soup, base_url):
-        """Extract related stories and news articles from the main mission page"""
-        stories = []
-        
-        # Look for news items in the automated news section
-        news_section = soup.find('div', class_='wp-block-nasa-blocks-news-automated')
-        if news_section:
-            news_items = news_section.find_all('a', class_='latest-news-item')
-            for item in news_items:
-                story_url = item.get('href')
-                title_elem = item.find('p', class_='heading-22') or item.find('p', class_='heading-14')
-                
-                if story_url and title_elem:
-                    stories.append({
-                        "title": title_elem.get_text(strip=True),
-                        "url": urljoin(base_url, story_url),
-                        "type": "news"
-                    })
-        
-        return stories
+    def get_metadata(self, soup):
+        metadata_table = []
+        seen_keys = set()
+
+        # grab all the <div class="grid-row"> blocks living under either meta‐section
+        rows = soup.select(
+            "div.mission-single-meta div.grid-row, div.hds-mission-header div.grid-row" )
+
+        for row in rows:
+                # within each row, the label/value lives in either
+                #   <div class="grid-col-6">…</div>
+                # or
+                #   <div class="grid-col">…</div>
+            blocks = row.select("div.grid-col-6, div.grid-col")
+
+            for blk in blocks:
+                label_elem = blk.find("p", class_="label")
+                value_elem = blk.find("div", class_="p-lg")
+
+                if not (label_elem and value_elem):
+                    continue
+
+                key = label_elem.get_text(strip=True)
+                value = value_elem.get_text(strip=True)
+
+                    # only add each key once
+                if key and value and key not in seen_keys:
+                    metadata_table.append({"key": key, "value": value})
+                    seen_keys.add(key)
+                    
+        return metadata_table
+            
     
-    def find_mission_stories_page(self, soup, base_url):
+    def extract_all_mission_stories(self, stories_url):
+        """Scrape all story URLs, thumbnails, titles and types from a mission's stories page"""
+        try:
+            logger.info(f"Scraping stories page: {stories_url}")
+            resp = self.session.get(stories_url)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, 'html.parser')
+
+            # target the three container classes
+            story_items = soup.select(
+                "div.hds-content-item.content-list-item-post-ext, "
+                "div.hds-content-item.content-list-item-post, "
+                "div.hds-content-item.content-list-item-press-release-ext"
+            )
+
+            stories = []
+            for item in story_items:
+                # 1) URL & thumbnail
+                thumb_link = item.find('a', class_='hds-content-item-thumbnail')
+                if not thumb_link or not thumb_link.get('href'):
+                    continue
+                story_url = thumb_link['href']
+                img = thumb_link.find('img')
+                story_image_url = img.get('src') if img else None
+
+                # 2) Title
+                inner = item.find('div', class_='hds-content-item-inner')
+                if not inner:
+                    continue
+
+                heading_link = inner.find('a', class_='hds-content-item-heading')
+                title = None
+                if heading_link:
+                    title_div = heading_link.find('div', class_='hds-a11y-heading-22')
+                    title = title_div.get_text(strip=True) if title_div else None
+
+                # 3) Type
+                type_span = inner.select_one('div.label span')
+                story_type = type_span.get_text(strip=True) if type_span else None
+
+                stories.append({
+                    "url": story_url,
+                    "story_image_url": story_image_url,
+                    "title": title,
+                    "type": story_type   
+                })
+
+            logger.info(f"Found {len(stories)} stories on {stories_url}")
+            return stories
+
+        except Exception as e:
+            logger.error(f"Error scraping stories page {stories_url}: {e}")
+            return []
+
+    
+    def find_mission_stories_page_url(self, soup, base_url):
         """Find the dedicated stories/news page URL for a mission"""
         stories_url = None
         
@@ -234,53 +278,8 @@ class MarsMissionScraper:
         
         return stories_url
 
-
-    def scrape_stories_page(self, stories_url):
-        """Scrape all story URLs from a mission's stories page"""
-        try:
-            logger.info(f"Scraping stories page: {stories_url}")
-            response = self.session.get(stories_url)
-            response.raise_for_status()
-            
-            soup = BeautifulSoup(response.text, 'html.parser')
-            story_urls = []
-            
-            # Look for story links in various possible containers
-            selectors_to_try = [
-                'hds-content-item-thumbnail a[href]',
-                # 'article a[href]',
-                '.hds-content-item a[href]',
-                # '.news-item a[href]',
-                # '.story-item a[href]',
-                # '.post a[href]',
-                # '.wp-block-post a[href]',
-                # '[class*="news"] a[href]',
-                # '[class*="story"] a[href]',
-                # '[class*="article"] a[href]',
-                # '.grid-col a[href*="/news/"]',
-                # '.grid-col a[href*="/article/"]',
-                # '.grid-col a[href*="/story/"]',
-                # '.grid-col a[href*="/blog/"]',
-                # 'a[href*="/press-release/"]'
-            ]
-            
-            for selector in selectors_to_try:
-                elements = soup.select(selector)
-                for element in elements:
-                    href = element.get('href')
-                    full_url= href
-                    if full_url not in story_urls:
-                        story_urls.append(full_url)
-            
-            
-            logger.info(f"Found {len(story_urls)} story URLs from {stories_url}")
-            return story_urls
-            
-        except Exception as e:
-            logger.error(f"Error scraping stories page {stories_url}: {e}")
-            return []
-       
     def scrape_mission_status(self, soup):
+        """ Returns the status of the mission - Active, Future, Past """
         badge = soup.find("div", class_="label tag tag-mission")
         if not badge:
             return None
@@ -307,143 +306,7 @@ class MarsMissionScraper:
                 return "future"
 
         return None
-
-
-    def scrape_individual_story(self, story_url):
-        """Scrape content from an individual story/article"""
-        try:
-            response = self.session.get(story_url)
-            response.raise_for_status()
-            
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Extract story title
-            title = None
-            title_selectors = ['h1', '.entry-title', '.article-title', '.post-title', '.page-heading-md']
-            for selector in title_selectors:
-                title_elem = soup.select_one(selector)
-                if title_elem:
-                    title = title_elem.get_text(strip=True)
-                    break
-            
-            # Extract publication date
-            pub_date = self.extract_story_date(soup)
-            
-            # Extract article content (be careful not to reproduce full copyrighted text)
-            content_summary = self.extract_story_summary(soup)
-            
-            # Extract key facts/metadata
-            metadata = self.extract_story_metadata(soup)
-            
-            return {
-                "title": title or "Unknown Title",
-                "url": story_url,
-                "publication_date": pub_date,
-                "summary": content_summary,
-                "metadata": metadata,
-                "scraped_at": datetime.now().isoformat()
-            }
-            
-        except Exception as e:
-            logger.error(f"Error scraping story {story_url}: {e}")
-            return None
-
-    def extract_story_date(self, soup):
-        """Extract publication date from story page"""
-        # Try multiple date extraction methods
-        date_selectors = [
-            'meta[property="article:published_time"]',
-            'meta[name="date"]',
-            'time[datetime]',
-            '.published-date',
-            '.article-date',
-            '.post-date',
-            '.date'
-        ]
-        
-        for selector in date_selectors:
-            elem = soup.select_one(selector)
-            if elem:
-                date_value = elem.get('content') or elem.get('datetime') or elem.get_text(strip=True)
-                if date_value:
-                    return date_value
-        
-        return None
-
-    def extract_story_summary(self, soup):
-        """Extract a brief summary of the story (not full copyrighted content)"""
-        # Extract only the first paragraph or meta description as summary
-        # This avoids reproducing copyrighted material
-        
-        # Try meta description first
-        meta_desc = soup.find('meta', {'name': 'description'})
-        if meta_desc:
-            return meta_desc.get('content', '').strip()
-        
-        # Try first paragraph of main content
-        content_selectors = [
-            '.entry-content p:first-of-type',
-            '.article-content p:first-of-type',
-            '.post-content p:first-of-type',
-            'main p:first-of-type',
-            '.content p:first-of-type'
-        ]
-        
-        for selector in content_selectors:
-            elem = soup.select_one(selector)
-            if elem:
-                text = elem.get_text(strip=True)
-                # Limit to first sentence or 200 characters to avoid copyright issues
-                if text:
-                    sentences = text.split('.')
-                    if sentences:
-                        return sentences[0][:200] + ('...' if len(sentences[0]) > 200 else '.')
-        
-        return ""
-
-    def extract_story_metadata(self, soup):
-        """Extract structured metadata from story"""
-        metadata = {}
-        
-        # Extract author
-        author_selectors = [
-            'meta[name="author"]',
-            '.author-name',
-            '.byline',
-            '[rel="author"]',
-            '.author'
-        ]
-        
-        for selector in author_selectors:
-            elem = soup.select_one(selector)
-            if elem:
-                author = elem.get('content') or elem.get_text(strip=True)
-                if author:
-                    metadata['author'] = author
-                    break
-        
-        # Extract categories/tags
-        categories = []
-        category_selectors = [
-            '.category',
-            '.tag',
-            '.post-category',
-            '[rel="category tag"]',
-            '.tags'
-        ]
-        
-        for selector in category_selectors:
-            elems = soup.select(selector)
-            for elem in elems:
-                cat = elem.get_text(strip=True)
-                if cat and cat not in categories:
-                    categories.append(cat)
-        
-        if categories:
-            metadata['categories'] = categories
-        
-        return metadata
-    
+   
     def save_mission_json(self, mission_data, filename):
         """Save mission data to JSON file"""
         try:

@@ -24,8 +24,69 @@
       "value": "Understanding the Martian upper atmosphere"
     }
   ],
-  "stories": [],
+  "stories": [
+    {
+      "url": "https://www.nasa.gov/people-of-nasa/paul-morris-filming-the-final-frontier/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/06/paul3.jpg?w=300px",
+      "title": "Paul Morris: Filming the Final Frontier",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/maven/nasas-maven-makes-first-observation-of-atmospheric-sputtering-at-mars/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/3850_1marsglobe1-full2.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "NASA’s MAVEN Makes First Observation of Atmospheric Sputtering at Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/nasa-observes-first-visible-light-auroras-at-mars/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/mars/images/auroraimage_knutsen_v1.png?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "NASA Observes First Visible-light Auroras at Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/science-research/heliophysics/what-nasa-is-learning-from-the-biggest-geomagnetic-storm-in-20-years/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/space-weather/240511_青森鳥居とオーロラ_14mm_R5B01760.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/maven/celebrating-10-years-at-mars-with-nasas-maven-mission/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2024/09/maven-hero-image.png?w=1024?w=300px",
+      "title": "Celebrating 10 Years at Mars with NASA’s MAVEN Mission",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/nasas-hubble-maven-help-solve-the-mystery-of-mars-escaping-water/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2024/09/hubble-maven-mars-feature-stsci-01j6a1t00q0jdpwn14jyqxyr95.jpg?w=1024?w=300px",
+      "title": "NASA’s Hubble, MAVEN Help Solve the Mystery of Mars’ Escaping Water",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px",
+      "title": "UPDATED: 10 Things for Mars 10",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-watches-mars-light-up-during-epic-solar-storm/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/06/1-pia26303-curiosity-sees-specks-while-recording-a-wind-gust-in-2024.gif?w=300px",
+      "title": "NASA Watches Mars Light Up During Epic Solar Storm",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-scientists-gear-up-for-solar-storms-at-mars/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/04/1-coronal-mass-ejection-captured-by-sdo-1.jpg?w=300px",
+      "title": "NASA Scientists Gear Up for Solar Storms at Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/get-involved/citizen-science/major-martian-milestones/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2024/04/themis-cloud.jpg?w=1024?w=300px",
+      "title": "Major Martian Milestones",
+      "type": "Article"
+    }
+  ],
   "mission_status": "active",
   "stories_page_url": "https://science.nasa.gov/mission/maven/stories/",
-  "scraped_at": "2025-07-03T10:11:10.536301"
+  "scraped_at": "2025-07-08T14:47:19.074128"
 }

@@ -26,17 +26,67 @@
   ],
   "stories": [
     {
-      "title": "An Update from the 2025 Mars 2020 Science Team Meeting",
-      "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/",
-      "type": "news"
+      "url": "https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/06/1-pia04918-mro-artists-concept.jpg?w=300px",
+      "title": "NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space",
+      "type": "Article"
     },
     {
-      "title": "NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space",
-      "url": "https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/",
-      "type": "news"
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/06/1-pia26575-fcam-abrade-1531.jpg?w=300px",
+      "title": "NASA’s Perseverance Rover Scours Mars for Science",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/06/e2-pia26558-curiosity-views-a-fractured-boxwork-ridge-up-close.png?w=300px",
+      "title": "NASA’s Curiosity Mars Rover Starts Unpacking Boxwork Formations",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/people-of-nasa/paul-morris-filming-the-final-frontier/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/06/paul3.jpg?w=300px",
+      "title": "Paul Morris: Filming the Final Frontier",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/odyssey/nasa-mars-orbiter-captures-volcano-peeking-above-morning-cloud-tops/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/06/1-themis-views-mars-arsia-mons-volcano-crop1.jpg?w=300px",
+      "title": "NASA Mars Orbiter Captures Volcano Peeking Above Morning Cloud Tops",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/maven/nasas-maven-makes-first-observation-of-atmospheric-sputtering-at-mars/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/3850_1marsglobe1-full2.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "NASA’s MAVEN Makes First Observation of Atmospheric Sputtering at Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/devils-in-details-in-selfie-taken-by-nasas-mars-perseverance-rover/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/05/pia26574-fig-a-m2020-5th-selfie-16.jpg?w=300px",
+      "title": "Devil’s in Details in Selfie Taken by NASA’s Mars Perseverance Rover",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-mars-rover-to-take-bite-out-of-krokodillen/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26573-navcam-nlf-1503-0800373830-316fdr-n0731522ncam13503-0a0195j01-srgb-scaled-stretched-cropped.png?w=300px",
+      "title": "NASA’s Perseverance Mars Rover to Take Bite Out of ‘Krokodillen’",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/nasa-observes-first-visible-light-auroras-at-mars/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/mars/images/auroraimage_knutsen_v1.png?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "NASA Observes First Visible-light Auroras at Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/europa-clipper/nasas-europa-clipper-captures-mars-in-infrared/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26562-e-themis-mars.png?w=300px",
+      "title": "NASA’s Europa Clipper Captures Mars in Infrared",
+      "type": "Article"
     }
   ],
   "mission_status": "active",
   "stories_page_url": "https://science.nasa.gov/mars/stories/",
-  "scraped_at": "2025-07-03T10:10:43.073813"
+  "scraped_at": "2025-07-08T14:46:49.836814"
 }

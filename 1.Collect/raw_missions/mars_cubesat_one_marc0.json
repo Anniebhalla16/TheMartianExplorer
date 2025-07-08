@@ -24,17 +24,13 @@
   ],
   "stories": [
     {
-      "title": "NASA CubeSat Focuses on Instrument Calibration Enhancement",
-      "url": "https://www.nasa.gov/blogs/smallsatellites/2025/06/21/nasa-cubesat-focuses-on-instrument-calibration-enhancement/",
-      "type": "news"
-    },
-    {
-      "title": "NASA’S EZIE Begins Study of Auroral Electrojets",
-      "url": "https://science.nasa.gov/blogs/ezie/2025/05/27/nasas-ezie-begins-study-of-auroral-electrojets/",
-      "type": "news"
+      "url": "https://science.nasa.gov/missions/small-satellite-missions/marco/small-satellite-mission-of-the-year/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/news_items/main_images/8501_PIA22314-16.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "Small Satellite Mission of the Year",
+      "type": "Article"
     }
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/marco/stories/",
-  "scraped_at": "2025-07-03T10:10:56.681138"
+  "scraped_at": "2025-07-08T14:47:04.567119"
 }

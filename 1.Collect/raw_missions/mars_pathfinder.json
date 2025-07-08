@@ -24,17 +24,43 @@
   ],
   "stories": [
     {
-      "title": "Perseverance Rover Witnesses One Martian Dust Devil Eating Another",
       "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/",
-      "type": "news"
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/04/1-pia26528-dust-devil-lunch-navcam-sol1398-dd.gif?w=300px",
+      "title": "Perseverance Rover Witnesses One Martian Dust Devil Eating Another",
+      "type": "Article"
     },
     {
-      "title": "Screening Soon: ‘The Pathfinders’ Trains Lens on Mars",
       "url": "https://www.nasa.gov/solar-system/screening-soon-the-pathfinders-trains-lens-on-mars/",
-      "type": "news"
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2019/11/pathfinder-background_small-1041.jpg?w=300px",
+      "title": "Screening Soon: ‘The Pathfinders’ Trains Lens on Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-pathfinder/national-space-club-honors-nasa-ula-delta-ii-program-team/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2019/05/lsp_delta_ii_award_photo.jpg?w=300px",
+      "title": "National Space Club Honors NASA, ULA Delta II Program Team",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/maven-continues-mars-exploration-begun-50-years-ago-by-mariner-4/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2015/03/helmet_0.jpg?w=300px",
+      "title": "MAVEN Continues Mars Exploration Begun 50 Years Ago by Mariner 4",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/mars-pathfinder-winds-down-after-phenomenal-mission/",
+      "story_image_url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px",
+      "title": "Mars Pathfinder Winds Down After Phenomenal Mission",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/mars-pathfinder-lands-on-mars/",
+      "story_image_url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px",
+      "title": "Mars Pathfinder Lands on Mars",
+      "type": "Article"
     }
   ],
   "mission_status": null,
   "stories_page_url": "https://science.nasa.gov/mission/mars-pathfinder/stories/",
-  "scraped_at": "2025-07-03T10:11:04.138634"
+  "scraped_at": "2025-07-08T14:47:12.372384"
 }

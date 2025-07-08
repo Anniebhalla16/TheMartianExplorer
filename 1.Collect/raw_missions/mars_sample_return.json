@@ -26,17 +26,67 @@
   ],
   "stories": [
     {
-      "title": "NASA to Explore Two Landing Options for Returning Samples from Mars",
       "url": "https://www.nasa.gov/news-release/nasa-to-explore-two-landing-options-for-returning-samples-from-mars/",
-      "type": "news"
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2025/01/mrs-photo.png?w=300px",
+      "title": "NASA to Explore Two Landing Options for Returning Samples from Mars",
+      "type": "News Release"
     },
     {
-      "title": "NASA to Host Media Call Highlighting Mars Sample Return Update",
       "url": "https://www.nasa.gov/news-release/nasa-to-host-media-call-highlighting-mars-sample-return-update/",
-      "type": "news"
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/08/meatball-w-black-background.webp?w=300px",
+      "title": "NASA to Host Media Call Highlighting Mars Sample Return Update",
+      "type": "News Release"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/mars-sample-return/new-team-to-assess-nasas-mars-sample-return-architecture-proposals/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2024/05/nasa_meatball_large.jpg?w=1024?w=300px",
+      "title": "New Team to Assess NASA’s Mars Sample Return Architecture Proposals",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-to-begin-long-climb-up-martian-crater-rim/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/08/1-pia-26373-5000px.jpg?w=300px",
+      "title": "NASA’s Perseverance Rover to Begin Long Climb Up Martian Crater Rim",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/solar-system/nasas-perseverance-rover-scientists-find-intriguing-mars-rock/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/07/1-pia26368-perseverance-finds-a-rock-with-leopard-spots.png?w=300px",
+      "title": "NASA’s Perseverance Rover Scientists Find Intriguing Mars Rock",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px",
+      "title": "UPDATED: 10 Things for Mars 10",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-fords-an-ancient-river-to-reach-science-target/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/06/1-pia26335-looking-down-channel-enchanced-web.jpg?w=300px",
+      "title": "NASA’s Perseverance Fords an Ancient River to Reach Science Target",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/clare-luckey-shaping-the-future-of-mars-missions-and-inspiring-the-artemis-generation/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/05/luckey.jpg?w=300px",
+      "title": "Clare Luckey: Shaping the Future of Mars Missions and Inspiring the Artemis Generation",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/ingenuity-helicopter/nasas-ingenuity-mars-helicopter-team-says-goodbye-for-now/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/04/1-pia26238-heli-on-valinor.png?w=300px",
+      "title": "NASA’s Ingenuity Mars Helicopter Team Says Goodbye … for Now",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-sets-path-to-return-mars-samples-seeks-innovative-designs/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2023/02/nasa_meatball_1.jpg?w=300px",
+      "title": "NASA Sets Path to Return Mars Samples, Seeks Innovative Designs",
+      "type": "News Release"
     }
   ],
   "mission_status": "future",
   "stories_page_url": "https://science.nasa.gov/mission/mars-sample-return/stories/",
-  "scraped_at": "2025-07-03T10:11:08.401791"
+  "scraped_at": "2025-07-08T14:47:16.827360"
 }

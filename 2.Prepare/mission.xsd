@@ -86,6 +86,7 @@
       <xs:element name="title" type="xs:string" minOccurs="0"/>
       <xs:element name="url" type="EmptyOrURI" minOccurs="0"/>
       <xs:element name="type" type="StoryTypeEnumOrEmpty" minOccurs="0"/>
+      <xs:element name="story_image_url" type="xs:string" minOccurs="0"/>
     </xs:sequence>
   </xs:complexType>
 
@@ -95,12 +96,13 @@
 
   <xs:simpleType name="StoryTypeEnum">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="news"/>
-      <xs:enumeration value="article"/>
-      <xs:enumeration value="blog"/>
-      <xs:enumeration value="press-release"/>
-      <xs:enumeration value="feature"/>
-      <xs:enumeration value="update"/>
+      <xs:enumeration value="News"/>
+      <xs:enumeration value="Article"/>
+      <xs:enumeration value="Blog"/>
+      <xs:enumeration value="Press-release"/>
+      <xs:enumeration value="Feature"/>
+      <xs:enumeration value="Update"/>
+      <xs:enumeration value="News Release"/>
     </xs:restriction>
   </xs:simpleType>
 

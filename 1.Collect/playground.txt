@@ -1,0 +1,210 @@
+# Mission Status
+
+<div class="label tag tag-mission">
+<div class="mission-status-icon bg-carbon-30"></div>
+<span>Occurred 50 years ago</span>
+</div>
+
+<div class="label tag tag-mission">
+							<div class="mission-status-icon bg-active-green"></div>
+							<span>Active Mission</span>
+						</div>
+
+
+<div class="label tag tag-mission">
+	<div class="mission-status-icon bg-nasa-blue-tint"></div>
+	<span>Future Mission</span>
+</div>
+
+
+ {/* TODO: add active , future, past*/}
+      {/* Data Timestamp */}
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-2">Mission Status</label>
+        <div className="space-y-3">
+          <div className="flex items-center space-x-4">
+            <label className="flex items-center">
+              <input
+                type="radio"
+                name="timeframe"
+                checked={filters.isUpcoming === true}
+                onChange={() => onFilterChange({ isUpcoming: true })}
+                className="mr-2"
+                disabled={loading}
+              />
+              <span className="text-sm text-gray-700">Upcoming</span>
+            </label>
+            <label className="flex items-center">
+              <input
+                type="radio"
+                name="timeframe"
+                checked={filters.isUpcoming === false}
+                onChange={() => onFilterChange({ isUpcoming: false })}
+                className="mr-2"
+                disabled={loading}
+              />
+              <span className="text-sm text-gray-700">Historical</span>
+            </label>
+            <label className="flex items-center">
+              <input
+                type="radio"
+                name="timeframe"
+                checked={filters.isUpcoming === null}
+                onChange={() => onFilterChange({ isUpcoming: null })}
+                className="mr-2"
+                disabled={loading}
+              />
+              <span className="text-sm text-gray-700">All</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+
+# challenges- launch date landing date many different ways that it is there in the html
+# extracting publicaiton date from the article
+
+
+ STORIES URL ->
+ <div id="post-list-container" class="hds-content-items hds-content-items-list margin-top-2" aria-live="polite" data-rest-url="https://science.nasa.gov/wp-json/smd/v1/content-list">    <div class="hds-content-item content-list-item-press-release-ext">
+                    <a href="https://www.nasa.gov/news-release/nasa-to-explore-two-landing-options-for-returning-samples-from-mars/" class="hds-content-item-thumbnail">
+                <figure class="hds-media-background  content-list-thumbnail"><img loading="lazy" data-no-id="true" sizes="auto, (max-width: 300px) 100vw, 300px" srcset="https://www.nasa.gov/wp-content/uploads/2025/01/mrs-photo.png?w=300 300w" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://www.nasa.gov/wp-content/uploads/2025/01/mrs-photo.png?w=300px"></figure>            </a>
+                <div class="hds-content-item-inner">
+            <a href="https://www.nasa.gov/news-release/nasa-to-explore-two-landing-options-for-returning-samples-from-mars/" class="hds-content-item-heading">
+                <div class="hds-a11y-heading-22">NASA to Explore Two Landing Options for Returning Samples from Mars</div>
+            </a>
+                            <div class="hds-content-item-readtime label margin-bottom-1">
+                    3 min read                </div>
+                                                    <p class="margin-top-0 margin-bottom-1">To maximize chances of successfully bringing the first Martian rock and sediment samples to Earth for the benefit of humanity, NASA announced Tuesday a new approach to its Mars Sample Return Program. The agency will simultaneously pursue two landing architectures,…</p>
+                                    <div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg class="square-2 margin-right-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g> <path d="M8,0c4.4,0,7.9,3.5,8,7.9c0.1,4.5-3.5,8.1-7.9,8.1c-4.5,0-8-3.6-8.1-7.9C-0.1,3.6,3.6,0,8,0z M0.8,8 c0,4,3.2,7.2,7.2,7.2c4,0,7.2-3.2,7.2-7.2c0-4-3.3-7.2-7.2-7.2C4,0.8,0.8,4,0.8,8z"></path><path d="M11.2,4c0,2.7,0,5.3,0,8c-2.1,0-4.3,0-6.4,0c0,0,0,0,0-0.1c0-1.8,0-3.6,0-5.4c0-0.8,0-1.6,0-2.4 C4.8,4,4.8,4,4.9,4C6.2,4,7.6,4,9,4C9.7,4,10.4,4,11.2,4C11.1,4,11.2,4,11.2,4z M9.6,5.6c-1.1,0-2.1,0-3.2,0c0,0,0,0,0,0.1 c0,0.5,0,1,0,1.5c0,0.1,0,0.1,0.1,0.1c1,0,2,0,3.1,0c0,0,0.1,0,0.1-0.1C9.6,6.6,9.6,6.2,9.6,5.6C9.6,5.6,9.6,5.6,9.6,5.6z M6.4,8.8C6.4,8.8,6.4,8.8,6.4,8.8c1.1,0,2.1,0,3.1,0c0.1,0,0.1,0,0.1-0.1c0-0.2,0-0.4,0-0.7c0,0,0,0,0-0.1C8.5,8,7.5,8,6.4,8 C6.4,8.3,6.4,8.5,6.4,8.8z M8.8,10.4C8.8,10.4,8.8,10.4,8.8,10.4c0-0.3,0-0.5,0-0.7c0-0.1,0-0.1-0.1-0.1c-0.5,0-1,0-1.5,0 c-0.3,0-0.5,0-0.8,0c0,0,0,0-0.1,0c0,0.3,0,0.5,0,0.8C7.2,10.4,8,10.4,8.8,10.4z"></path></g></svg><span>News Release</span></div>                    </div>
+            </div>
+        <div class="hds-content-item content-list-item-press-release-ext">
+                    <a href="https://www.nasa.gov/news-release/nasa-to-host-media-call-highlighting-mars-sample-return-update/" class="hds-content-item-thumbnail">
+                <figure class="hds-media-background  content-list-thumbnail"><img loading="lazy" data-no-id="true" sizes="auto, (max-width: 300px) 100vw, 300px" srcset="https://www.nasa.gov/wp-content/uploads/2024/08/meatball-w-black-background.webp?w=300 300w" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://www.nasa.gov/wp-content/uploads/2024/08/meatball-w-black-background.webp?w=300px"></figure>            </a>
+                <div class="hds-content-item-inner">
+            <a href="https://www.nasa.gov/news-release/nasa-to-host-media-call-highlighting-mars-sample-return-update/" class="hds-content-item-heading">
+                <div class="hds-a11y-heading-22">NASA to Host Media Call Highlighting Mars Sample Return Update</div>
+            </a>
+                            <div class="hds-content-item-readtime label margin-bottom-1">
+                    2 min read                </div>
+                                                    <p class="margin-top-0 margin-bottom-1">NASA Administrator Bill Nelson and Nicky Fox, associate administrator, Science Mission Directorate, will host a media teleconference at 1 p.m. EST, Tuesday, Jan. 7, to provide an update on the status of the agency’s Mars Sample Return Program. The briefing…</p>
+                                    <div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg class="square-2 margin-right-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g> <path d="M8,0c4.4,0,7.9,3.5,8,7.9c0.1,4.5-3.5,8.1-7.9,8.1c-4.5,0-8-3.6-8.1-7.9C-0.1,3.6,3.6,0,8,0z M0.8,8 c0,4,3.2,7.2,7.2,7.2c4,0,7.2-3.2,7.2-7.2c0-4-3.3-7.2-7.2-7.2C4,0.8,0.8,4,0.8,8z"></path><path d="M11.2,4c0,2.7,0,5.3,0,8c-2.1,0-4.3,0-6.4,0c0,0,0,0,0-0.1c0-1.8,0-3.6,0-5.4c0-0.8,0-1.6,0-2.4 C4.8,4,4.8,4,4.9,4C6.2,4,7.6,4,9,4C9.7,4,10.4,4,11.2,4C11.1,4,11.2,4,11.2,4z M9.6,5.6c-1.1,0-2.1,0-3.2,0c0,0,0,0,0,0.1 c0,0.5,0,1,0,1.5c0,0.1,0,0.1,0.1,0.1c1,0,2,0,3.1,0c0,0,0.1,0,0.1-0.1C9.6,6.6,9.6,6.2,9.6,5.6C9.6,5.6,9.6,5.6,9.6,5.6z M6.4,8.8C6.4,8.8,6.4,8.8,6.4,8.8c1.1,0,2.1,0,3.1,0c0.1,0,0.1,0,0.1-0.1c0-0.2,0-0.4,0-0.7c0,0,0,0,0-0.1C8.5,8,7.5,8,6.4,8 C6.4,8.3,6.4,8.5,6.4,8.8z M8.8,10.4C8.8,10.4,8.8,10.4,8.8,10.4c0-0.3,0-0.5,0-0.7c0-0.1,0-0.1-0.1-0.1c-0.5,0-1,0-1.5,0 c-0.3,0-0.5,0-0.8,0c0,0,0,0-0.1,0c0,0.3,0,0.5,0,0.8C7.2,10.4,8,10.4,8.8,10.4z"></path></g></svg><span>News Release</span></div>                    </div>
+            </div>
+        <div class="hds-content-item content-list-item-post">
+                    <a href="https://science.nasa.gov/missions/mars-sample-return/new-team-to-assess-nasas-mars-sample-return-architecture-proposals/" class="hds-content-item-thumbnail">
+                <figure class="hds-media-background  content-list-thumbnail"><img loading="lazy" data-no-id="true" sizes="auto, (max-width: 300px) 100vw, 300px" srcset="https://science.nasa.gov/wp-content/uploads/2024/05/nasa_meatball_large.jpg?w=1024?w=300 300w" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://science.nasa.gov/wp-content/uploads/2024/05/nasa_meatball_large.jpg?w=1024?w=300px"></figure>            </a>
+                <div class="hds-content-item-inner">
+            <a href="https://science.nasa.gov/missions/mars-sample-return/new-team-to-assess-nasas-mars-sample-return-architecture-proposals/" class="hds-content-item-heading">
+                <div class="hds-a11y-heading-22">New Team to Assess NASA’s Mars Sample Return Architecture Proposals</div>
+            </a>
+                            <div class="hds-content-item-readtime label margin-bottom-1">
+                    4 min read                </div>
+                                                    <p class="margin-top-0 margin-bottom-1">NASA announced Wednesday a new strategy review team will assess potential architecture adjustments for the agency’s Mars Sample Return Program, which aims to bring back scientifically selected samples from Mars, and is a key step in NASA’s quest to better…</p>
+                                    <div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>Article</span></div>                    </div>
+            </div>
+        <div class="hds-content-item content-list-item-post-ext">
+                    <a href="https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-to-begin-long-climb-up-martian-crater-rim/" class="hds-content-item-thumbnail">
+                <figure class="hds-media-background  content-list-thumbnail"><img loading="lazy" data-no-id="true" sizes="auto, (max-width: 300px) 100vw, 300px" srcset="https://www.nasa.gov/wp-content/uploads/2024/08/1-pia-26373-5000px.jpg?w=300 300w" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://www.nasa.gov/wp-content/uploads/2024/08/1-pia-26373-5000px.jpg?w=300px"></figure>            </a>
+                <div class="hds-content-item-inner">
+            <a href="https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-to-begin-long-climb-up-martian-crater-rim/" class="hds-content-item-heading">
+                <div class="hds-a11y-heading-22">NASA’s Perseverance Rover to Begin Long Climb Up Martian Crater Rim</div>
+            </a>
+                            <div class="hds-content-item-readtime label margin-bottom-1">
+                    5 min read                </div>
+                                                    <p class="margin-top-0 margin-bottom-1">Editor’s note:&nbsp;This story was updated Aug. 16, 2024, to correct the length of time that NASA’s Perseverance Mars rover has been exploring Jezero Crater. After 3½ years exploring Jezero Crater’s floor and river delta, the rover will ascend to an…</p>
+                                    <div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>Article</span></div>                    </div>
+            </div>
+        <div class="hds-content-item content-list-item-post-ext">
+                    <a href="https://www.nasa.gov/solar-system/nasas-perseverance-rover-scientists-find-intriguing-mars-rock/" class="hds-content-item-thumbnail">
+                <figure class="hds-media-background  content-list-thumbnail"><img loading="lazy" data-no-id="true" sizes="auto, (max-width: 300px) 100vw, 300px" srcset="https://www.nasa.gov/wp-content/uploads/2024/07/1-pia26368-perseverance-finds-a-rock-with-leopard-spots.png?w=300 300w" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://www.nasa.gov/wp-content/uploads/2024/07/1-pia26368-perseverance-finds-a-rock-with-leopard-spots.png?w=300px"></figure>            </a>
+                <div class="hds-content-item-inner">
+            <a href="https://www.nasa.gov/solar-system/nasas-perseverance-rover-scientists-find-intriguing-mars-rock/" class="hds-content-item-heading">
+                <div class="hds-a11y-heading-22">NASA’s Perseverance Rover Scientists Find Intriguing Mars Rock</div>
+            </a>
+                            <div class="hds-content-item-readtime label margin-bottom-1">
+                    7 min read                </div>
+                                                    <p class="margin-top-0 margin-bottom-1">The six-wheeled geologist found a fascinating rock that has some indications it may have hosted microbial life billions of years ago, but further research is needed. A vein-filled rock is catching the eye of the science team of NASA’s Perseverance…</p>
+                                    <div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>Article</span></div>                    </div>
+            </div>
+        <div class="hds-content-item content-list-item-post">
+                    <a href="https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/" class="hds-content-item-thumbnail">
+                <figure class="hds-media-background  content-list-thumbnail"><img loading="lazy" data-no-id="true" sizes="auto, (max-width: 300px) 100vw, 300px" srcset="https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300 300w" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px"></figure>            </a>
+                <div class="hds-content-item-inner">
+            <a href="https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/" class="hds-content-item-heading">
+                <div class="hds-a11y-heading-22">UPDATED: 10 Things for Mars 10</div>
+            </a>
+                            <div class="hds-content-item-readtime label margin-bottom-1">
+                    4 min read                </div>
+                                                    <p class="margin-top-0 margin-bottom-1">Scientists from around the world are gathering this week in California to take stock of the state of science from Mars and discuss goals for the next steps in exploration of the Red Planet. In the spirit of Mars 10,…</p>
+                                    <div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>Article</span></div>                    </div>
+            </div>
+        <div class="hds-content-item content-list-item-post-ext">
+                    <a href="https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-fords-an-ancient-river-to-reach-science-target/" class="hds-content-item-thumbnail">
+                <figure class="hds-media-background  content-list-thumbnail"><img loading="lazy" data-no-id="true" sizes="auto, (max-width: 300px) 100vw, 300px" srcset="https://www.nasa.gov/wp-content/uploads/2024/06/1-pia26335-looking-down-channel-enchanced-web.jpg?w=300 300w" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://www.nasa.gov/wp-content/uploads/2024/06/1-pia26335-looking-down-channel-enchanced-web.jpg?w=300px"></figure>            </a>
+                <div class="hds-content-item-inner">
+            <a href="https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-fords-an-ancient-river-to-reach-science-target/" class="hds-content-item-heading">
+                <div class="hds-a11y-heading-22">NASA’s Perseverance Fords an Ancient River to Reach Science Target</div>
+            </a>
+                            <div class="hds-content-item-readtime label margin-bottom-1">
+                    5 min read                </div>
+                                                    <p class="margin-top-0 margin-bottom-1">Originally thought of as little more than a route clear of rover-slowing boulders, Neretva Vallis has provided a bounty of geologic options for the science team. &nbsp;&nbsp; After detouring through a dune field to avoid wheel-rattling boulders, NASA’s Perseverance Mars…</p>
+                                    <div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>Article</span></div>                    </div>
+            </div>
+        <div class="hds-content-item content-list-item-post-ext">
+                    <a href="https://www.nasa.gov/centers-and-facilities/johnson/clare-luckey-shaping-the-future-of-mars-missions-and-inspiring-the-artemis-generation/" class="hds-content-item-thumbnail">
+                <figure class="hds-media-background  content-list-thumbnail"><img loading="lazy" data-no-id="true" sizes="auto, (max-width: 300px) 100vw, 300px" srcset="https://www.nasa.gov/wp-content/uploads/2024/05/luckey.jpg?w=300 300w" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://www.nasa.gov/wp-content/uploads/2024/05/luckey.jpg?w=300px"></figure>            </a>
+                <div class="hds-content-item-inner">
+            <a href="https://www.nasa.gov/centers-and-facilities/johnson/clare-luckey-shaping-the-future-of-mars-missions-and-inspiring-the-artemis-generation/" class="hds-content-item-heading">
+                <div class="hds-a11y-heading-22">Clare Luckey: Shaping the Future of Mars Missions and Inspiring the Artemis Generation&nbsp;</div>
+            </a>
+                            <div class="hds-content-item-readtime label margin-bottom-1">
+                    5 min read                </div>
+                                                    <p class="margin-top-0 margin-bottom-1">As a member of the Mars Architecture Team, Clare Luckey is one of the people at the forefront of designing the first crewed mission to the Red Planet. Her current work involves helping to develop the vision for the initial…</p>
+                                    <div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>Article</span></div>                    </div>
+            </div>
+        <div class="hds-content-item content-list-item-post-ext">
+                    <a href="https://www.nasa.gov/missions/mars-2020-perseverance/ingenuity-helicopter/nasas-ingenuity-mars-helicopter-team-says-goodbye-for-now/" class="hds-content-item-thumbnail">
+                <figure class="hds-media-background  content-list-thumbnail"><img loading="lazy" data-no-id="true" sizes="auto, (max-width: 300px) 100vw, 300px" srcset="https://www.nasa.gov/wp-content/uploads/2024/04/1-pia26238-heli-on-valinor.png?w=300 300w" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://www.nasa.gov/wp-content/uploads/2024/04/1-pia26238-heli-on-valinor.png?w=300px"></figure>            </a>
+                <div class="hds-content-item-inner">
+            <a href="https://www.nasa.gov/missions/mars-2020-perseverance/ingenuity-helicopter/nasas-ingenuity-mars-helicopter-team-says-goodbye-for-now/" class="hds-content-item-heading">
+                <div class="hds-a11y-heading-22">NASA’s Ingenuity Mars Helicopter Team Says Goodbye … for Now</div>
+            </a>
+                            <div class="hds-content-item-readtime label margin-bottom-1">
+                    5 min read                </div>
+                                                    <p class="margin-top-0 margin-bottom-1">The final downlink shift by the Ingenuity team was a time to reflect on a highly successful mission — and to prepare the first aircraft on another world for its new role. Engineers working on NASA’s Ingenuity Mars Helicopter assembled…</p>
+                                    <div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>Article</span></div>                    </div>
+            </div>
+        <div class="hds-content-item content-list-item-press-release-ext">
+                    <a href="https://www.nasa.gov/news-release/nasa-sets-path-to-return-mars-samples-seeks-innovative-designs/" class="hds-content-item-thumbnail">
+                <figure class="hds-media-background  content-list-thumbnail"><img loading="lazy" data-no-id="true" sizes="auto, (max-width: 300px) 100vw, 300px" srcset="https://www.nasa.gov/wp-content/uploads/2023/02/nasa_meatball_1.jpg?w=300 300w" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://www.nasa.gov/wp-content/uploads/2023/02/nasa_meatball_1.jpg?w=300px"></figure>            </a>
+                <div class="hds-content-item-inner">
+            <a href="https://www.nasa.gov/news-release/nasa-sets-path-to-return-mars-samples-seeks-innovative-designs/" class="hds-content-item-heading">
+                <div class="hds-a11y-heading-22">NASA Sets Path to Return Mars Samples, Seeks Innovative Designs</div>
+            </a>
+                            <div class="hds-content-item-readtime label margin-bottom-1">
+                    0 min read                </div>
+                                                    <p class="margin-top-0 margin-bottom-1">NASA Administrator Bill Nelson shared on Monday the agency’s path forward on the Mars Sample Return program, including seeking innovative designs to return valuable samples from Mars to Earth. Such samples will not only help us understand the formation and…</p>
+                                    <div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg class="square-2 margin-right-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g> <path d="M8,0c4.4,0,7.9,3.5,8,7.9c0.1,4.5-3.5,8.1-7.9,8.1c-4.5,0-8-3.6-8.1-7.9C-0.1,3.6,3.6,0,8,0z M0.8,8 c0,4,3.2,7.2,7.2,7.2c4,0,7.2-3.2,7.2-7.2c0-4-3.3-7.2-7.2-7.2C4,0.8,0.8,4,0.8,8z"></path><path d="M11.2,4c0,2.7,0,5.3,0,8c-2.1,0-4.3,0-6.4,0c0,0,0,0,0-0.1c0-1.8,0-3.6,0-5.4c0-0.8,0-1.6,0-2.4 C4.8,4,4.8,4,4.9,4C6.2,4,7.6,4,9,4C9.7,4,10.4,4,11.2,4C11.1,4,11.2,4,11.2,4z M9.6,5.6c-1.1,0-2.1,0-3.2,0c0,0,0,0,0,0.1 c0,0.5,0,1,0,1.5c0,0.1,0,0.1,0.1,0.1c1,0,2,0,3.1,0c0,0,0.1,0,0.1-0.1C9.6,6.6,9.6,6.2,9.6,5.6C9.6,5.6,9.6,5.6,9.6,5.6z M6.4,8.8C6.4,8.8,6.4,8.8,6.4,8.8c1.1,0,2.1,0,3.1,0c0.1,0,0.1,0,0.1-0.1c0-0.2,0-0.4,0-0.7c0,0,0,0,0-0.1C8.5,8,7.5,8,6.4,8 C6.4,8.3,6.4,8.5,6.4,8.8z M8.8,10.4C8.8,10.4,8.8,10.4,8.8,10.4c0-0.3,0-0.5,0-0.7c0-0.1,0-0.1-0.1-0.1c-0.5,0-1,0-1.5,0 c-0.3,0-0.5,0-0.8,0c0,0,0,0-0.1,0c0,0.3,0,0.5,0,0.8C7.2,10.4,8,10.4,8.8,10.4z"></path></g></svg><span>News Release</span></div>                    </div>
+            </div>
+    </div>
+
+    classes -> 1. hds-content-item content-list-item-post-ext
+    2. hds-content-item content-list-item-post
+    3. hds-content-item content-list-item-press-release-ext
+
+
+
+
+
+    <div class="hds-content-item-inner">
+            <a href="https://www.nasa.gov/news-release/nasa-to-host-media-call-highlighting-mars-sample-return-update/" class="hds-content-item-heading">
+                <div class="hds-a11y-heading-22">NASA to Host Media Call Highlighting Mars Sample Return Update</div>
+            </a>
+                            <div class="hds-content-item-readtime label margin-bottom-1">
+                    2 min read                </div>
+                                                    <p class="margin-top-0 margin-bottom-1">NASA Administrator Bill Nelson and Nicky Fox, associate administrator, Science Mission Directorate, will host a media teleconference at 1 p.m. EST, Tuesday, Jan. 7, to provide an update on the status of the agency’s Mars Sample Return Program. The briefing…</p>
+                                    <div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg class="square-2 margin-right-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g> <path d="M8,0c4.4,0,7.9,3.5,8,7.9c0.1,4.5-3.5,8.1-7.9,8.1c-4.5,0-8-3.6-8.1-7.9C-0.1,3.6,3.6,0,8,0z M0.8,8 c0,4,3.2,7.2,7.2,7.2c4,0,7.2-3.2,7.2-7.2c0-4-3.3-7.2-7.2-7.2C4,0.8,0.8,4,0.8,8z"></path><path d="M11.2,4c0,2.7,0,5.3,0,8c-2.1,0-4.3,0-6.4,0c0,0,0,0,0-0.1c0-1.8,0-3.6,0-5.4c0-0.8,0-1.6,0-2.4 C4.8,4,4.8,4,4.9,4C6.2,4,7.6,4,9,4C9.7,4,10.4,4,11.2,4C11.1,4,11.2,4,11.2,4z M9.6,5.6c-1.1,0-2.1,0-3.2,0c0,0,0,0,0,0.1 c0,0.5,0,1,0,1.5c0,0.1,0,0.1,0.1,0.1c1,0,2,0,3.1,0c0,0,0.1,0,0.1-0.1C9.6,6.6,9.6,6.2,9.6,5.6C9.6,5.6,9.6,5.6,9.6,5.6z M6.4,8.8C6.4,8.8,6.4,8.8,6.4,8.8c1.1,0,2.1,0,3.1,0c0.1,0,0.1,0,0.1-0.1c0-0.2,0-0.4,0-0.7c0,0,0,0,0-0.1C8.5,8,7.5,8,6.4,8 C6.4,8.3,6.4,8.5,6.4,8.8z M8.8,10.4C8.8,10.4,8.8,10.4,8.8,10.4c0-0.3,0-0.5,0-0.7c0-0.1,0-0.1-0.1-0.1c-0.5,0-1,0-1.5,0 c-0.3,0-0.5,0-0.8,0c0,0,0,0-0.1,0c0,0.3,0,0.5,0,0.8C7.2,10.4,8,10.4,8.8,10.4z"></path></g></svg><span>News Release</span></div>                    </div>
+
+                                    inner -> sv square-2 margin1
+
+                                     thumbanail class hds-media-background  content-list-thumbnail

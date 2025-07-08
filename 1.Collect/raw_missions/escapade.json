@@ -28,17 +28,19 @@
   ],
   "stories": [
     {
-      "title": "NASA’s Kennedy Space Center Looks to Thrive in 2025",
       "url": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-kennedy-looks-to-thrive-in-2025/",
-      "type": "news"
+      "story_image_url": "https://images-assets.nasa.gov/image/KSC-20240130-PH-JBS01_0032/KSC-20240130-PH-JBS01_0032~large.jpg?w=300px",
+      "title": "NASA’s Kennedy Space Center Looks to Thrive in 2025",
+      "type": "Article"
     },
     {
-      "title": "NASA Stands Down from October Launch for ESCAPADE to Mars",
-      "url": "https://science.nasa.gov/blogs/escapade/2024/09/06/nasa-stands-down-from-october-launch-for-escapade-to-mars/",
-      "type": "news"
+      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/kennedy-space-center-looks-ahead-busy-2024/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2023/12/ksc-20230816-ph-jbs01-0002.jpg?w=300px",
+      "title": "Kennedy Space Center Looks Ahead to a Busy Year in 2024",
+      "type": "Article"
     }
   ],
   "mission_status": "future",
   "stories_page_url": "https://science.nasa.gov/mission/escapade/stories/",
-  "scraped_at": "2025-07-03T10:10:42.015236"
+  "scraped_at": "2025-07-08T14:46:48.719191"
 }

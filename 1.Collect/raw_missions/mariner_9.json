@@ -22,8 +22,27 @@
       "value": "Nov. 14, 1971"
     }
   ],
-  "stories": [],
+  "stories": [
+    {
+      "url": "https://www.nasa.gov/history/50-years-ago-mariner-9-enters-mars-orbit/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2021/11/mariner_9_1_mariner_8_and_9.jpg?w=300px",
+      "title": "50 Years Ago: Mariner 9 Enters Mars Orbit",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/history/50-years-ago-mariner-9-launches-to-orbit-mars/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2021/05/mariner_9_1_mariner_8_launch.jpg?w=300px",
+      "title": "50 Years Ago: Mariner 9 Launches to Orbit Mars",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/history/technology-then-and-now/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2023/04/29177231106-5186f7024e-o.jpg?w=300px",
+      "title": "Technology Then and Now",
+      "type": "Article"
+    }
+  ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-9/stories/",
-  "scraped_at": "2025-07-03T10:10:51.671920"
+  "scraped_at": "2025-07-08T14:46:58.824216"
 }

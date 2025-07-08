@@ -24,8 +24,39 @@
       "value": "Clarify the origin of the two Martian moons and the evolution process of Mars, Phobos and Deimos"
     }
   ],
-  "stories": [],
+  "stories": [
+    {
+      "url": "https://www.nasa.gov/solar-system/planets/mars/making-mars-moons-supercomputers-offer-disruptive-new-explanation-2/",
+      "story_image_url": "https://www.nasa.gov/wp-content/uploads/2024/11/mars-moons-simulations.png?w=300px",
+      "title": "Making Mars’ Moons: Supercomputers Offer ‘Disruptive’ New Explanation",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-delivers-science-instrument-to-jaxas-martian-moons-mission/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2024/03/psd-megane-instrument-photo.jpg?w=1024?w=300px",
+      "title": "NASA Delivers Science Instrument to JAXA’s Martian Moons Mission",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/gemini-plus-enables-next-generation-planetary-composition-measurements/",
+      "story_image_url": "https://science.nasa.gov/wp-content/uploads/2023/04/gemini_4-jpg.webp?w=1013?w=300px",
+      "title": "Gemini Plus Enables Next-Generation Planetary Composition Measurements",
+      "type": "Article"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/nasa-selects-instrument-for-future-international-mission-to-martian-moons/",
+      "story_image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/06/mmx_1280.jpg?w=300&fit=clip&crop=faces%2Cfocalpoint?w=300px",
+      "title": "NASA Selects Instrument for Future International Mission to Martian Moons",
+      "type": "Article"
+    },
+    {
+      "url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-jaxa-reaffirm-cooperation-in-space-exploration/",
+      "story_image_url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px",
+      "title": "NASA, JAXA Reaffirm Cooperation in Space Exploration",
+      "type": "Article"
+    }
+  ],
   "mission_status": "future",
   "stories_page_url": "https://science.nasa.gov/mission/mmx/stories/",
-  "scraped_at": "2025-07-03T10:11:11.605318"
+  "scraped_at": "2025-07-08T14:47:20.182308"
 }
