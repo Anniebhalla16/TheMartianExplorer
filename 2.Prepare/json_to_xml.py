@@ -50,6 +50,8 @@ for entry in data:
             etree.SubElement(story_el, "title").text = story.get("title", "")
             etree.SubElement(story_el, "url").text = story.get("url", "")
             etree.SubElement(story_el, "type").text = story.get("type", "")
+            etree.SubElement(story_el, "story_image_url").text = story.get("story_image_url", "")
+            
             
     status = entry.get("mission_status", "")
     status_el = etree.SubElement(mission_el, "missions_status")

@@ -6,7 +6,7 @@
     <url>https://science.nasa.gov/mission/maven/</url>
     <date>2017-12-04T23:25:33-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/maven/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:10.536301</scraped_at>
+    <scraped_at>2025-07-08T14:47:19.074128</scraped_at>
     <paragraphs>
       <paragraph>The Mars Atmosphere and Volatile EvolutioN (MAVEN) mission will determine how much of the Martian atmosphere has been lost over time by measuring the current rate of escape to space and gathering enough information about the relevant processes to allow extrapolation backward in time.</paragraph>
     </paragraphs>
@@ -28,7 +28,68 @@
         <value>Understanding the Martian upper atmosphere</value>
       </metadata>
     </metadata_table>
-    <stories/>
+    <stories>
+      <story>
+        <title>Paul Morris: Filming the Final Frontier</title>
+        <url>https://www.nasa.gov/people-of-nasa/paul-morris-filming-the-final-frontier/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/paul3.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s MAVEN Makes First Observation of Atmospheric Sputtering at Mars</title>
+        <url>https://science.nasa.gov/missions/maven/nasas-maven-makes-first-observation-of-atmospheric-sputtering-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/3850_1marsglobe1-full2.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Observes First Visible-light Auroras at Mars</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/nasa-observes-first-visible-light-auroras-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/mars/images/auroraimage_knutsen_v1.png?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years</title>
+        <url>https://science.nasa.gov/science-research/heliophysics/what-nasa-is-learning-from-the-biggest-geomagnetic-storm-in-20-years/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/space-weather/240511_青森鳥居とオーロラ_14mm_R5B01760.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Celebrating 10 Years at Mars with NASA’s MAVEN Mission</title>
+        <url>https://science.nasa.gov/missions/maven/celebrating-10-years-at-mars-with-nasas-maven-mission/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2024/09/maven-hero-image.png?w=1024?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Hubble, MAVEN Help Solve the Mystery of Mars’ Escaping Water</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/nasas-hubble-maven-help-solve-the-mystery-of-mars-escaping-water/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2024/09/hubble-maven-mars-feature-stsci-01j6a1t00q0jdpwn14jyqxyr95.jpg?w=1024?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>UPDATED: 10 Things for Mars 10</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Watches Mars Light Up During Epic Solar Storm</title>
+        <url>https://www.nasa.gov/solar-system/planets/mars/nasa-watches-mars-light-up-during-epic-solar-storm/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/06/1-pia26303-curiosity-sees-specks-while-recording-a-wind-gust-in-2024.gif?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Scientists Gear Up for Solar Storms at Mars</title>
+        <url>https://www.nasa.gov/solar-system/planets/mars/nasa-scientists-gear-up-for-solar-storms-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/04/1-coronal-mass-ejection-captured-by-sdo-1.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Major Martian Milestones</title>
+        <url>https://science.nasa.gov/get-involved/citizen-science/major-martian-milestones/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2024/04/themis-cloud.jpg?w=1024?w=300px</story_image_url>
+      </story>
+    </stories>
     <missions_status>active</missions_status>
   </mission>
   <mission>
@@ -37,7 +98,7 @@
     <url>https://science.nasa.gov/mission/mariner-7/</url>
     <date>2018-01-25T20:26:03-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-7/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:49.526433</scraped_at>
+    <scraped_at>2025-07-08T14:46:56.558547</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -59,14 +120,10 @@
     </metadata_table>
     <stories>
       <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
-      </story>
-      <story>
-        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
-        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
+        <title>50 Years Ago: Mariner 6 and 7 Explore Mars</title>
+        <url>https://www.nasa.gov/history/50-years-ago-mariner-6-and-7-explore-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2019/07/mariner_6-7.png?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>past</missions_status>
@@ -77,7 +134,7 @@
     <url>https://science.nasa.gov/mission/msl-curiosity/</url>
     <date>2017-11-30T21:05:49-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/msl-curiosity/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:09.466205</scraped_at>
+    <scraped_at>2025-07-08T14:47:17.936492</scraped_at>
     <paragraphs>
       <paragraph>Part of NASA's Mars Science Laboratory mission, Curiosity, was the largest and most capable rover ever sent to Mars when it launched in 2011. Curiosity set out to answer the question: Did Mars ever have the right environmental conditions to support small life forms called microbes? Early in its mission, Curiosity's scientific tools found chemical and mineral evidence of past habitable environments on Mars. It continues to explore the rock record from a time when Mars could have been home to microbial life.</paragraph>
     </paragraphs>
@@ -103,12 +160,62 @@
       <story>
         <title>NASA’s Curiosity Mars Rover Starts Unpacking Boxwork Formations</title>
         <url>https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/e2-pia26558-curiosity-views-a-fractured-boxwork-ridge-up-close.png?w=300px</story_image_url>
       </story>
       <story>
         <title>What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years</title>
         <url>https://science.nasa.gov/science-research/heliophysics/what-nasa-is-learning-from-the-biggest-geomagnetic-storm-in-20-years/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/space-weather/240511_青森鳥居とオーロラ_14mm_R5B01760.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Orbiter Spots Curiosity Rover Making Tracks to Next Science Stop</title>
+        <url>https://www.nasa.gov/missions/mars-science-laboratory/nasa-orbiter-spots-curiosity-rover-making-tracks-to-next-science-stop/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/04/1-pia26553-hirise-views-curiosity-during-a-drive-figure-a.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Curiosity Rover May Have Solved Mars’ Missing Carbonate Mystery</title>
+        <url>https://www.nasa.gov/centers-and-facilities/ames/nasas-curiosity-rover-may-have-solved-mars-missing-carbonate-mystery/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/04/1-pia26554-curiosity-surveys-the-ubajara-sampling-site-4-figure-a.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Curiosity Rover Detects Largest Organic Molecules Found on Mars</title>
+        <url>https://science.nasa.gov/missions/mars-science-laboratory/nasas-curiosity-rover-detects-largest-organic-molecules-found-on-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/content/dam/science/missions/msl/Cumberland%20Drill%20Hole.gif?w=989&amp;h=664&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Curiosity Rover Captures Colorful Clouds Drifting Over Mars</title>
+        <url>https://www.nasa.gov/missions/mars-science-laboratory/nasas-curiosity-rover-captures-colorful-clouds-drifting-over-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/02/pia26519-curiosity-views-blackborders.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Curiosity Mars Rover Takes a Last Look at Mysterious Sulfur</title>
+        <url>https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-takes-a-last-look-at-mysterious-sulfur/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/11/e1-pia26471-curiosity-3000pixels.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Christine Knudson Uses Earthly Experience to Study Martian Geology</title>
+        <url>https://www.nasa.gov/solar-system/christine-knudson-uses-earthly-experience-to-study-martian-geology/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/10/maunaloa22-ck-rotated.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA: New Insights into How Mars Became Uninhabitable</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/nasa-new-insights-into-how-mars-became-uninhabitable/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2024/09/mars-wet-lpi-16x9-1.jpg?w=1024?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Here’s How Curiosity’s Sky Crane Changed the Way NASA Explores Mars</title>
+        <url>https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/heres-how-curiositys-sky-crane-changed-the-way-nasa-explores-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2016/07/pia14839.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>active</missions_status>
@@ -119,7 +226,7 @@
     <url>https://science.nasa.gov/mission/mariner-6/</url>
     <date>2017-12-20T20:33:23-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-6/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:48.464610</scraped_at>
+    <scraped_at>2025-07-08T14:46:55.454972</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -141,14 +248,10 @@
     </metadata_table>
     <stories>
       <story>
-        <title>NASA Discovers Interstellar Comet Moving Through Solar System</title>
-        <url>https://science.nasa.gov/blogs/planetary-defense/2025/07/02/nasa-discovers-interstellar-comet-moving-through-solar-system/</url>
-        <type>news</type>
-      </story>
-      <story>
-        <title>NASA Sets Briefings for SpaceX Crew-11 Mission to Space Station</title>
-        <url>https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-11-mission-to-space-station/</url>
-        <type>news</type>
+        <title>50 Years Ago: Mariner 6 and 7 Explore Mars</title>
+        <url>https://www.nasa.gov/history/50-years-ago-mariner-6-and-7-explore-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2019/07/mariner_6-7.png?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>past</missions_status>
@@ -159,7 +262,7 @@
     <url>https://science.nasa.gov/mission/mars-polar-lander-deep-space-2/</url>
     <date>2019-01-17T18:44:28-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:06.276707</scraped_at>
+    <scraped_at>2025-07-08T14:47:14.585694</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -181,14 +284,64 @@
     </metadata_table>
     <stories>
       <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
-      </story>
-      <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia04918-mro-artists-concept.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia26575-fcam-abrade-1531.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Curiosity Mars Rover Starts Unpacking Boxwork Formations</title>
+        <url>https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/e2-pia26558-curiosity-views-a-fractured-boxwork-ridge-up-close.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Paul Morris: Filming the Final Frontier</title>
+        <url>https://www.nasa.gov/people-of-nasa/paul-morris-filming-the-final-frontier/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/paul3.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Mars Orbiter Captures Volcano Peeking Above Morning Cloud Tops</title>
+        <url>https://www.nasa.gov/missions/odyssey/nasa-mars-orbiter-captures-volcano-peeking-above-morning-cloud-tops/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-themis-views-mars-arsia-mons-volcano-crop1.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s MAVEN Makes First Observation of Atmospheric Sputtering at Mars</title>
+        <url>https://science.nasa.gov/missions/maven/nasas-maven-makes-first-observation-of-atmospheric-sputtering-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/3850_1marsglobe1-full2.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Devil’s in Details in Selfie Taken by NASA’s Mars Perseverance Rover</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/devils-in-details-in-selfie-taken-by-nasas-mars-perseverance-rover/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/pia26574-fig-a-m2020-5th-selfie-16.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Mars Rover to Take Bite Out of ‘Krokodillen’</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-mars-rover-to-take-bite-out-of-krokodillen/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26573-navcam-nlf-1503-0800373830-316fdr-n0731522ncam13503-0a0195j01-srgb-scaled-stretched-cropped.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Observes First Visible-light Auroras at Mars</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/nasa-observes-first-visible-light-auroras-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/mars/images/auroraimage_knutsen_v1.png?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Europa Clipper Captures Mars in Infrared</title>
+        <url>https://www.nasa.gov/missions/europa-clipper/nasas-europa-clipper-captures-mars-in-infrared/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26562-e-themis-mars.png?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status></missions_status>
@@ -199,7 +352,7 @@
     <url>https://science.nasa.gov/mission/mars-reconnaissance-orbiter/</url>
     <date>2017-12-05T00:31:14-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-reconnaissance-orbiter/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:07.346334</scraped_at>
+    <scraped_at>2025-07-08T14:47:15.716353</scraped_at>
     <paragraphs>
       <paragraph>NASA's Mars Reconnaissance Orbiter blasted off from Cape Canaveral in 2005, on a search for evidence that water persisted on the surface of Mars for long periods of time. While other Mars missions have shown that water flowed across the surface in Mars' history, it remains a mystery whether water was ever around long enough to provide a habitat for life.</paragraph>
     </paragraphs>
@@ -225,12 +378,62 @@
       <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia04918-mro-artists-concept.jpg?w=300px</story_image_url>
       </story>
       <story>
         <title>NASA Orbiter Spots Curiosity Rover Making Tracks to Next Science Stop</title>
         <url>https://www.nasa.gov/missions/mars-science-laboratory/nasa-orbiter-spots-curiosity-rover-making-tracks-to-next-science-stop/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/04/1-pia26553-hirise-views-curiosity-during-a-drive-figure-a.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s InSight Finds Marsquakes From Meteoroids Go Deeper Than Expected</title>
+        <url>https://www.nasa.gov/missions/nasas-insight-finds-marsquakes-from-meteoroids-go-deeper-than-expected/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/02/1-pia26518-hirise-views-an-impact-crater-matched-to-insights-seismic-data.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Avalanches, Icy Explosions, and Dunes: NASA Is Tracking New Year on Mars</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/avalanches-icy-explosions-and-dunes-nasa-is-tracking-new-year-on-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/12/e1-frost-avalanche-pia19961-already-in-pj.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Mars Orbiter Spots Retired InSight Lander to Study Dust Movement</title>
+        <url>https://www.nasa.gov/missions/insight/nasa-mars-orbiter-spots-retired-insight-lander-to-study-dust-movement/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/12/pia26515-hirise-crop.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Scientists Re-Create Mars ‘Spiders’ in a Lab for First Time</title>
+        <url>https://www.nasa.gov/solar-system/planets/mars/nasa-scientists-re-create-mars-spiders-in-a-lab-for-first-time/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/09/1-pia12249-beige-spiders-16.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>UPDATED: 10 Things for Mars 10</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Major Martian Milestones</title>
+        <url>https://science.nasa.gov/get-involved/citizen-science/major-martian-milestones/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2024/04/themis-cloud.jpg?w=1024?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Retires Mineral Mapping Instrument on Mars Orbiter</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-retires-mineral-mapping-instrument-on-mars-orbiter/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2023/04/1-pia19673-spectral_signals_indicating_impact_glass_on_mars-already_in_pj.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>New Interactive Mosaic Uses NASA Imagery to Show Mars in Vivid Detail</title>
+        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/new-interactive-mosaic-uses-nasa-imagery-to-show-mars-in-vivid-detail/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2023/04/1-ctx-mosaic-and-geographic-1041.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>active</missions_status>
@@ -241,7 +444,7 @@
     <url>https://science.nasa.gov/mission/mars-express/</url>
     <date>2017-12-05T00:26:53-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:58.802406</scraped_at>
+    <scraped_at>2025-07-08T14:47:06.797681</scraped_at>
     <paragraphs>
       <paragraph>NASA is participating in a mission of ESA (European Space Agency) and the Italian Space Agency called Mars Express, which has been exploring the atmosphere and surface of Mars from polar orbit since arriving at the Red Planet in 2003. Initially, Mars Express also carried a small lander called Beagle 2, named for the ship in which Charles Darwin set sail to explore uncharted areas of Earth in 1831. The lander was lost on arrival in December 2003.</paragraph>
     </paragraphs>
@@ -261,14 +464,64 @@
     </metadata_table>
     <stories>
       <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
-      </story>
-      <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia04918-mro-artists-concept.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia26575-fcam-abrade-1531.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Curiosity Mars Rover Starts Unpacking Boxwork Formations</title>
+        <url>https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/e2-pia26558-curiosity-views-a-fractured-boxwork-ridge-up-close.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Paul Morris: Filming the Final Frontier</title>
+        <url>https://www.nasa.gov/people-of-nasa/paul-morris-filming-the-final-frontier/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/paul3.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Mars Orbiter Captures Volcano Peeking Above Morning Cloud Tops</title>
+        <url>https://www.nasa.gov/missions/odyssey/nasa-mars-orbiter-captures-volcano-peeking-above-morning-cloud-tops/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-themis-views-mars-arsia-mons-volcano-crop1.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s MAVEN Makes First Observation of Atmospheric Sputtering at Mars</title>
+        <url>https://science.nasa.gov/missions/maven/nasas-maven-makes-first-observation-of-atmospheric-sputtering-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/3850_1marsglobe1-full2.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Devil’s in Details in Selfie Taken by NASA’s Mars Perseverance Rover</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/devils-in-details-in-selfie-taken-by-nasas-mars-perseverance-rover/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/pia26574-fig-a-m2020-5th-selfie-16.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Mars Rover to Take Bite Out of ‘Krokodillen’</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-mars-rover-to-take-bite-out-of-krokodillen/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26573-navcam-nlf-1503-0800373830-316fdr-n0731522ncam13503-0a0195j01-srgb-scaled-stretched-cropped.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Observes First Visible-light Auroras at Mars</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/nasa-observes-first-visible-light-auroras-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/mars/images/auroraimage_knutsen_v1.png?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Europa Clipper Captures Mars in Infrared</title>
+        <url>https://www.nasa.gov/missions/europa-clipper/nasas-europa-clipper-captures-mars-in-infrared/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26562-e-themis-mars.png?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>active</missions_status>
@@ -279,7 +532,7 @@
     <url>https://science.nasa.gov/mission/tgo/</url>
     <date>2017-12-01T02:14:08-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:43.073813</scraped_at>
+    <scraped_at>2025-07-08T14:46:49.836814</scraped_at>
     <paragraphs>
       <paragraph>ESA’s (European Space Agency) Exobiology on Mars program (ExoMars program) is comprised of two missions: the first, the Trace Gas Orbiter, launched in 2016, while the second, carrying the Rosalind Franklin rover, is scheduled to launch in 2028. Together they will address the question of whether life has ever existed on Mars.</paragraph>
     </paragraphs>
@@ -303,14 +556,64 @@
     </metadata_table>
     <stories>
       <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
-      </story>
-      <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia04918-mro-artists-concept.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia26575-fcam-abrade-1531.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Curiosity Mars Rover Starts Unpacking Boxwork Formations</title>
+        <url>https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/e2-pia26558-curiosity-views-a-fractured-boxwork-ridge-up-close.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Paul Morris: Filming the Final Frontier</title>
+        <url>https://www.nasa.gov/people-of-nasa/paul-morris-filming-the-final-frontier/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/paul3.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Mars Orbiter Captures Volcano Peeking Above Morning Cloud Tops</title>
+        <url>https://www.nasa.gov/missions/odyssey/nasa-mars-orbiter-captures-volcano-peeking-above-morning-cloud-tops/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-themis-views-mars-arsia-mons-volcano-crop1.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s MAVEN Makes First Observation of Atmospheric Sputtering at Mars</title>
+        <url>https://science.nasa.gov/missions/maven/nasas-maven-makes-first-observation-of-atmospheric-sputtering-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/3850_1marsglobe1-full2.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Devil’s in Details in Selfie Taken by NASA’s Mars Perseverance Rover</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/devils-in-details-in-selfie-taken-by-nasas-mars-perseverance-rover/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/pia26574-fig-a-m2020-5th-selfie-16.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Mars Rover to Take Bite Out of ‘Krokodillen’</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-mars-rover-to-take-bite-out-of-krokodillen/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26573-navcam-nlf-1503-0800373830-316fdr-n0731522ncam13503-0a0195j01-srgb-scaled-stretched-cropped.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Observes First Visible-light Auroras at Mars</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/nasa-observes-first-visible-light-auroras-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/mars/images/auroraimage_knutsen_v1.png?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Europa Clipper Captures Mars in Infrared</title>
+        <url>https://www.nasa.gov/missions/europa-clipper/nasas-europa-clipper-captures-mars-in-infrared/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26562-e-themis-mars.png?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>active</missions_status>
@@ -321,7 +624,7 @@
     <url>https://science.nasa.gov/mission/escapade/</url>
     <date>2023-06-15T15:07:10-04:00</date>
     <stories_page_url>https://science.nasa.gov/mission/escapade/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:42.015236</scraped_at>
+    <scraped_at>2025-07-08T14:46:48.719191</scraped_at>
     <paragraphs>
       <paragraph>ESCAPADE will analyze how Mars’ magnetic field guides particle flows around the planet, how energy and momentum are transported from the solar wind through the magnetosphere, and what processes control the flow of energy and matter into and out of the Martian atmosphere.</paragraph>
       <paragraph>The ESCAPADE mission is managed by the Space Sciences Laboratory at the University of California, Berkeley, with key partners Rocket Lab, NASA's Goddard Space Flight Center, Embry-Riddle Aeronautical University, Advanced Space LLC, and Blue Origin.</paragraph>
@@ -349,12 +652,14 @@
       <story>
         <title>NASA’s Kennedy Space Center Looks to Thrive in 2025</title>
         <url>https://www.nasa.gov/centers-and-facilities/kennedy/nasa-kennedy-looks-to-thrive-in-2025/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://images-assets.nasa.gov/image/KSC-20240130-PH-JBS01_0032/KSC-20240130-PH-JBS01_0032~large.jpg?w=300px</story_image_url>
       </story>
       <story>
-        <title>NASA Stands Down from October Launch for ESCAPADE to Mars</title>
-        <url>https://science.nasa.gov/blogs/escapade/2024/09/06/nasa-stands-down-from-october-launch-for-escapade-to-mars/</url>
-        <type>news</type>
+        <title>Kennedy Space Center Looks Ahead to a Busy Year in 2024</title>
+        <url>https://www.nasa.gov/centers-and-facilities/kennedy/kennedy-space-center-looks-ahead-busy-2024/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2023/12/ksc-20230816-ph-jbs01-0002.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>future</missions_status>
@@ -365,7 +670,7 @@
     <url>https://science.nasa.gov/mission/mars-global-surveyor/</url>
     <date>2017-12-20T21:44:02-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-global-surveyor/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:59.885137</scraped_at>
+    <scraped_at>2025-07-08T14:47:07.924257</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -389,12 +694,44 @@
       <story>
         <title>National Space Club Honors NASA, ULA Delta II Program Team</title>
         <url>https://www.nasa.gov/missions/mars-pathfinder/national-space-club-honors-nasa-ula-delta-ii-program-team/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2019/05/lsp_delta_ii_award_photo.jpg?w=300px</story_image_url>
       </story>
       <story>
         <title>Mars Crater May Actually Be Ancient Supervolcano</title>
         <url>https://www.nasa.gov/solar-system/mars-crater-may-actually-be-ancient-supervolcano/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2015/02/combined.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Orbiter Finds Possible Cave Skylights on Mars</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/nasa-orbiter-finds-possible-cave-skylights-on-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/1/1240_20070921_Cave_02-full2.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Findings Suggest Jets Bursting From Martian Ice Cap</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/nasa-findings-suggest-jets-bursting-from-martian-ice-cap/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/1/1096_artist-concept_img1-full2.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Mars May Be Emerging From an Ice Age</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/mars-may-be-emerging-from-an-ice-age/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/1127_Icy_Mars-full2.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Delta-Like Fan On Mars Suggests Ancient Rivers Were Persistent</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/delta-like-fan-on-mars-suggests-ancient-rivers-were-persistent/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/3109_20031113_20031113a-01_br-full2.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Mars Orbiter Camera’s 100,000th Image</title>
+        <url>https://science.nasa.gov/solar-system/mars-orbiter-cameras-100000th-image/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>past</missions_status>
@@ -405,7 +742,7 @@
     <url>https://science.nasa.gov/mission/mer-spirit/</url>
     <date>2017-12-05T00:55:21-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:14.802788</scraped_at>
+    <scraped_at>2025-07-08T14:47:23.573017</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -427,14 +764,58 @@
     </metadata_table>
     <stories>
       <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
+        <title>UPDATED: 10 Things for Mars 10</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px</story_image_url>
       </story>
       <story>
-        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
-        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
+        <title>20 Years After Landing: How NASA’s Twin Rovers Changed Mars Science</title>
+        <url>https://www.nasa.gov/missions/mer/20-years-after-landing-how-nasas-twin-rovers-changed-mars-science/</url>
+        <type>Article</type>
+        <story_image_url>https://images-assets.nasa.gov/image/PIA06739/PIA06739~orig.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Search for Life: Astrobiology in the Solar System and Beyond</title>
+        <url>https://www.nasa.gov/missions/nasas-search-for-life-astrobiology-in-the-solar-system-and-beyond/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Six Things to Know About NASA’s Opportunity Rover</title>
+        <url>https://science.nasa.gov/missions/mer/six-things-to-know-about-nasas-opportunity-rover/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/news_items/main_images/8414_1_MAIN_mars-rover-opportunity-tracks-Sol3754B-pia18605-CROPPED.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Opportunity Rover Mission on Mars Comes to End</title>
+        <url>https://science.nasa.gov/missions/mer/nasas-opportunity-rover-mission-on-mars-comes-to-end/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/news_items/main_images/8413_PIA06739-16x9-1.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>“Storm Chasers” on Mars Searching for Dusty Secrets</title>
+        <url>https://www.nasa.gov/missions/storm-chasers-on-mars-searching-for-dusty-secrets/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2018/07/dust-storm-comic_1.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>10 Things: Massive Dust Storm on Mars</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/10-things-massive-dust-storm-on-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/content/dam/science/psd/solar/internal_resources/1183/Animated_GIF_of_dust_thickening_in_the_skies_of_Mars-1.gif?w=1041&amp;h=928&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Where to Find Mission Raw Images</title>
+        <url>https://science.nasa.gov/solar-system/moon/where-to-find-mission-raw-images/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/06/pia21973.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Celebrates Decade of Mars Exploration by Spirit, Opportunity</title>
+        <url>https://www.nasa.gov/missions/mer/nasa-celebrates-decade-of-mars-exploration-by-spirit-opportunity/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2015/03/opportunity_checkout-web.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status></missions_status>
@@ -445,7 +826,7 @@
     <url>https://science.nasa.gov/mission/mer-opportunity/</url>
     <date>2017-12-05T00:41:07-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:13.746083</scraped_at>
+    <scraped_at>2025-07-08T14:47:22.438278</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -467,14 +848,58 @@
     </metadata_table>
     <stories>
       <story>
-        <title>Sunset on Mars</title>
-        <url>https://www.nasa.gov/image-article/sunset-on-mars/</url>
-        <type>news</type>
+        <title>UPDATED: 10 Things for Mars 10</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px</story_image_url>
       </story>
       <story>
-        <title>Perseverance Rover Witnesses One Martian Dust Devil Eating Another</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/</url>
-        <type>news</type>
+        <title>20 Years After Landing: How NASA’s Twin Rovers Changed Mars Science</title>
+        <url>https://www.nasa.gov/missions/mer/20-years-after-landing-how-nasas-twin-rovers-changed-mars-science/</url>
+        <type>Article</type>
+        <story_image_url>https://images-assets.nasa.gov/image/PIA06739/PIA06739~orig.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Search for Life: Astrobiology in the Solar System and Beyond</title>
+        <url>https://www.nasa.gov/missions/nasas-search-for-life-astrobiology-in-the-solar-system-and-beyond/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Six Things to Know About NASA’s Opportunity Rover</title>
+        <url>https://science.nasa.gov/missions/mer/six-things-to-know-about-nasas-opportunity-rover/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/news_items/main_images/8414_1_MAIN_mars-rover-opportunity-tracks-Sol3754B-pia18605-CROPPED.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Opportunity Rover Mission on Mars Comes to End</title>
+        <url>https://science.nasa.gov/missions/mer/nasas-opportunity-rover-mission-on-mars-comes-to-end/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/news_items/main_images/8413_PIA06739-16x9-1.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>“Storm Chasers” on Mars Searching for Dusty Secrets</title>
+        <url>https://www.nasa.gov/missions/storm-chasers-on-mars-searching-for-dusty-secrets/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2018/07/dust-storm-comic_1.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>10 Things: Massive Dust Storm on Mars</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/10-things-massive-dust-storm-on-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/content/dam/science/psd/solar/internal_resources/1183/Animated_GIF_of_dust_thickening_in_the_skies_of_Mars-1.gif?w=1041&amp;h=928&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Where to Find Mission Raw Images</title>
+        <url>https://science.nasa.gov/solar-system/moon/where-to-find-mission-raw-images/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/06/pia21973.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Celebrates Decade of Mars Exploration by Spirit, Opportunity</title>
+        <url>https://www.nasa.gov/missions/mer/nasa-celebrates-decade-of-mars-exploration-by-spirit-opportunity/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2015/03/opportunity_checkout-web.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status></missions_status>
@@ -485,7 +910,7 @@
     <url>https://science.nasa.gov/mission/viking-1/</url>
     <date>2017-12-06T21:24:35-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/viking-1/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:15.872982</scraped_at>
+    <scraped_at>2025-07-08T14:47:24.686343</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -505,7 +930,26 @@
         <value>Successful</value>
       </metadata>
     </metadata_table>
-    <stories/>
+    <stories>
+      <story>
+        <title>NASA’s Search for Life: Astrobiology in the Solar System and Beyond</title>
+        <url>https://www.nasa.gov/missions/nasas-search-for-life-astrobiology-in-the-solar-system-and-beyond/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>President Bush Marks Viking’s Silver Anniversary to the Red Planet</title>
+        <url>https://science.nasa.gov/missions/viking/president-bush-marks-vikings-silver-anniversary-to-the-red-planet/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Celebrates 25th Anniversary of Mars Landing</title>
+        <url>https://science.nasa.gov/missions/viking/nasa-celebrates-25th-anniversary-of-mars-landing/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+    </stories>
     <missions_status>past</missions_status>
   </mission>
   <mission>
@@ -514,7 +958,7 @@
     <url>https://science.nasa.gov/mission/mars-sample-return/</url>
     <date>2023-06-15T15:12:37-04:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-sample-return/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:08.401791</scraped_at>
+    <scraped_at>2025-07-08T14:47:16.827360</scraped_at>
     <paragraphs>
       <paragraph>Mars Sample Return (MSR) would be NASA's and ESA’s (European Space Agency) ambitious, multi-mission campaign to bring carefully selected samples to Earth. MSR would fulfill one of the highest priority solar system exploration goals from the science community. Returned samples would revolutionize our understanding of Mars, our solar system and prepare for human explorers to the Red Planet.</paragraph>
     </paragraphs>
@@ -540,12 +984,62 @@
       <story>
         <title>NASA to Explore Two Landing Options for Returning Samples from Mars</title>
         <url>https://www.nasa.gov/news-release/nasa-to-explore-two-landing-options-for-returning-samples-from-mars/</url>
-        <type>news</type>
+        <type>News Release</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/01/mrs-photo.png?w=300px</story_image_url>
       </story>
       <story>
         <title>NASA to Host Media Call Highlighting Mars Sample Return Update</title>
         <url>https://www.nasa.gov/news-release/nasa-to-host-media-call-highlighting-mars-sample-return-update/</url>
-        <type>news</type>
+        <type>News Release</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/08/meatball-w-black-background.webp?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>New Team to Assess NASA’s Mars Sample Return Architecture Proposals</title>
+        <url>https://science.nasa.gov/missions/mars-sample-return/new-team-to-assess-nasas-mars-sample-return-architecture-proposals/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2024/05/nasa_meatball_large.jpg?w=1024?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover to Begin Long Climb Up Martian Crater Rim</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-to-begin-long-climb-up-martian-crater-rim/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/08/1-pia-26373-5000px.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scientists Find Intriguing Mars Rock</title>
+        <url>https://www.nasa.gov/solar-system/nasas-perseverance-rover-scientists-find-intriguing-mars-rock/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/07/1-pia26368-perseverance-finds-a-rock-with-leopard-spots.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>UPDATED: 10 Things for Mars 10</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Fords an Ancient River to Reach Science Target</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-fords-an-ancient-river-to-reach-science-target/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/06/1-pia26335-looking-down-channel-enchanced-web.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Clare Luckey: Shaping the Future of Mars Missions and Inspiring the Artemis Generation</title>
+        <url>https://www.nasa.gov/centers-and-facilities/johnson/clare-luckey-shaping-the-future-of-mars-missions-and-inspiring-the-artemis-generation/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/05/luckey.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Ingenuity Mars Helicopter Team Says Goodbye … for Now</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/ingenuity-helicopter/nasas-ingenuity-mars-helicopter-team-says-goodbye-for-now/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/04/1-pia26238-heli-on-valinor.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Sets Path to Return Mars Samples, Seeks Innovative Designs</title>
+        <url>https://www.nasa.gov/news-release/nasa-sets-path-to-return-mars-samples-seeks-innovative-designs/</url>
+        <type>News Release</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2023/02/nasa_meatball_1.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>future</missions_status>
@@ -556,7 +1050,7 @@
     <url>https://science.nasa.gov/mission/nozomi/</url>
     <date>2017-12-05T00:38:24-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/nozomi/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:12.661024</scraped_at>
+    <scraped_at>2025-07-08T14:47:21.313665</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -576,18 +1070,7 @@
         <value>Study the upper atmosphere of Mars</value>
       </metadata>
     </metadata_table>
-    <stories>
-      <story>
-        <title>NASA Discovers Interstellar Comet Moving Through Solar System</title>
-        <url>https://science.nasa.gov/blogs/planetary-defense/2025/07/02/nasa-discovers-interstellar-comet-moving-through-solar-system/</url>
-        <type>news</type>
-      </story>
-      <story>
-        <title>NASA Sets Briefings for SpaceX Crew-11 Mission to Space Station</title>
-        <url>https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-11-mission-to-space-station/</url>
-        <type>news</type>
-      </story>
-    </stories>
+    <stories/>
     <missions_status></missions_status>
   </mission>
   <mission>
@@ -596,7 +1079,7 @@
     <url>https://science.nasa.gov/mission/viking-2/</url>
     <date>2017-12-06T21:26:48-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/viking-2/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:16.938741</scraped_at>
+    <scraped_at>2025-07-08T14:47:25.802360</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -616,7 +1099,26 @@
         <value>Successful</value>
       </metadata>
     </metadata_table>
-    <stories/>
+    <stories>
+      <story>
+        <title>NASA’s Search for Life: Astrobiology in the Solar System and Beyond</title>
+        <url>https://www.nasa.gov/missions/nasas-search-for-life-astrobiology-in-the-solar-system-and-beyond/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>President Bush Marks Viking’s Silver Anniversary to the Red Planet</title>
+        <url>https://science.nasa.gov/missions/viking/president-bush-marks-vikings-silver-anniversary-to-the-red-planet/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Celebrates 25th Anniversary of Mars Landing</title>
+        <url>https://science.nasa.gov/missions/viking/nasa-celebrates-25th-anniversary-of-mars-landing/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+    </stories>
     <missions_status>past</missions_status>
   </mission>
   <mission>
@@ -625,7 +1127,7 @@
     <url>https://science.nasa.gov/mission/mariner-3/</url>
     <date>2017-12-20T20:27:41-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-3/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:46.315459</scraped_at>
+    <scraped_at>2025-07-08T14:46:53.197186</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -654,7 +1156,7 @@
     <url>https://science.nasa.gov/mission/marco/</url>
     <date>2017-12-05T00:23:29-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/marco/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:56.681138</scraped_at>
+    <scraped_at>2025-07-08T14:47:04.567119</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -676,14 +1178,10 @@
     </metadata_table>
     <stories>
       <story>
-        <title>NASA CubeSat Focuses on Instrument Calibration Enhancement</title>
-        <url>https://www.nasa.gov/blogs/smallsatellites/2025/06/21/nasa-cubesat-focuses-on-instrument-calibration-enhancement/</url>
-        <type>news</type>
-      </story>
-      <story>
-        <title>NASA’S EZIE Begins Study of Auroral Electrojets</title>
-        <url>https://science.nasa.gov/blogs/ezie/2025/05/27/nasas-ezie-begins-study-of-auroral-electrojets/</url>
-        <type>news</type>
+        <title>Small Satellite Mission of the Year</title>
+        <url>https://science.nasa.gov/missions/small-satellite-missions/marco/small-satellite-mission-of-the-year/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/news_items/main_images/8501_PIA22314-16.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>past</missions_status>
@@ -694,7 +1192,7 @@
     <url>https://science.nasa.gov/mission/mmx/</url>
     <date>2017-12-05T00:33:14-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mmx/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:11.605318</scraped_at>
+    <scraped_at>2025-07-08T14:47:20.182308</scraped_at>
     <paragraphs>
       <paragraph>A Japanese (JAXA) mission to travel to Mars and survey the Red Planet's two moons, Phobos and Deimos. The spacecraft will explore both moons and collect a sample of Phobos and bring it to Earth.</paragraph>
     </paragraphs>
@@ -716,7 +1214,38 @@
         <value>Clarify the origin of the two Martian moons and the evolution process of Mars, Phobos and Deimos</value>
       </metadata>
     </metadata_table>
-    <stories/>
+    <stories>
+      <story>
+        <title>Making Mars’ Moons: Supercomputers Offer ‘Disruptive’ New Explanation</title>
+        <url>https://www.nasa.gov/solar-system/planets/mars/making-mars-moons-supercomputers-offer-disruptive-new-explanation-2/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/11/mars-moons-simulations.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Delivers Science Instrument to JAXA’s Martian Moons Mission</title>
+        <url>https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-delivers-science-instrument-to-jaxas-martian-moons-mission/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2024/03/psd-megane-instrument-photo.jpg?w=1024?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Gemini Plus Enables Next-Generation Planetary Composition Measurements</title>
+        <url>https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/gemini-plus-enables-next-generation-planetary-composition-measurements/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2023/04/gemini_4-jpg.webp?w=1013?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Selects Instrument for Future International Mission to Martian Moons</title>
+        <url>https://science.nasa.gov/missions/nasa-selects-instrument-for-future-international-mission-to-martian-moons/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/06/mmx_1280.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA, JAXA Reaffirm Cooperation in Space Exploration</title>
+        <url>https://www.nasa.gov/centers-and-facilities/marshall/nasa-jaxa-reaffirm-cooperation-in-space-exploration/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+    </stories>
     <missions_status>future</missions_status>
   </mission>
   <mission>
@@ -725,7 +1254,7 @@
     <url>https://science.nasa.gov/mission/mars-phoenix/</url>
     <date>2017-12-05T00:47:57-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:05.198471</scraped_at>
+    <scraped_at>2025-07-08T14:47:13.475172</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -747,14 +1276,64 @@
     </metadata_table>
     <stories>
       <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
-      </story>
-      <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia04918-mro-artists-concept.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia26575-fcam-abrade-1531.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Curiosity Mars Rover Starts Unpacking Boxwork Formations</title>
+        <url>https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/e2-pia26558-curiosity-views-a-fractured-boxwork-ridge-up-close.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Paul Morris: Filming the Final Frontier</title>
+        <url>https://www.nasa.gov/people-of-nasa/paul-morris-filming-the-final-frontier/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/paul3.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Mars Orbiter Captures Volcano Peeking Above Morning Cloud Tops</title>
+        <url>https://www.nasa.gov/missions/odyssey/nasa-mars-orbiter-captures-volcano-peeking-above-morning-cloud-tops/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-themis-views-mars-arsia-mons-volcano-crop1.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s MAVEN Makes First Observation of Atmospheric Sputtering at Mars</title>
+        <url>https://science.nasa.gov/missions/maven/nasas-maven-makes-first-observation-of-atmospheric-sputtering-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/3850_1marsglobe1-full2.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Devil’s in Details in Selfie Taken by NASA’s Mars Perseverance Rover</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/devils-in-details-in-selfie-taken-by-nasas-mars-perseverance-rover/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/pia26574-fig-a-m2020-5th-selfie-16.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Mars Rover to Take Bite Out of ‘Krokodillen’</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-mars-rover-to-take-bite-out-of-krokodillen/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26573-navcam-nlf-1503-0800373830-316fdr-n0731522ncam13503-0a0195j01-srgb-scaled-stretched-cropped.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Observes First Visible-light Auroras at Mars</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/nasa-observes-first-visible-light-auroras-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/mars/images/auroraimage_knutsen_v1.png?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Europa Clipper Captures Mars in Infrared</title>
+        <url>https://www.nasa.gov/missions/europa-clipper/nasas-europa-clipper-captures-mars-in-infrared/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26562-e-themis-mars.png?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>past</missions_status>
@@ -765,7 +1344,7 @@
     <url>https://science.nasa.gov/mission/mom/</url>
     <date>2017-12-05T00:29:01-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mom/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:03.077111</scraped_at>
+    <scraped_at>2025-07-08T14:47:11.266781</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -785,18 +1364,7 @@
         <value>Study Mars from orbit</value>
       </metadata>
     </metadata_table>
-    <stories>
-      <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
-      </story>
-      <story>
-        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
-        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
-      </story>
-    </stories>
+    <stories/>
     <missions_status></missions_status>
   </mission>
   <mission>
@@ -805,7 +1373,7 @@
     <url>https://science.nasa.gov/mission/mars-2020-perseverance/</url>
     <date>2017-12-05T00:19:50-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-2020-perseverance/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:54.553743</scraped_at>
+    <scraped_at>2025-07-08T14:47:01.672902</scraped_at>
     <paragraphs>
       <paragraph>The Mars 2020 Perseverance Rover searches for signs of ancient microbial life, to advance NASA's quest to explore the past habitability of Mars. The rover is collecting core samples of Martian rock and regolith (broken rock and soil), for potential pickup by a future mission that would bring them to Earth for detailed study.</paragraph>
     </paragraphs>
@@ -829,14 +1397,64 @@
     </metadata_table>
     <stories>
       <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
-      </story>
-      <story>
         <title>NASA’s Perseverance Rover Scours Mars for Science</title>
         <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia26575-fcam-abrade-1531.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Devil’s in Details in Selfie Taken by NASA’s Mars Perseverance Rover</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/devils-in-details-in-selfie-taken-by-nasas-mars-perseverance-rover/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/pia26574-fig-a-m2020-5th-selfie-16.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Mars Rover to Take Bite Out of ‘Krokodillen’</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-mars-rover-to-take-bite-out-of-krokodillen/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26573-navcam-nlf-1503-0800373830-316fdr-n0731522ncam13503-0a0195j01-srgb-scaled-stretched-cropped.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Robots, Rovers, and Regolith: NASA Brings Exploration to FIRST Robotics 2025</title>
+        <url>https://www.nasa.gov/centers-and-facilities/johnson/robots-rovers-and-regolith-nasa-brings-exploration-to-first-robotics-2025/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/04/jsc2025e039509.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Mars Rover Studies Trove of Rocks on Crater Rim</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-mars-rover-studies-trove-of-rocks-on-crater-rim/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/04/1-pia26530-mosaic-enhanced-2500.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Perseverance Rover Witnesses One Martian Dust Devil Eating Another</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/04/1-pia26528-dust-devil-lunch-navcam-sol1398-dd.gif?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>How NASA’s Perseverance Is Helping Prepare Astronauts for Mars</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/how-nasas-perseverance-is-helping-prepare-astronauts-for-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/03/1-enhanced-percy-spacesuit-materials.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Reaches Top of Jezero Crater Rim</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-reaches-top-of-jezero-crater-rim/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/12/1-pia26511-perseverances-view-from-the-top-16.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Performs First Aircraft Accident Investigation on Another World</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/ingenuity-helicopter/nasa-performs-first-aircraft-accident-investigation-on-another-world/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/12/1-pia26238-ingentuity-ripples-cropped.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Captures ‘Googly Eye’ During Solar Eclipse</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-captures-googly-eye-during-solar-eclipse/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/10/pia26380-phobos-transit-4x-thumb.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>active</missions_status>
@@ -847,7 +1465,7 @@
     <url>https://science.nasa.gov/mission/odyssey/</url>
     <date>2017-12-04T23:50:42-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/odyssey/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:02.022320</scraped_at>
+    <scraped_at>2025-07-08T14:47:10.150367</scraped_at>
     <paragraphs>
       <paragraph>Mars Odyssey mission was the first spacecraft to make a global map of the chemical elements and minerals that make up the Martian surface. The spacecraft also holds the record for the longest continually active mission in orbit around a planet other than Earth. It successfully completed its primary science mission from February 2002 through August 2004. Odyssey continues its work today, studying clouds, fog, and frost, and mapping surface rocks to make future Mars landings safer, as the orbiter continues to add to its 100,000+ orbits around the Red Planet.</paragraph>
     </paragraphs>
@@ -873,12 +1491,62 @@
       <story>
         <title>NASA Mars Orbiter Captures Volcano Peeking Above Morning Cloud Tops</title>
         <url>https://www.nasa.gov/missions/odyssey/nasa-mars-orbiter-captures-volcano-peeking-above-morning-cloud-tops/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-themis-views-mars-arsia-mons-volcano-crop1.jpg?w=300px</story_image_url>
       </story>
       <story>
         <title>What NASA Is Learning from the Biggest Geomagnetic Storm in 20 Years</title>
         <url>https://science.nasa.gov/science-research/heliophysics/what-nasa-is-learning-from-the-biggest-geomagnetic-storm-in-20-years/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/space-weather/240511_青森鳥居とオーロラ_14mm_R5B01760.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>UPDATED: 10 Things for Mars 10</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Mars Odyssey Captures Huge Volcano, Nears 100,000 Orbits</title>
+        <url>https://www.nasa.gov/missions/odyssey/nasas-mars-odyssey-captures-huge-volcano-nears-100000-orbits/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/06/1-pia26305-odyssey-views-olympus-mons.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Orbiter Snaps Stunning Views of Mars Horizon</title>
+        <url>https://www.nasa.gov/missions/odyssey/nasa-orbiter-snaps-stunning-views-of-mars-horizon/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2023/11/1-pia26203-odysseys-themis-views-the-horizon-of-mars.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Engineers Keep an Eye on Fuel Supply of NASA’s Oldest Mars Orbiter</title>
+        <url>https://www.nasa.gov/missions/odyssey/engineers-keep-an-eye-on-fuel-supply-of-nasas-oldest-mars-orbiter/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2023/03/1-pia04244-1041.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Science at Sunrise: Solving the Mystery of Frost Hiding on Mars</title>
+        <url>https://www.nasa.gov/missions/odyssey/science-at-sunrise-solving-the-mystery-of-frost-hiding-on-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2022/05/1-pia25233-1041.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Update: NASA Extends Exploration for 8 Planetary Science Missions</title>
+        <url>https://www.nasa.gov/solar-system/update-nasa-extends-exploration-for-8-planetary-science-missions/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Mars Fleet Lies Low With Sun Between Earth and Red Planet</title>
+        <url>https://www.nasa.gov/solar-system/nasas-mars-fleet-lies-low-with-sun-between-earth-and-red-planet/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2021/09/pia24838_0.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Fermi Spots a Supernova’s ‘Fizzled’ Gamma-Ray Burst</title>
+        <url>https://www.nasa.gov/universe/nasas-fermi-spots-a-supernovas-fizzled-gamma-ray-burst/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2021/07/short-long-grb-still.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>active</missions_status>
@@ -889,7 +1557,7 @@
     <url>https://science.nasa.gov/mission/viking/</url>
     <date>2023-09-19T16:54:12-04:00</date>
     <stories_page_url></stories_page_url>
-    <scraped_at>2025-07-03T10:11:18.770540</scraped_at>
+    <scraped_at>2025-07-08T14:47:27.396052</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -918,7 +1586,7 @@
     <url>https://science.nasa.gov/mission/mariner-program/</url>
     <date>2023-10-05T13:00:55-04:00</date>
     <stories_page_url></stories_page_url>
-    <scraped_at>2025-07-03T10:10:53.479166</scraped_at>
+    <scraped_at>2025-07-08T14:47:00.567659</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -947,7 +1615,7 @@
     <url>https://science.nasa.gov/mission/mariner-9/</url>
     <date>2017-12-20T20:38:01-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-9/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:51.671920</scraped_at>
+    <scraped_at>2025-07-08T14:46:58.824216</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -967,7 +1635,26 @@
         <value>Nov. 14, 1971</value>
       </metadata>
     </metadata_table>
-    <stories/>
+    <stories>
+      <story>
+        <title>50 Years Ago: Mariner 9 Enters Mars Orbit</title>
+        <url>https://www.nasa.gov/history/50-years-ago-mariner-9-enters-mars-orbit/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2021/11/mariner_9_1_mariner_8_and_9.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>50 Years Ago: Mariner 9 Launches to Orbit Mars</title>
+        <url>https://www.nasa.gov/history/50-years-ago-mariner-9-launches-to-orbit-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2021/05/mariner_9_1_mariner_8_launch.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Technology Then and Now</title>
+        <url>https://www.nasa.gov/history/technology-then-and-now/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2023/04/29177231106-5186f7024e-o.jpg?w=300px</story_image_url>
+      </story>
+    </stories>
     <missions_status>past</missions_status>
   </mission>
   <mission>
@@ -976,7 +1663,7 @@
     <url>https://science.nasa.gov/mission/mars-climate-orbiter/</url>
     <date>2017-12-20T21:42:15-05:00</date>
     <stories_page_url>https://science.nasa.gov/science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:55.619518</scraped_at>
+    <scraped_at>2025-07-08T14:47:03.446905</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -996,18 +1683,7 @@
         <value>Unsuccessful</value>
       </metadata>
     </metadata_table>
-    <stories>
-      <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
-      </story>
-      <story>
-        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
-        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
-      </story>
-    </stories>
+    <stories/>
     <missions_status>past</missions_status>
   </mission>
   <mission>
@@ -1016,7 +1692,7 @@
     <url>https://science.nasa.gov/mission/insight/</url>
     <date>2017-12-04T23:41:36-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/insight/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:45.244124</scraped_at>
+    <scraped_at>2025-07-08T14:46:52.084952</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -1040,12 +1716,62 @@
       <story>
         <title>NASA’s InSight Finds Marsquakes From Meteoroids Go Deeper Than Expected</title>
         <url>https://www.nasa.gov/missions/nasas-insight-finds-marsquakes-from-meteoroids-go-deeper-than-expected/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/02/1-pia26518-hirise-views-an-impact-crater-matched-to-insights-seismic-data.jpg?w=300px</story_image_url>
       </story>
       <story>
         <title>NASA Mars Orbiter Spots Retired InSight Lander to Study Dust Movement</title>
         <url>https://www.nasa.gov/missions/insight/nasa-mars-orbiter-spots-retired-insight-lander-to-study-dust-movement/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/12/pia26515-hirise-crop.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>UPDATED: 10 Things for Mars 10</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA to Measure Moonquakes With Help From InSight Mars Mission</title>
+        <url>https://www.nasa.gov/solar-system/moon/nasa-to-measure-moonquakes-with-help-from-insight-mars-mission/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2024/05/1-pia26298-fss-move-pre-tilt.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA InSight Study Finds Mars Is Spinning Faster</title>
+        <url>https://www.nasa.gov/missions/insight/nasa-insight-study-finds-mars-is-spinning-faster/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2023/08/2-insight_illo_rise_short_cap-not_for_pj.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA InSight Study Provides Clearest Look Ever at Martian Core</title>
+        <url>https://www.nasa.gov/missions/insight/nasa-insight-study-provides-clearest-look-ever-at-martian-core/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2023/04/1-pia25680-insights-seismometer-1041.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Retires InSight Mars Lander Mission After Years of Science</title>
+        <url>https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2022/12/insight_0.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Prepares to Say ‘Farewell’ to InSight Spacecraft</title>
+        <url>https://www.nasa.gov/missions/insight/nasa-prepares-to-say-farewell-to-insight-spacecraft/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2022/11/1-pia22876-for-slider-before-1041.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s InSight Lander Detects Stunning Meteoroid Impact on Mars</title>
+        <url>https://www.nasa.gov/missions/insight/nasas-insight-lander-detects-stunning-meteoroid-impact-on-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2022/10/1-pia25583-hirise-views-1041.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s InSight Waits Out Dust Storm</title>
+        <url>https://www.nasa.gov/missions/insight/nasas-insight-waits-out-dust-storm/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2022/10/pia25412-1041.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>past</missions_status>
@@ -1056,7 +1782,7 @@
     <url>https://science.nasa.gov/mission/mars-observer/</url>
     <date>2017-12-20T21:45:35-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:00.948362</scraped_at>
+    <scraped_at>2025-07-08T14:47:09.024724</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -1078,14 +1804,64 @@
     </metadata_table>
     <stories>
       <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
-      </story>
-      <story>
         <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
         <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia04918-mro-artists-concept.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Rover Scours Mars for Science</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scours-mars-for-science/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-pia26575-fcam-abrade-1531.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Curiosity Mars Rover Starts Unpacking Boxwork Formations</title>
+        <url>https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/e2-pia26558-curiosity-views-a-fractured-boxwork-ridge-up-close.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Paul Morris: Filming the Final Frontier</title>
+        <url>https://www.nasa.gov/people-of-nasa/paul-morris-filming-the-final-frontier/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/paul3.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Mars Orbiter Captures Volcano Peeking Above Morning Cloud Tops</title>
+        <url>https://www.nasa.gov/missions/odyssey/nasa-mars-orbiter-captures-volcano-peeking-above-morning-cloud-tops/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/06/1-themis-views-mars-arsia-mons-volcano-crop1.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s MAVEN Makes First Observation of Atmospheric Sputtering at Mars</title>
+        <url>https://science.nasa.gov/missions/maven/nasas-maven-makes-first-observation-of-atmospheric-sputtering-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/3850_1marsglobe1-full2.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Devil’s in Details in Selfie Taken by NASA’s Mars Perseverance Rover</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/devils-in-details-in-selfie-taken-by-nasas-mars-perseverance-rover/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/pia26574-fig-a-m2020-5th-selfie-16.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Perseverance Mars Rover to Take Bite Out of ‘Krokodillen’</title>
+        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-mars-rover-to-take-bite-out-of-krokodillen/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26573-navcam-nlf-1503-0800373830-316fdr-n0731522ncam13503-0a0195j01-srgb-scaled-stretched-cropped.png?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Observes First Visible-light Auroras at Mars</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/nasa-observes-first-visible-light-auroras-at-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/mars/images/auroraimage_knutsen_v1.png?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Europa Clipper Captures Mars in Infrared</title>
+        <url>https://www.nasa.gov/missions/europa-clipper/nasas-europa-clipper-captures-mars-in-infrared/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/05/1-pia26562-e-themis-mars.png?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status></missions_status>
@@ -1096,7 +1872,7 @@
     <url>https://science.nasa.gov/mission/mariner-4/</url>
     <date>2017-12-20T20:29:32-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-4/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:47.388279</scraped_at>
+    <scraped_at>2025-07-08T14:46:54.339407</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -1116,7 +1892,14 @@
         <value>July 14, 1965</value>
       </metadata>
     </metadata_table>
-    <stories/>
+    <stories>
+      <story>
+        <title>MAVEN Continues Mars Exploration Begun 50 Years Ago by Mariner 4</title>
+        <url>https://www.nasa.gov/centers-and-facilities/kennedy/maven-continues-mars-exploration-begun-50-years-ago-by-mariner-4/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2015/03/helmet_0.jpg?w=300px</story_image_url>
+      </story>
+    </stories>
     <missions_status>past</missions_status>
   </mission>
   <mission>
@@ -1125,7 +1908,7 @@
     <url>https://science.nasa.gov/mission/mars-pathfinder/</url>
     <date>2017-12-20T21:48:30-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-pathfinder/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:11:04.138634</scraped_at>
+    <scraped_at>2025-07-08T14:47:12.372384</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -1149,12 +1932,38 @@
       <story>
         <title>Perseverance Rover Witnesses One Martian Dust Devil Eating Another</title>
         <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2025/04/1-pia26528-dust-devil-lunch-navcam-sol1398-dd.gif?w=300px</story_image_url>
       </story>
       <story>
         <title>Screening Soon: ‘The Pathfinders’ Trains Lens on Mars</title>
         <url>https://www.nasa.gov/solar-system/screening-soon-the-pathfinders-trains-lens-on-mars/</url>
-        <type>news</type>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2019/11/pathfinder-background_small-1041.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>National Space Club Honors NASA, ULA Delta II Program Team</title>
+        <url>https://www.nasa.gov/missions/mars-pathfinder/national-space-club-honors-nasa-ula-delta-ii-program-team/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2019/05/lsp_delta_ii_award_photo.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>MAVEN Continues Mars Exploration Begun 50 Years Ago by Mariner 4</title>
+        <url>https://www.nasa.gov/centers-and-facilities/kennedy/maven-continues-mars-exploration-begun-50-years-ago-by-mariner-4/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2015/03/helmet_0.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Mars Pathfinder Winds Down After Phenomenal Mission</title>
+        <url>https://science.nasa.gov/solar-system/mars-pathfinder-winds-down-after-phenomenal-mission/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Mars Pathfinder Lands on Mars</title>
+        <url>https://science.nasa.gov/solar-system/mars-pathfinder-lands-on-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status></missions_status>
@@ -1165,7 +1974,7 @@
     <url>https://science.nasa.gov/mission/rosalind-franklin/</url>
     <date>2017-12-01T02:11:20-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/rosalind-franklin/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:44.132140</scraped_at>
+    <scraped_at>2025-07-08T14:46:50.952951</scraped_at>
     <paragraphs>
       <paragraph>The European Space Agency's ExoMars rover is part of a series of missions designed to study the potential for past life on the Red Planet.</paragraph>
     </paragraphs>
@@ -1187,18 +1996,7 @@
         <value>Provide clues about the potential for life on Mars</value>
       </metadata>
     </metadata_table>
-    <stories>
-      <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
-      </story>
-      <story>
-        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
-        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
-      </story>
-    </stories>
+    <stories/>
     <missions_status>future</missions_status>
   </mission>
   <mission>
@@ -1207,7 +2005,7 @@
     <url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/</url>
     <date>2024-03-22T10:40:31-04:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:57.743472</scraped_at>
+    <scraped_at>2025-07-08T14:47:05.673039</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -1229,14 +2027,58 @@
     </metadata_table>
     <stories>
       <story>
-        <title>Sunset on Mars</title>
-        <url>https://www.nasa.gov/image-article/sunset-on-mars/</url>
-        <type>news</type>
+        <title>UPDATED: 10 Things for Mars 10</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/10-things-for-mars-10/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/uploads/2012/12/rps-curiosity.jpg?w=1024?w=300px</story_image_url>
       </story>
       <story>
-        <title>Perseverance Rover Witnesses One Martian Dust Devil Eating Another</title>
-        <url>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/</url>
-        <type>news</type>
+        <title>20 Years After Landing: How NASA’s Twin Rovers Changed Mars Science</title>
+        <url>https://www.nasa.gov/missions/mer/20-years-after-landing-how-nasas-twin-rovers-changed-mars-science/</url>
+        <type>Article</type>
+        <story_image_url>https://images-assets.nasa.gov/image/PIA06739/PIA06739~orig.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Search for Life: Astrobiology in the Solar System and Beyond</title>
+        <url>https://www.nasa.gov/missions/nasas-search-for-life-astrobiology-in-the-solar-system-and-beyond/</url>
+        <type>Article</type>
+        <story_image_url>https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/default-thumbnail.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Six Things to Know About NASA’s Opportunity Rover</title>
+        <url>https://science.nasa.gov/missions/mer/six-things-to-know-about-nasas-opportunity-rover/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/news_items/main_images/8414_1_MAIN_mars-rover-opportunity-tracks-Sol3754B-pia18605-CROPPED.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA’s Opportunity Rover Mission on Mars Comes to End</title>
+        <url>https://science.nasa.gov/missions/mer/nasas-opportunity-rover-mission-on-mars-comes-to-end/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/news_items/main_images/8413_PIA06739-16x9-1.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>“Storm Chasers” on Mars Searching for Dusty Secrets</title>
+        <url>https://www.nasa.gov/missions/storm-chasers-on-mars-searching-for-dusty-secrets/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2018/07/dust-storm-comic_1.jpg?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>10 Things: Massive Dust Storm on Mars</title>
+        <url>https://science.nasa.gov/solar-system/planets/mars/10-things-massive-dust-storm-on-mars/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/content/dam/science/psd/solar/internal_resources/1183/Animated_GIF_of_dust_thickening_in_the_skies_of_Mars-1.gif?w=1041&amp;h=928&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>Where to Find Mission Raw Images</title>
+        <url>https://science.nasa.gov/solar-system/moon/where-to-find-mission-raw-images/</url>
+        <type>Article</type>
+        <story_image_url>https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/06/pia21973.jpg?w=300&amp;fit=clip&amp;crop=faces%2Cfocalpoint?w=300px</story_image_url>
+      </story>
+      <story>
+        <title>NASA Celebrates Decade of Mars Exploration by Spirit, Opportunity</title>
+        <url>https://www.nasa.gov/missions/mer/nasa-celebrates-decade-of-mars-exploration-by-spirit-opportunity/</url>
+        <type>Article</type>
+        <story_image_url>https://www.nasa.gov/wp-content/uploads/2015/03/opportunity_checkout-web.jpg?w=300px</story_image_url>
       </story>
     </stories>
     <missions_status>past</missions_status>
@@ -1247,7 +2089,7 @@
     <url>https://science.nasa.gov/mission/mariner-8/</url>
     <date>2017-12-20T20:36:38-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-8/stories/</stories_page_url>
-    <scraped_at>2025-07-03T10:10:50.590195</scraped_at>
+    <scraped_at>2025-07-08T14:46:57.701438</scraped_at>
     <paragraphs/>
     <metadata_table>
       <metadata>
@@ -1267,18 +2109,7 @@
         <value>Orbit Mars</value>
       </metadata>
     </metadata_table>
-    <stories>
-      <story>
-        <title>An Update from the 2025 Mars 2020 Science Team Meeting</title>
-        <url>https://science.nasa.gov/blogs/perseverance-mars-rover/2025/07/01/an-update-from-the-2025-mars-2020-science-team-meeting/</url>
-        <type>news</type>
-      </story>
-      <story>
-        <title>NASA Mars Orbiter Learns New Moves After Nearly 20 Years in Space</title>
-        <url>https://www.nasa.gov/missions/mars-reconnaissance-orbiter/nasa-mars-orbiter-learns-new-moves-after-nearly-20-years-in-space/</url>
-        <type>news</type>
-      </story>
-    </stories>
+    <stories/>
     <missions_status>past</missions_status>
   </mission>
 </missions>
