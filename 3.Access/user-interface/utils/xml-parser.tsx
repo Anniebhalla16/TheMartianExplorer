@@ -13,7 +13,7 @@ export function parseXMLResponse(xmlText: string): Mission[] {
   const missionElements = xmlDoc.querySelectorAll("mission")
 
   missionElements.forEach((missionEl, index) => {
-    const id = missionEl.getAttribute("id") || `mission-${index}`
+    const id = getTextContent(missionEl, "title") || `mission-${index}`
     const title = getTextContent(missionEl, "title") || "Untitled Mission"
     const url = getTextContent(missionEl, "url") || ""
     const subtitle = getTextContent(missionEl, "subtitle") || ""
@@ -63,8 +63,13 @@ function getTextContent(element: Element, selector: string): string | null {
   const found = element.querySelector(selector)
   return found ? found.textContent?.trim() || null : null
 }
-
 function getMetadataValue(element: Element, key: string): string | null {
-  const metadata = element.querySelector(`metadata_table metadata[key="${key}"] value`)
-  return metadata ? metadata.textContent?.trim() || null : null
+  const items = element.querySelectorAll("metadata_table > metadata")
+  for (const metadata of Array.from(items)) {
+    const keyEl = metadata.querySelector("key")
+    if (keyEl?.textContent?.trim() === key) {
+      return metadata.querySelector("value")?.textContent?.trim() || null
+    }
+  }
+  return null
 }

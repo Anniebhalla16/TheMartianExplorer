@@ -14,16 +14,27 @@ export function MissionCard({ mission }: MissionCardProps) {
     }
   }
 
-  const getTypeColor = (type: string) => {
-    const colors: Record<string, string> = {
-      Orbiter: "bg-blue-100 text-blue-800",
-      Lander: "bg-green-100 text-green-800",
-      Rover: "bg-purple-100 text-purple-800",
-      Flyby: "bg-yellow-100 text-yellow-800",
-      "Sample Return": "bg-red-100 text-red-800",
-    }
-    return colors[type] || "bg-gray-100 text-gray-800"
+const getTypeColor = (type: string) => {
+  const t = type.toLowerCase()
+
+  if (t.includes("orbiter")) {
+    return "bg-blue-100 text-blue-800"
   }
+  if (t.includes("lander")) {
+    return "bg-green-100 text-green-800"
+  }
+  if (t.includes("rover")) {
+    return "bg-purple-100 text-purple-800"
+  }
+  if (t.includes("flyby")) {
+    return "bg-yellow-100 text-yellow-800"
+  }
+  if (t.includes("sample return")) {
+    return "bg-red-100 text-red-800"
+  }
+  return "bg-gray-100 text-gray-800"
+}
+
   return (
     <a href={mission.url} target="_blank" className="bg-white rounded-lg shadow-sm border hover:shadow-md transition-shadow">
       <div className="p-6">

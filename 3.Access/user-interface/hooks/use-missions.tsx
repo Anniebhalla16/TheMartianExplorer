@@ -1,10 +1,10 @@
 "use client"
 
-import { useState, useEffect, useCallback } from "react"
 import type { FilterState } from "@/types/filters"
-import type { Mission } from "@/types/mission"
-import { buildXQuery } from "@/utils/xquery-builder"
+import { Story, type Mission } from "@/types/mission"
 import { parseXMLResponse } from "@/utils/xml-parser"
+import { buildXQuery } from "@/utils/xquery-builder"
+import { useCallback, useEffect, useState } from "react"
 
 interface UseMissionsResult {
   missions: Mission[]
@@ -15,6 +15,7 @@ interface UseMissionsResult {
 
 export function useMissions(filters: FilterState): UseMissionsResult {
   const [missions, setMissions] = useState<Mission[]>([])
+  const [stories, setStories] = useState<Story[]>()
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -34,8 +35,14 @@ export function useMissions(filters: FilterState): UseMissionsResult {
 
       const xmlText = await response.text()
       const parsedMissions = parseXMLResponse(xmlText)
-
+      
       setMissions(parsedMissions)
+      
+      const allStories = parsedMissions.flatMap((m) => m.stories)
+      setStories(allStories)
+
+      console.log(parsedMissions)
+
     } catch (err) {
       console.error("Error fetching missions:", err)
       setError(err instanceof Error ? err.message : "An unknown error occurred")
