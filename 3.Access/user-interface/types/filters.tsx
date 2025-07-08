@@ -9,4 +9,5 @@ export interface FilterState {
   subtitleKeywords: string
   hasNewsStories: boolean | null
   paragraphContent: string
+  viewStories: boolean    
 }

@@ -14,7 +14,6 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
   const [availableOptions, setAvailableOptions] = useState({
     missionTypes: ["Orbiter", "Lander", "Rover", "Sample Return", "Fly by"],
     targets: ["Mars", "Phobos", "Deimos", "Mars Orbit" , "Jezero Crater, Mars"],
-    partners: ["NASA", "ESA", "Roscosmos", "JAXA", "ISRO", "CNSA"],
     status: ["past", "active", "future", "all"]
 
   })
@@ -40,6 +39,20 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
           // disabled={loading}
         />
       </div>
+
+{/* View Stories */}
+ <div>
+   <label className="flex items-center">
+     <input
+       type="checkbox"
+       checked={filters.viewStories}
+       onChange={(e) => onFilterChange({ viewStories: e.target.checked })}
+       className="mr-2"
+       disabled={loading}
+     />
+     <span className="text-sm font-medium text-gray-700">View Stories</span>
+   </label>
+ </div>
 
       {/* Mission Type */}
       <div>
@@ -156,31 +169,6 @@ export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading
           // disabled={loading}
         />
       </div>
-
-    
-      {/* Partner/Agency */}
-      {/* <div>
-        <label className="block text-sm font-medium text-gray-700 mb-2">Partner / Agency</label>
-        <div className="space-y-2">
-          {availableOptions.partners.map((partner) => (
-            <label key={partner} className="flex items-center">
-              <input
-                type="checkbox"
-                checked={filters.partners.includes(partner)}
-                onChange={(e) => {
-                  const newPartners = e.target.checked
-                    ? [...filters.partners, partner]
-                    : filters.partners.filter((p) => p !== partner)
-                  onFilterChange({ partners: newPartners })
-                }}
-                className="mr-2"
-                disabled={loading}
-              />
-              <span className="text-sm text-gray-700">{partner}</span>
-            </label>
-          ))}
-        </div>
-      </div> */}
 
       {/* Has News Stories */}
       <div>

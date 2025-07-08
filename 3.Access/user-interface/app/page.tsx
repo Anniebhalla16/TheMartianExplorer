@@ -16,7 +16,8 @@ const initialFilters: FilterState = {
   objectiveKeywords: "",
   subtitleKeywords: "",
   hasNewsStories: null,
-  paragraphContent: ""
+  paragraphContent: "",
+  viewStories: false
 }
 
 export default function MartianExplorerPage() {
@@ -57,7 +58,7 @@ export default function MartianExplorerPage() {
 
           {/* Results Grid */}
           <div className="flex-1">
-            <ResultsGrid missions={missions} stories = {stories} loading={loading} error={error} onRefresh={refetch} />
+            <ResultsGrid missions={missions} stories = {stories} loading={loading} error={error} onRefresh={refetch} showStories ={filters.viewStories} />
           </div>
         </div>
       </div>

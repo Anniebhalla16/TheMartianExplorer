@@ -5,6 +5,7 @@ import { MissionCard } from "./mission-card"
 import { StoryCard } from "./story-card"
 
 interface ResultsGridProps {
+  showStories: Boolean
   stories: Story[]
   missions: Mission[]
   loading: boolean
@@ -12,7 +13,7 @@ interface ResultsGridProps {
   onRefresh: () => void
 }
 
-export function ResultsGrid({ missions, stories, loading, error, onRefresh }: ResultsGridProps) {
+export function ResultsGrid({ missions, stories, loading, error, onRefresh, showStories }: ResultsGridProps) {
   if (loading) {
     return (
       <div className="bg-white rounded-lg shadow-sm border p-8">
@@ -76,7 +77,7 @@ export function ResultsGrid({ missions, stories, loading, error, onRefresh }: Re
     <div className="space-y-6">
       <div className="bg-white rounded-lg shadow-sm border p-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-lg font-semibold text-gray-900">Mission Results ({missions.length})</h2>
+          <h2 className="text-lg font-semibold text-gray-900">{missions.length} Missions {showStories && `& ${stories.length} Stories`} Results</h2>
           <button onClick={onRefresh} className="text-sm text-blue-600 hover:text-blue-800 flex items-center">
             <svg className="w-4 h-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path
@@ -95,7 +96,7 @@ export function ResultsGrid({ missions, stories, loading, error, onRefresh }: Re
         {missions.map((mission) => (
           <MissionCard key={mission.id} mission={mission} />
         ))}
-        {stories.map((story)=>(
+        {showStories && stories.map((story)=>(
           <StoryCard key={story.id} story={story}/>
         ))}
       </div>
