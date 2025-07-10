@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/mariner-3/",
   "date": "2017-12-20T20:27:41-05:00",
-  "paragraphs": [],
+  "overview": "Mariner 3 was a NASA mission launched on November 5, 1964, as part of the Mariner program, a series of spacecraft designed to explore the inner solar system. Unfortunately, the mission failed to reach its intended destination, Mars, due to a launch vehicle failure. The spacecraft was intended to study the Martian surface and atmosphere, as well as the interplanetary medium, but it did not achieve its goals. Despite the failure, the Mariner program went on to achieve significant successes with subsequent missions, including Mariner 4, which successfully flew by Mars and returned valuable data about the planet. Mariner 3 was a pioneering effort in the exploration of Mars and the development of interplanetary spacecraft.",
   "metadata_table": [
     {
       "key": "Type",
@@ -25,5 +25,5 @@
   "stories": [],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-3/stories/",
-  "scraped_at": "2025-07-08T14:46:53.197186"
+  "scraped_at": "2025-07-10T14:54:28.972050"
 }

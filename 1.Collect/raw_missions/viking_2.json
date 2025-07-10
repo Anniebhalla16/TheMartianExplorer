@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/viking-2/",
   "date": "2017-12-06T21:26:48-05:00",
-  "paragraphs": [],
+  "overview": "The Viking 2 mission, operated by NASA, is a historic space exploration project that launched on September 9, 1975. The mission aimed to study the Martian surface and atmosphere, with a focus on searching for signs of life and understanding the planet's geology and climate. Viking 2 consisted of an orbiter and a lander, which successfully touched down on Mars' surface on September 3, 1976, and operated for several years, providing valuable insights into the Martian environment. The Viking 2 mission was a groundbreaking endeavor that paved the way for future Mars exploration, marking a significant milestone in the search for life beyond Earth.",
   "metadata_table": [
     {
       "key": "Type",
@@ -44,5 +44,5 @@
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/viking-2/stories/",
-  "scraped_at": "2025-07-08T14:47:25.802360"
+  "scraped_at": "2025-07-10T14:56:13.465039"
 }

@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/mariner-6/",
   "date": "2017-12-20T20:33:23-05:00",
-  "paragraphs": [],
+  "overview": "Mariner 6 was a NASA mission launched on February 24, 1969, as part of the Mariner program, a series of spacecraft designed to explore the planets of the outer Solar System. The mission aimed to study the planet Mars and its atmosphere, with a focus on gathering data on the Martian surface and atmospheric composition. As a flyby mission, Mariner 6 flew within 2,190 miles of Mars' surface, providing valuable information about the planet's geology and climate. This mission was a significant step in NASA's exploration of the Solar System, providing crucial data that helped lay the groundwork for future Mars missions.",
   "metadata_table": [
     {
       "key": "Type",
@@ -32,5 +32,5 @@
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-6/stories/",
-  "scraped_at": "2025-07-08T14:46:55.454972"
+  "scraped_at": "2025-07-10T14:54:32.706687"
 }

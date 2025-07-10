@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/mariner-8/",
   "date": "2017-12-20T20:36:38-05:00",
-  "paragraphs": [],
+  "overview": "Mariner 8 is a NASA mission that was intended to study the planet Mars and its environment. Unfortunately, the mission failed to launch successfully on May 9, 1971, due to a launch vehicle failure. If successful, Mariner 8 would have studied the Martian atmosphere, surface, and geology, as well as searched for signs of life on the Red Planet. The mission was part of a pair of identical spacecraft, with Mariner 9 launching successfully later that year to achieve many of the scientific goals planned for Mariner 8. By studying Mars, the mission aimed to expand humanity's understanding of the Martian environment and its potential for supporting life.",
   "metadata_table": [
     {
       "key": "Type",
@@ -25,5 +25,5 @@
   "stories": [],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-8/stories/",
-  "scraped_at": "2025-07-08T14:46:57.701438"
+  "scraped_at": "2025-07-10T14:54:36.799103"
 }

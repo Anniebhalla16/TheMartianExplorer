@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/viking-1/",
   "date": "2017-12-06T21:24:35-05:00",
-  "paragraphs": [],
+  "overview": "The Viking 1 mission, managed by NASA, was designed to study the Martian surface and search for signs of life on the Red Planet. Launched on August 20, 1975, Viking 1 consisted of an orbiter and a lander, which touched down on Mars on July 20, 1976. The mission aimed to gather data on the Martian geology, atmosphere, and potential biosignatures, with a focus on understanding the planet's habitability. As one of the first missions to successfully land on Mars, Viking 1 paved the way for future planetary exploration, providing valuable insights into the Martian environment and its potential for supporting life.",
   "metadata_table": [
     {
       "key": "Type",
@@ -44,5 +44,5 @@
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/viking-1/stories/",
-  "scraped_at": "2025-07-08T14:47:24.686343"
+  "scraped_at": "2025-07-10T14:56:11.644046"
 }

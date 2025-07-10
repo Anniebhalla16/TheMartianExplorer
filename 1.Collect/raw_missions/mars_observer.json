@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/mars-observer/",
   "date": "2017-12-20T21:45:35-05:00",
-  "paragraphs": [],
+  "overview": "The Mars Observer mission is a NASA project aimed at studying the Martian surface, geology, and climate. Led by NASA's Jet Propulsion Laboratory, the mission was launched on September 25, 1992, but unfortunately, contact was lost on August 21, 1993, just three days before it was to enter Martian orbit. The mission's primary objectives were to study the Martian geology, composition, and atmosphere, as well as to search for signs of past or present life. Although the mission was not completed as planned, it was designed to be a comprehensive exploration of the Martian environment, using a range of instruments to gather data on the planet's topography, geology, and climate.",
   "metadata_table": [
     {
       "key": "Type",
@@ -86,5 +86,5 @@
   ],
   "mission_status": null,
   "stories_page_url": "https://science.nasa.gov/mars/stories/",
-  "scraped_at": "2025-07-08T14:47:09.024724"
+  "scraped_at": "2025-07-10T14:55:39.555684"
 }

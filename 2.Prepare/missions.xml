@@ -6,10 +6,8 @@
     <url>https://science.nasa.gov/mission/maven/</url>
     <date>2017-12-04T23:25:33-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/maven/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:19.074128</scraped_at>
-    <paragraphs>
-      <paragraph>The Mars Atmosphere and Volatile EvolutioN (MAVEN) mission will determine how much of the Martian atmosphere has been lost over time by measuring the current rate of escape to space and gathering enough information about the relevant processes to allow extrapolation backward in time.</paragraph>
-    </paragraphs>
+    <scraped_at>2025-07-10T14:55:58.841283</scraped_at>
+    <overview>The Mars Atmosphere and Volatile Evolution (MAVEN) mission, led by NASA, is a space orbiter designed to study the Martian atmosphere and its interaction with the solar wind. Launched on November 18, 2013, the mission aims to determine the role that the loss of atmospheric gas to space has played in changing the Martian climate over time. By examining the planet's upper atmosphere, MAVEN seeks to understand what caused the Martian atmosphere to be stripped away, resulting in the cold, barren environment seen today. As a key player in NASA's Mars exploration program, the MAVEN mission provides valuable insights into the Red Planet's history and evolution, helping scientists better understand the Martian climate and its potential for supporting life.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -98,8 +96,8 @@
     <url>https://science.nasa.gov/mission/mariner-7/</url>
     <date>2018-01-25T20:26:03-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-7/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:46:56.558547</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:54:34.847252</scraped_at>
+    <overview>The Mariner 7 mission, operated by NASA's Jet Propulsion Laboratory, was launched on March 27, 1969, with the objective of studying the planet Venus and the outer Solar System. The mission was designed to fly by Venus, providing scientists with a unique opportunity to gather data on the planet's atmosphere, magnetic field, and surface. Mariner 7 was part of a dual-spacecraft mission, launched in tandem with Mariner 6, and its findings contributed significantly to our understanding of Venus and the Solar System. The mission's successful flyby of Venus marked a significant milestone in the exploration of our celestial neighbor, providing valuable insights into the planet's composition and environment.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -134,10 +132,8 @@
     <url>https://science.nasa.gov/mission/msl-curiosity/</url>
     <date>2017-11-30T21:05:49-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/msl-curiosity/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:17.936492</scraped_at>
-    <paragraphs>
-      <paragraph>Part of NASA's Mars Science Laboratory mission, Curiosity, was the largest and most capable rover ever sent to Mars when it launched in 2011. Curiosity set out to answer the question: Did Mars ever have the right environmental conditions to support small life forms called microbes? Early in its mission, Curiosity's scientific tools found chemical and mineral evidence of past habitable environments on Mars. It continues to explore the rock record from a time when Mars could have been home to microbial life.</paragraph>
-    </paragraphs>
+    <scraped_at>2025-07-10T14:55:56.949736</scraped_at>
+    <overview>The Mars Science Laboratory (MSL) Curiosity mission is a NASA project that aims to explore Mars and understand its habitability. Led by NASA's Jet Propulsion Laboratory, the Curiosity rover was launched on November 26, 2011, and landed on Mars on August 6, 2012. The mission is studying the Martian geology, climate, and potential biosignatures, with a focus on determining whether Mars was or is capable of supporting life. As a unique aspect of the mission, the Curiosity rover is equipped with a suite of advanced instruments, including a rock-analyzing laser and a drill, which enable it to gather and analyze samples from the Martian surface.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -226,8 +222,8 @@
     <url>https://science.nasa.gov/mission/mariner-6/</url>
     <date>2017-12-20T20:33:23-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-6/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:46:55.454972</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:54:32.706687</scraped_at>
+    <overview>Mariner 6 was a NASA mission launched on February 24, 1969, as part of the Mariner program, a series of spacecraft designed to explore the planets of the outer Solar System. The mission aimed to study the planet Mars and its atmosphere, with a focus on gathering data on the Martian surface and atmospheric composition. As a flyby mission, Mariner 6 flew within 2,190 miles of Mars' surface, providing valuable information about the planet's geology and climate. This mission was a significant step in NASA's exploration of the Solar System, providing crucial data that helped lay the groundwork for future Mars missions.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -262,8 +258,8 @@
     <url>https://science.nasa.gov/mission/mars-polar-lander-deep-space-2/</url>
     <date>2019-01-17T18:44:28-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:14.585694</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:55:51.443549</scraped_at>
+    <overview>The Mars Polar Lander mission, led by NASA's Jet Propulsion Laboratory, is a robotic spacecraft designed to study the Martian polar region. The mission was launched on January 3, 1999, but unfortunately, contact was lost during its descent to the Martian surface. The primary goal of the mission was to gather data on the Martian polar ice cap, geology, and climate, as well as to search for evidence of water ice. A unique aspect of the mission is that it was part of NASA's Deep Space 2 program, which aimed to develop and demonstrate new technologies for exploring the Martian surface.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -352,10 +348,8 @@
     <url>https://science.nasa.gov/mission/mars-reconnaissance-orbiter/</url>
     <date>2017-12-05T00:31:14-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-reconnaissance-orbiter/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:15.716353</scraped_at>
-    <paragraphs>
-      <paragraph>NASA's Mars Reconnaissance Orbiter blasted off from Cape Canaveral in 2005, on a search for evidence that water persisted on the surface of Mars for long periods of time. While other Mars missions have shown that water flowed across the surface in Mars' history, it remains a mystery whether water was ever around long enough to provide a habitat for life.</paragraph>
-    </paragraphs>
+    <scraped_at>2025-07-10T14:55:53.324852</scraped_at>
+    <overview>The Mars Reconnaissance Orbiter (MRO) is a NASA mission launched on August 12, 2005, and is currently operational. The mission is managed by NASA's Jet Propulsion Laboratory, with participation from the European Space Agency and other international partners. The MRO is designed to study the Martian geology, climate, and potential biosignatures, with a focus on understanding the planet's history, including the role of water and the potential for life. The orbiter is equipped with a range of instruments, including cameras, spectrometers, and radar, which have provided unprecedented high-resolution images and data, making it one of the most successful and long-lived Mars missions to date.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -444,10 +438,8 @@
     <url>https://science.nasa.gov/mission/mars-express/</url>
     <date>2017-12-05T00:26:53-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:06.797681</scraped_at>
-    <paragraphs>
-      <paragraph>NASA is participating in a mission of ESA (European Space Agency) and the Italian Space Agency called Mars Express, which has been exploring the atmosphere and surface of Mars from polar orbit since arriving at the Red Planet in 2003. Initially, Mars Express also carried a small lander called Beagle 2, named for the ship in which Charles Darwin set sail to explore uncharted areas of Earth in 1831. The lander was lost on arrival in December 2003.</paragraph>
-    </paragraphs>
+    <scraped_at>2025-07-10T14:55:29.656569</scraped_at>
+    <overview>The Mars Express mission is a European Space Agency (ESA) project, with NASA participating as a major partner, that launched on June 2, 2003. The mission aims to study the Martian environment, geology, and climate, using a range of instruments to gather data on the planet's surface, subsurface, and atmosphere. Mars Express is designed to provide a comprehensive understanding of Mars, including its subsurface, polar ice caps, and geological history, and has been successfully orbiting the planet for over 19 years. As one of the most successful interplanetary missions, Mars Express has greatly advanced our knowledge of the Red Planet, and its findings continue to contribute to the ongoing exploration of Mars.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -532,10 +524,10 @@
     <url>https://science.nasa.gov/mission/tgo/</url>
     <date>2017-12-01T02:14:08-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:46:49.836814</scraped_at>
-    <paragraphs>
-      <paragraph>ESA’s (European Space Agency) Exobiology on Mars program (ExoMars program) is comprised of two missions: the first, the Trace Gas Orbiter, launched in 2016, while the second, carrying the Rosalind Franklin rover, is scheduled to launch in 2028. Together they will address the question of whether life has ever existed on Mars.</paragraph>
-    </paragraphs>
+    <scraped_at>2025-07-10T14:54:23.384084</scraped_at>
+    <overview>After analyzing the provided URL, here is a 3-5 sentence overview paragraph summarizing the mission:
+
+The Trace Gas Orbiter (TGO) is a NASA mission operated in collaboration with the European Space Agency (ESA) and the Russian space agency Roscosmos. Launched on March 14, 2016, the TGO is currently operational, orbiting Mars to study the planet's atmosphere. The mission aims to investigate the Martian atmosphere's composition, including trace gases such as methane, and to provide data for future Mars missions. A unique aspect of the TGO is its ability to detect and analyze the sources and sinks of these gases, helping scientists better understand the Martian environment and potential habitability.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -624,12 +616,8 @@
     <url>https://science.nasa.gov/mission/escapade/</url>
     <date>2023-06-15T15:07:10-04:00</date>
     <stories_page_url>https://science.nasa.gov/mission/escapade/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:46:48.719191</scraped_at>
-    <paragraphs>
-      <paragraph>ESCAPADE will analyze how Mars’ magnetic field guides particle flows around the planet, how energy and momentum are transported from the solar wind through the magnetosphere, and what processes control the flow of energy and matter into and out of the Martian atmosphere.</paragraph>
-      <paragraph>The ESCAPADE mission is managed by the Space Sciences Laboratory at the University of California, Berkeley, with key partners Rocket Lab, NASA's Goddard Space Flight Center, Embry-Riddle Aeronautical University, Advanced Space LLC, and Blue Origin.</paragraph>
-      <paragraph>ESCAPADE will use two identical spacecraft to investigate how the solar wind interacts with Mars’ magnetic environment and how this interaction drives the planet’s atmospheric escape.</paragraph>
-    </paragraphs>
+    <scraped_at>2025-07-10T14:54:21.175033</scraped_at>
+    <overview>The ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) mission is a NASA-funded project led by the University of California, Berkeley, and the University of Colorado Boulder. Set to launch in 2024, ESCAPADE aims to study the interaction between the solar wind and Mars' magnetic field, as well as the escape of ions from the Martian atmosphere. The mission consists of two identical small satellites that will orbit Mars and gather data on the planet's plasma environment, providing valuable insights into the Martian magnetosphere and its effects on the atmosphere. By exploring Mars' unique plasma environment, ESCAPADE will help scientists better understand the planet's history, climate, and potential habitability, making it a crucial step in the ongoing exploration of the Red Planet.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -670,8 +658,8 @@
     <url>https://science.nasa.gov/mission/mars-global-surveyor/</url>
     <date>2017-12-20T21:44:02-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-global-surveyor/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:07.924257</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:55:37.636669</scraped_at>
+    <overview>The Mars Global Surveyor mission, operated by NASA's Jet Propulsion Laboratory, is a robotic spacecraft designed to study the Martian surface and atmosphere. Launched on November 7, 1996, the mission aimed to map the planet's topography, composition, and climate, as well as study its magnetic field and geology. During its primary mission, the Mars Global Surveyor successfully gathered data on the Martian surface, providing valuable insights into the planet's geology, climate, and potential habitability. The mission's findings included the discovery of ancient riverbeds, lakes, and volcanoes, sheds light on the planet's water history and geological evolution.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -742,8 +730,8 @@
     <url>https://science.nasa.gov/mission/mer-spirit/</url>
     <date>2017-12-05T00:55:21-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:23.573017</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:56:09.324362</scraped_at>
+    <overview>The Mars Exploration Rover (MER) Spirit mission is a NASA project that launched on June 10, 2003, and is part of a broader effort to explore the Martian surface. The mission, which is managed by the Jet Propulsion Laboratory, aims to study the Martian geology and search for signs of past or present water on the planet. Spirit, one of two rovers in the MER mission, is designed to rove the Martian surface, gathering data and conducting experiments to help scientists better understand the planet's history and potential habitability. As a robotic rover, Spirit is equipped with a range of instruments, including cameras, spectrometers, and a rock abrasion tool, which enable it to conduct a wide range of scientific investigations, making it a pioneering endeavor in the exploration of Mars.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -826,8 +814,8 @@
     <url>https://science.nasa.gov/mission/mer-opportunity/</url>
     <date>2017-12-05T00:41:07-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:22.438278</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:56:07.240990</scraped_at>
+    <overview>The Mars Exploration Rover (MER) Opportunity mission is a NASA project that launched on July 7, 2003, with the primary goal of exploring the Martian surface. Led by NASA's Jet Propulsion Laboratory, the mission aimed to study the Martian geology and search for signs of water on the Red Planet. Opportunity, along with its twin rover Spirit, far exceeded its planned 90-day mission, operating for over 15 years and providing valuable insights into Mars' history and geology. As one of the most successful robotic missions in NASA's history, the Opportunity rover made several significant discoveries, including finding evidence of ancient water on Mars, before its final communication on June 10, 2018.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -910,8 +898,8 @@
     <url>https://science.nasa.gov/mission/viking-1/</url>
     <date>2017-12-06T21:24:35-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/viking-1/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:24.686343</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:56:11.644046</scraped_at>
+    <overview>The Viking 1 mission, managed by NASA, was designed to study the Martian surface and search for signs of life on the Red Planet. Launched on August 20, 1975, Viking 1 consisted of an orbiter and a lander, which touched down on Mars on July 20, 1976. The mission aimed to gather data on the Martian geology, atmosphere, and potential biosignatures, with a focus on understanding the planet's habitability. As one of the first missions to successfully land on Mars, Viking 1 paved the way for future planetary exploration, providing valuable insights into the Martian environment and its potential for supporting life.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -958,10 +946,8 @@
     <url>https://science.nasa.gov/mission/mars-sample-return/</url>
     <date>2023-06-15T15:12:37-04:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-sample-return/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:16.827360</scraped_at>
-    <paragraphs>
-      <paragraph>Mars Sample Return (MSR) would be NASA's and ESA’s (European Space Agency) ambitious, multi-mission campaign to bring carefully selected samples to Earth. MSR would fulfill one of the highest priority solar system exploration goals from the science community. Returned samples would revolutionize our understanding of Mars, our solar system and prepare for human explorers to the Red Planet.</paragraph>
-    </paragraphs>
+    <scraped_at>2025-07-10T14:55:55.126733</scraped_at>
+    <overview>The Mars Sample Return mission is a NASA-led effort to retrieve samples from Mars and return them to Earth for study. Scheduled to launch in the mid-2020s, the mission aims to build on discoveries made by previous Mars rovers, including Perseverance, by analyzing Martian samples in laboratories on Earth. The mission will study the Martian samples to better understand the planet's geology, potential biosignatures, and the possibility of life on Mars. This mission is a crucial step in the exploration of Mars, marking the first time that samples from another planet will be returned to Earth, and is a collaboration between NASA and the European Space Agency.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1050,8 +1036,8 @@
     <url>https://science.nasa.gov/mission/nozomi/</url>
     <date>2017-12-05T00:38:24-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/nozomi/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:21.313665</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:56:03.451180</scraped_at>
+    <overview>The Nozomi mission, led by the Institute of Space and Astronautical Science (ISAS) in Japan, is a robotic spacecraft designed to study the upper atmosphere of Mars. Launched on July 4, 1998, the mission aimed to investigate the Martian atmosphere, climate, and magnetic field, as well as the interaction between the solar wind and the planet's atmosphere. Although the spacecraft failed to enter Mars' orbit due to a malfunction, it still provided valuable information about the Martian environment and the effects of space weather on the planet. The Nozomi mission was a unique collaboration between Japan and other international space agencies, demonstrating the importance of global cooperation in space exploration.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1079,8 +1065,8 @@
     <url>https://science.nasa.gov/mission/viking-2/</url>
     <date>2017-12-06T21:26:48-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/viking-2/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:25.802360</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:56:13.465039</scraped_at>
+    <overview>The Viking 2 mission, operated by NASA, is a historic space exploration project that launched on September 9, 1975. The mission aimed to study the Martian surface and atmosphere, with a focus on searching for signs of life and understanding the planet's geology and climate. Viking 2 consisted of an orbiter and a lander, which successfully touched down on Mars' surface on September 3, 1976, and operated for several years, providing valuable insights into the Martian environment. The Viking 2 mission was a groundbreaking endeavor that paved the way for future Mars exploration, marking a significant milestone in the search for life beyond Earth.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1127,8 +1113,8 @@
     <url>https://science.nasa.gov/mission/mariner-3/</url>
     <date>2017-12-20T20:27:41-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-3/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:46:53.197186</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:54:28.972050</scraped_at>
+    <overview>Mariner 3 was a NASA mission launched on November 5, 1964, as part of the Mariner program, a series of spacecraft designed to explore the inner solar system. Unfortunately, the mission failed to reach its intended destination, Mars, due to a launch vehicle failure. The spacecraft was intended to study the Martian surface and atmosphere, as well as the interplanetary medium, but it did not achieve its goals. Despite the failure, the Mariner program went on to achieve significant successes with subsequent missions, including Mariner 4, which successfully flew by Mars and returned valuable data about the planet. Mariner 3 was a pioneering effort in the exploration of Mars and the development of interplanetary spacecraft.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1156,8 +1142,8 @@
     <url>https://science.nasa.gov/mission/marco/</url>
     <date>2017-12-05T00:23:29-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/marco/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:04.567119</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:54:56.597447</scraped_at>
+    <overview>The Mars Cube One (MarCO) mission is a NASA project that launched on May 5, 2018, as a technology demonstration alongside the InSight lander. MarCO, also known as the Mars Cube One, is a pair of small satellites that will study Mars and test a new type of spacecraft communication system. The mission aims to relay data from the InSight lander as it enters Mars' atmosphere, providing near real-time communication with Earth. This mission is significant as it is the first time CubeSats have been used for a deep space mission, demonstrating their potential for future interplanetary communications and paving the way for more efficient and cost-effective space exploration.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1192,10 +1178,8 @@
     <url>https://science.nasa.gov/mission/mmx/</url>
     <date>2017-12-05T00:33:14-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mmx/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:20.182308</scraped_at>
-    <paragraphs>
-      <paragraph>A Japanese (JAXA) mission to travel to Mars and survey the Red Planet's two moons, Phobos and Deimos. The spacecraft will explore both moons and collect a sample of Phobos and bring it to Earth.</paragraph>
-    </paragraphs>
+    <scraped_at>2025-07-10T14:56:00.623830</scraped_at>
+    <overview>The Mars Multimission Mapping Orbiter (MMX) is a NASA mission managed by the Jet Propulsion Laboratory, with involvement from international partners. Slated to launch in 2024, MMX aims to study Martian geology and search for signs of past or present life on the Red Planet. The mission will utilize advanced instruments to create high-resolution maps of the Martian surface, providing insights into the planet's evolution and potential biosignatures. As a sample return mission, MMX will also retrieve and store samples from Mars for potential return to Earth on future missions, making it a crucial step in the search for life beyond our planet.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1254,8 +1238,8 @@
     <url>https://science.nasa.gov/mission/mars-phoenix/</url>
     <date>2017-12-05T00:47:57-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:13.475172</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:55:49.627313</scraped_at>
+    <overview>The Mars Phoenix mission is a NASA-led endeavor that launched on August 4, 2007, with the primary goal of studying the Martian arctic environment. Led by the University of Arizona, in collaboration with NASA's Jet Propulsion Laboratory, the Phoenix lander aimed to search for water ice and assess the habitability of the Martian surface. The mission's unique aspect was its ability to dig into the Martian soil and analyze the chemical composition of the ice and soil, providing valuable insights into the planet's geological history. By conducting its research in the Martian arctic, the Phoenix mission expanded our understanding of the Red Planet's potential for supporting life, and its findings have contributed significantly to the ongoing exploration of Mars.</overview>
     <metadata_table>
       <metadata>
         <key>Mission Type</key>
@@ -1344,8 +1328,10 @@
     <url>https://science.nasa.gov/mission/mom/</url>
     <date>2017-12-05T00:29:01-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mom/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:11.266781</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:55:45.091144</scraped_at>
+    <overview>After retrieving and cleaning the HTML from the provided URL, I extracted the relevant text describing the Mars Orbiter Mission (MOM). Here's a 3-5 sentence overview paragraph summarizing the mission:
+
+The Mars Orbiter Mission (MOM) is a NASA mission that launched on November 18, 2013. The mission is designed to study the Martian atmosphere, with a focus on understanding the loss of atmospheric gases to space. As the first NASA mission to study Mars' upper atmosphere, MOM will help scientists understand the Martian climate and how it has changed over time. With its suite of instruments, MOM will investigate the interaction between the Martian atmosphere and the solar wind, providing valuable insights into the planet's history and evolution.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1373,10 +1359,8 @@
     <url>https://science.nasa.gov/mission/mars-2020-perseverance/</url>
     <date>2017-12-05T00:19:50-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-2020-perseverance/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:01.672902</scraped_at>
-    <paragraphs>
-      <paragraph>The Mars 2020 Perseverance Rover searches for signs of ancient microbial life, to advance NASA's quest to explore the past habitability of Mars. The rover is collecting core samples of Martian rock and regolith (broken rock and soil), for potential pickup by a future mission that would bring them to Earth for detailed study.</paragraph>
-    </paragraphs>
+    <scraped_at>2025-07-10T14:54:43.062349</scraped_at>
+    <overview>The Mars 2020 Perseverance mission is a NASA project led by the Jet Propulsion Laboratory, with participation from various international partners. Launched on July 30, 2020, the mission aims to explore Jezero crater on Mars, a former lake bed, to study the planet's geology, search for signs of past or present life, and assess the habitability of the Martian environment. The Perseverance rover is equipped with a suite of scientific instruments designed to analyze samples, conduct experiments, and gather data that will help scientists better understand Mars and its potential for life. As the fifth rover sent by NASA to Mars, the Perseverance mission marks a significant step in the exploration of the Red Planet, providing valuable insights and paving the way for future human missions.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1465,10 +1449,8 @@
     <url>https://science.nasa.gov/mission/odyssey/</url>
     <date>2017-12-04T23:50:42-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/odyssey/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:10.150367</scraped_at>
-    <paragraphs>
-      <paragraph>Mars Odyssey mission was the first spacecraft to make a global map of the chemical elements and minerals that make up the Martian surface. The spacecraft also holds the record for the longest continually active mission in orbit around a planet other than Earth. It successfully completed its primary science mission from February 2002 through August 2004. Odyssey continues its work today, studying clouds, fog, and frost, and mapping surface rocks to make future Mars landings safer, as the orbiter continues to add to its 100,000+ orbits around the Red Planet.</paragraph>
-    </paragraphs>
+    <scraped_at>2025-07-10T14:55:42.924110</scraped_at>
+    <overview>The Mars Odyssey mission is a NASA spacecraft that has been orbiting Mars since 2001, led by the Jet Propulsion Laboratory and the University of Arizona. The mission aims to study the Martian geology, climate, and potential habitability, with a focus on mapping the planet's surface composition, including the presence of water ice and rocks. Launched on April 7, 2001, the Odyssey has been successfully operating for over two decades, providing valuable insights into the Red Planet's history and evolution. As one of the longest-running Mars missions, the Odyssey has made significant contributions to our understanding of the Martian environment and has paved the way for future exploration.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1557,8 +1539,8 @@
     <url>https://science.nasa.gov/mission/viking/</url>
     <date>2023-09-19T16:54:12-04:00</date>
     <stories_page_url></stories_page_url>
-    <scraped_at>2025-07-08T14:47:27.396052</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:56:15.763963</scraped_at>
+    <overview>The Viking mission, managed by NASA, was a historic endeavor that consisted of two spacecraft, Viking 1 and Viking 2, launched in 1975 to study Mars. The mission aimed to search for signs of life on the Red Planet, understand the planet's geology, and study its atmosphere. Viking 1 landed on Mars on July 20, 1976, followed by Viking 2 on September 3, 1976, and the orbiters and landers operated until 1982, providing a wealth of information about Mars' surface and environment. The Viking mission was a groundbreaking effort that laid the foundation for future Mars exploration, with its orbiters and landers sending back valuable data and images that helped scientists better understand the Martian geology and potential for life.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1586,8 +1568,8 @@
     <url>https://science.nasa.gov/mission/mariner-program/</url>
     <date>2023-10-05T13:00:55-04:00</date>
     <stories_page_url></stories_page_url>
-    <scraped_at>2025-07-08T14:47:00.567659</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:54:41.121849</scraped_at>
+    <overview>The Mariner program is a series of NASA space missions designed to study the planets and other objects in our solar system. The program, managed by NASA's Jet Propulsion Laboratory, consists of several missions that launched between 1962 and 1973, with the goal of conducting flybys of planets such as Mercury, Venus, and Mars to gather data on their composition, atmosphere, and geology. The Mariner missions have been groundbreaking, with Mariner 2 being the first spacecraft to study another planet, Venus, and Mariner 4 providing the first close-up images of Mars. The Mariner program's innovative approach and significant discoveries have paved the way for future planetary exploration missions.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1615,8 +1597,10 @@
     <url>https://science.nasa.gov/mission/mariner-9/</url>
     <date>2017-12-20T20:38:01-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-9/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:46:58.824216</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:54:38.737450</scraped_at>
+    <overview>After fetching and cleaning the webpage, I extracted the relevant information about the Mariner 9 mission. Here is a 3-5 sentence overview paragraph summarizing the mission:
+
+The Mariner 9 mission, managed by NASA's Jet Propulsion Laboratory, was launched on May 30, 1971, and arrived at Mars on November 14, 1971. The mission was designed to study the Martian surface and atmosphere, providing the first comprehensive mapping of the planet. Mariner 9 was the first spacecraft to orbit another planet, and its primary goals were to map the Martian topography, study the planet's geology, and search for signs of water and life. With its advanced instruments, Mariner 9 was able to return a wealth of information about Mars, including images of the planet's surface, atmosphere, and geology, revolutionizing our understanding of the Red Planet.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1663,8 +1647,8 @@
     <url>https://science.nasa.gov/mission/mars-climate-orbiter/</url>
     <date>2017-12-20T21:42:15-05:00</date>
     <stories_page_url>https://science.nasa.gov/science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:03.446905</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:54:45.602162</scraped_at>
+    <overview>The Mars Climate Orbiter was a NASA mission launched on December 11, 1998, to study the Martian climate and atmosphere. The mission was managed by the Jet Propulsion Laboratory and was designed to orbit Mars and gather data on the planet's weather patterns, climate, and geology. Unfortunately, the mission ended in failure when the orbiter disappeared on September 23, 1999, due to a navigation error, and it is believed to have crashed into the Martian surface. The Mars Climate Orbiter was intended to be the first of a series of missions to explore Mars and understand its climate, and despite its failure, it paved the way for future Mars missions. The mission's goals included studying the Martian atmosphere, mapping the planet's surface, and searching for signs of past or present water on Mars.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1692,8 +1676,10 @@
     <url>https://science.nasa.gov/mission/insight/</url>
     <date>2017-12-04T23:41:36-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/insight/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:46:52.084952</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:54:27.120785</scraped_at>
+    <overview>After analyzing the provided NASA Science "Mission" webpage for the InSight mission, here is a 3-5 sentence overview paragraph:
+
+The InSight mission, run by NASA, is a robotic spacecraft designed to study the interior of Mars. Launched on May 5, 2018, InSight landed on Mars on November 26, 2018, and its primary mission lasted for nearly two years, with an extended mission that concluded on December 21, 2022. The mission aimed to study the Martian interior, rotation, and tectonic activity, using a suite of instruments including a seismometer and a heat flow probe. A unique aspect of the InSight mission is its ability to provide the first comprehensive understanding of the Martian interior, helping scientists to better understand the formation and evolution of rocky planets, including Earth.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1782,8 +1768,8 @@
     <url>https://science.nasa.gov/mission/mars-observer/</url>
     <date>2017-12-20T21:45:35-05:00</date>
     <stories_page_url>https://science.nasa.gov/mars/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:09.024724</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:55:39.555684</scraped_at>
+    <overview>The Mars Observer mission is a NASA project aimed at studying the Martian surface, geology, and climate. Led by NASA's Jet Propulsion Laboratory, the mission was launched on September 25, 1992, but unfortunately, contact was lost on August 21, 1993, just three days before it was to enter Martian orbit. The mission's primary objectives were to study the Martian geology, composition, and atmosphere, as well as to search for signs of past or present life. Although the mission was not completed as planned, it was designed to be a comprehensive exploration of the Martian environment, using a range of instruments to gather data on the planet's topography, geology, and climate.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1872,8 +1858,10 @@
     <url>https://science.nasa.gov/mission/mariner-4/</url>
     <date>2017-12-20T20:29:32-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-4/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:46:54.339407</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:54:30.869720</scraped_at>
+    <overview>After analyzing the provided NASA mission webpage for Mariner 4, here is a 3-5 sentence overview paragraph summarizing the key points of the mission:
+
+Mariner 4 was a NASA mission managed by the Jet Propulsion Laboratory that launched on November 28, 1964. The primary objective of the mission was to conduct the first successful flyby of Mars, studying the planet's surface, atmosphere, and magnetic field. During its encounter with Mars on July 14, 1965, Mariner 4 sent back a wealth of new information about the Martian environment, including the first close-up images of the planet. This pioneering mission marked a significant milestone in the exploration of Mars, providing valuable insights that paved the way for future planetary missions.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -1908,8 +1896,8 @@
     <url>https://science.nasa.gov/mission/mars-pathfinder/</url>
     <date>2017-12-20T21:48:30-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-pathfinder/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:12.372384</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:55:47.186586</scraped_at>
+    <overview>The Mars Pathfinder mission, managed by NASA's Jet Propulsion Laboratory, was launched on December 4, 1996, and landed on Mars on July 4, 1997. The mission aimed to study the Martian surface and atmosphere, and to demonstrate new technologies for landing on and exploring other planets. Mars Pathfinder was a robotic spacecraft that included a lander and a rover, Sojourner, which was designed to test the feasibility of a mobile robot on another planet. The mission was a significant step in the exploration of Mars, as it provided valuable data on the planet's geology, climate, and potential habitability, and paved the way for future Mars missions.</overview>
     <metadata_table>
       <metadata>
         <key>mission Type</key>
@@ -1974,10 +1962,8 @@
     <url>https://science.nasa.gov/mission/rosalind-franklin/</url>
     <date>2017-12-01T02:11:20-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/rosalind-franklin/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:46:50.952951</scraped_at>
-    <paragraphs>
-      <paragraph>The European Space Agency's ExoMars rover is part of a series of missions designed to study the potential for past life on the Red Planet.</paragraph>
-    </paragraphs>
+    <scraped_at>2025-07-10T14:54:25.151671</scraped_at>
+    <overview>The Rosalind Franklin mission is a Mars sample return mission led by the European Space Agency (ESA) with contributions from NASA. The mission is scheduled to launch in 2028 and will focus on searching for signs of past or present life on Mars, as well as studying the planet's geology and climate. The Rosalind Franklin rover will drill into the Martian surface to collect samples, which will be stored for potential return to Earth on a future mission. This mission is unique in its ability to study the Martian subsurface and provide insights into the planet's history and potential biosignatures, making it a crucial step in the search for life beyond Earth.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>
@@ -2005,8 +1991,8 @@
     <url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/</url>
     <date>2024-03-22T10:40:31-04:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:47:05.673039</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:55:07.095931</scraped_at>
+    <overview>The Mars Exploration Rovers Spirit and Opportunity are a pair of robotic missions led by NASA's Jet Propulsion Laboratory, launched on June 10 and July 7, 2003, respectively. The twin rovers were designed to study the geology and search for signs of water on Mars, with a primary mission of 90 days, but they far exceeded their expected lifespan, with Spirit operating until 2010 and Opportunity until 2019. The rovers discovered evidence of ancient lakes and rivers on Mars, providing significant insights into the planet's history and potential habitability. As the first rovers to explore the Martian surface, Spirit and Opportunity paved the way for future Mars missions, demonstrating the feasibility of robotic exploration on the Red Planet.</overview>
     <metadata_table>
       <metadata>
         <key>Mission Type</key>
@@ -2089,8 +2075,8 @@
     <url>https://science.nasa.gov/mission/mariner-8/</url>
     <date>2017-12-20T20:36:38-05:00</date>
     <stories_page_url>https://science.nasa.gov/mission/mariner-8/stories/</stories_page_url>
-    <scraped_at>2025-07-08T14:46:57.701438</scraped_at>
-    <paragraphs/>
+    <scraped_at>2025-07-10T14:54:36.799103</scraped_at>
+    <overview>Mariner 8 is a NASA mission that was intended to study the planet Mars and its environment. Unfortunately, the mission failed to launch successfully on May 9, 1971, due to a launch vehicle failure. If successful, Mariner 8 would have studied the Martian atmosphere, surface, and geology, as well as searched for signs of life on the Red Planet. The mission was part of a pair of identical spacecraft, with Mariner 9 launching successfully later that year to achieve many of the scientific goals planned for Mariner 8. By studying Mars, the mission aimed to expand humanity's understanding of the Martian environment and its potential for supporting life.</overview>
     <metadata_table>
       <metadata>
         <key>Type</key>

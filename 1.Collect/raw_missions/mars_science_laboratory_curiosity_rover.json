@@ -3,9 +3,7 @@
   "subtitle": "Part of NASA's Mars Science Laboratory mission, at the time of launch, Curiosity was the largest and most capable rover ever sent to Mars at that time.",
   "url": "https://science.nasa.gov/mission/msl-curiosity/",
   "date": "2017-11-30T21:05:49-05:00",
-  "paragraphs": [
-    "Part of NASA's Mars Science Laboratory mission, Curiosity, was the largest and most capable rover ever sent to Mars when it launched in 2011. Curiosity set out to answer the question: Did Mars ever have the right environmental conditions to support small life forms called microbes? Early in its mission, Curiosity's scientific tools found chemical and mineral evidence of past habitable environments on Mars. It continues to explore the rock record from a time when Mars could have been home to microbial life."
-  ],
+  "overview": "The Mars Science Laboratory (MSL) Curiosity mission is a NASA project that aims to explore Mars and understand its habitability. Led by NASA's Jet Propulsion Laboratory, the Curiosity rover was launched on November 26, 2011, and landed on Mars on August 6, 2012. The mission is studying the Martian geology, climate, and potential biosignatures, with a focus on determining whether Mars was or is capable of supporting life. As a unique aspect of the mission, the Curiosity rover is equipped with a suite of advanced instruments, including a rock-analyzing laser and a drill, which enable it to gather and analyze samples from the Martian surface.",
   "metadata_table": [
     {
       "key": "Type",
@@ -88,5 +86,5 @@
   ],
   "mission_status": "active",
   "stories_page_url": "https://science.nasa.gov/mission/msl-curiosity/stories/",
-  "scraped_at": "2025-07-08T14:47:17.936492"
+  "scraped_at": "2025-07-10T14:55:56.949736"
 }

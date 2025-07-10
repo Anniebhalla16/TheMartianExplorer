@@ -3,9 +3,7 @@
   "subtitle": "NASA’s 2001 Mars Odyssey mission created the first global map of chemical elements and minerals that make up the Martian surface.",
   "url": "https://science.nasa.gov/mission/odyssey/",
   "date": "2017-12-04T23:50:42-05:00",
-  "paragraphs": [
-    "Mars Odyssey mission was the first spacecraft to make a global map of the chemical elements and minerals that make up the Martian surface. The spacecraft also holds the record for the longest continually active mission in orbit around a planet other than Earth. It successfully completed its primary science mission from February 2002 through August 2004. Odyssey continues its work today, studying clouds, fog, and frost, and mapping surface rocks to make future Mars landings safer, as the orbiter continues to add to its 100,000+ orbits around the Red Planet."
-  ],
+  "overview": "The Mars Odyssey mission is a NASA spacecraft that has been orbiting Mars since 2001, led by the Jet Propulsion Laboratory and the University of Arizona. The mission aims to study the Martian geology, climate, and potential habitability, with a focus on mapping the planet's surface composition, including the presence of water ice and rocks. Launched on April 7, 2001, the Odyssey has been successfully operating for over two decades, providing valuable insights into the Red Planet's history and evolution. As one of the longest-running Mars missions, the Odyssey has made significant contributions to our understanding of the Martian environment and has paved the way for future exploration.",
   "metadata_table": [
     {
       "key": "Type",
@@ -88,5 +86,5 @@
   ],
   "mission_status": "active",
   "stories_page_url": "https://science.nasa.gov/mission/odyssey/stories/",
-  "scraped_at": "2025-07-08T14:47:10.150367"
+  "scraped_at": "2025-07-10T14:55:42.924110"
 }

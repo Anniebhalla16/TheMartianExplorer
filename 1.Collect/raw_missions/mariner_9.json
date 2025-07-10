@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/mariner-9/",
   "date": "2017-12-20T20:38:01-05:00",
-  "paragraphs": [],
+  "overview": "After fetching and cleaning the webpage, I extracted the relevant information about the Mariner 9 mission. Here is a 3-5 sentence overview paragraph summarizing the mission:\n\nThe Mariner 9 mission, managed by NASA's Jet Propulsion Laboratory, was launched on May 30, 1971, and arrived at Mars on November 14, 1971. The mission was designed to study the Martian surface and atmosphere, providing the first comprehensive mapping of the planet. Mariner 9 was the first spacecraft to orbit another planet, and its primary goals were to map the Martian topography, study the planet's geology, and search for signs of water and life. With its advanced instruments, Mariner 9 was able to return a wealth of information about Mars, including images of the planet's surface, atmosphere, and geology, revolutionizing our understanding of the Red Planet.",
   "metadata_table": [
     {
       "key": "Type",
@@ -44,5 +44,5 @@
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-9/stories/",
-  "scraped_at": "2025-07-08T14:46:58.824216"
+  "scraped_at": "2025-07-10T14:54:38.737450"
 }

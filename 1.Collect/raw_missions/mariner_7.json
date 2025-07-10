@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/mariner-7/",
   "date": "2018-01-25T20:26:03-05:00",
-  "paragraphs": [],
+  "overview": "The Mariner 7 mission, operated by NASA's Jet Propulsion Laboratory, was launched on March 27, 1969, with the objective of studying the planet Venus and the outer Solar System. The mission was designed to fly by Venus, providing scientists with a unique opportunity to gather data on the planet's atmosphere, magnetic field, and surface. Mariner 7 was part of a dual-spacecraft mission, launched in tandem with Mariner 6, and its findings contributed significantly to our understanding of Venus and the Solar System. The mission's successful flyby of Venus marked a significant milestone in the exploration of our celestial neighbor, providing valuable insights into the planet's composition and environment.",
   "metadata_table": [
     {
       "key": "Type",
@@ -32,5 +32,5 @@
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-7/stories/",
-  "scraped_at": "2025-07-08T14:46:56.558547"
+  "scraped_at": "2025-07-10T14:54:34.847252"
 }

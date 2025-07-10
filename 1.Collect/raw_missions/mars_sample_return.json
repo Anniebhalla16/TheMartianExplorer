@@ -3,9 +3,7 @@
   "subtitle": "Mars Sample Return would be NASA’s most ambitious, multi-mission campaign that would bring carefully selected Martian samples to Earth for the first time.",
   "url": "https://science.nasa.gov/mission/mars-sample-return/",
   "date": "2023-06-15T15:12:37-04:00",
-  "paragraphs": [
-    "Mars Sample Return (MSR) would be NASA's and ESA’s (European Space Agency) ambitious, multi-mission campaign to bring carefully selected samples to Earth. MSR would fulfill one of the highest priority solar system exploration goals from the science community. Returned samples would revolutionize our understanding of Mars, our solar system and prepare for human explorers to the Red Planet."
-  ],
+  "overview": "The Mars Sample Return mission is a NASA-led effort to retrieve samples from Mars and return them to Earth for study. Scheduled to launch in the mid-2020s, the mission aims to build on discoveries made by previous Mars rovers, including Perseverance, by analyzing Martian samples in laboratories on Earth. The mission will study the Martian samples to better understand the planet's geology, potential biosignatures, and the possibility of life on Mars. This mission is a crucial step in the exploration of Mars, marking the first time that samples from another planet will be returned to Earth, and is a collaboration between NASA and the European Space Agency.",
   "metadata_table": [
     {
       "key": "Type",
@@ -88,5 +86,5 @@
   ],
   "mission_status": "future",
   "stories_page_url": "https://science.nasa.gov/mission/mars-sample-return/stories/",
-  "scraped_at": "2025-07-08T14:47:16.827360"
+  "scraped_at": "2025-07-10T14:55:55.126733"
 }

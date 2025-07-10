@@ -3,7 +3,7 @@
   "subtitle": "Mars Global Surveyor",
   "url": "https://science.nasa.gov/mission/mars-global-surveyor/",
   "date": "2017-12-20T21:44:02-05:00",
-  "paragraphs": [],
+  "overview": "The Mars Global Surveyor mission, operated by NASA's Jet Propulsion Laboratory, is a robotic spacecraft designed to study the Martian surface and atmosphere. Launched on November 7, 1996, the mission aimed to map the planet's topography, composition, and climate, as well as study its magnetic field and geology. During its primary mission, the Mars Global Surveyor successfully gathered data on the Martian surface, providing valuable insights into the planet's geology, climate, and potential habitability. The mission's findings included the discovery of ancient riverbeds, lakes, and volcanoes, sheds light on the planet's water history and geological evolution.",
   "metadata_table": [
     {
       "key": "Type",
@@ -68,5 +68,5 @@
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mars-global-surveyor/stories/",
-  "scraped_at": "2025-07-08T14:47:07.924257"
+  "scraped_at": "2025-07-10T14:55:37.636669"
 }

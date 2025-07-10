@@ -8,6 +8,13 @@ import re
 from urllib.parse import urljoin, urlparse
 import logging
 
+from dotenv import load_dotenv
+from groq import Groq
+load_dotenv()
+
+groq = Groq()
+
+
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -48,6 +55,7 @@ class MarsMissionScraper:
             logger.info(f"Scraping: {url}")
             response = self.session.get(url)
             response.raise_for_status()
+            html = response.text
             
             soup = BeautifulSoup(response.text, 'html.parser')
             
@@ -59,8 +67,8 @@ class MarsMissionScraper:
             subtitle_element = soup.find('p', class_='p-lg')
             subtitle = subtitle_element.get_text(strip=True) if subtitle_element else ""
             
-            # --- extract all narrative paragraphs from the main content ---
-            paragraphs = self.get_text_content(soup)
+            # --- extract overview from the main content ---
+            overview = self.get_mission_overview(url)
             
             # --- extract metadata from both possible containers ---
             metadata_table = self.get_metadata(soup)
@@ -83,7 +91,7 @@ class MarsMissionScraper:
                 "subtitle": subtitle,
                 "url": url,
                 "date": pub_date,
-                "paragraphs": paragraphs,
+                "overview": overview,
                 "metadata_table": metadata_table,
                 "stories": stories,
                 'mission_status' : mission_status,
@@ -95,26 +103,45 @@ class MarsMissionScraper:
             logger.error(f"Error scraping {url}: {e}")
             return None
     
-    def get_text_content(self, soup):
-        paragraphs= []
-        entry_content = soup.find('div', class_='entry-content')
-        if entry_content:
-            # Get paragraphs from encyclopedic content
-            content_columns = entry_content.find('div', class_='hds-encyclopedic-primary-column')
-            if content_columns:
-                for p in content_columns.find_all('p'):
-                    text = p.get_text(strip=True)
-                    if text and len(text) > 20:  # Filter out very short paragraphs
-                        paragraphs.append(text)
-                
-            # Also get paragraphs from mission meta description
-            meta_section = entry_content.find('div', class_='mission-single-meta')
-            if meta_section:
-                for p in meta_section.find_all('p', class_='p-lg'):
-                    text = p.get_text(strip=True)
-                    if text and len(text) > 20:
-                        paragraphs.append(text)      
-        return paragraphs      
+    def get_mission_overview(self, url):
+
+        prompt = f"""
+        You are a NASA mission summarizer. Given a single input: a URL pointing to a NASA Science “Mission” webpage, perform the following steps:
+
+        Fetch & Clean
+        - Retrieve the page’s HTML.
+        - Strip out all navigation, ads, scripts, styles, image captions, footers—anything that isn’t the mission’s human-written content.
+
+        Extract
+        - Identify the mission’s name (usually the largest heading or page title).
+        - Locate the introductory description and any bulleted or paragraph text that describes what the mission does, why it exists, who’s involved, when it launches, and its goals.
+        - Ignore lists of unrelated links, site chrome, and anything not directly describing the mission.
+
+        Summarize
+        - Using only the extracted text (no outside knowledge), write a single 3–5 sentence overview paragraph that states:
+          • What the mission is and who’s running it  
+          • When it will launch or its status  
+          • What it will study or accomplish  
+          • Any unique aspects (e.g. sample return, first of its kind, etc.)
+        - Do not hallucinate or add facts not present on the page.
+
+        Output
+        Return only the overview paragraph.
+
+        Here is the Nasa Mission URL: {url}
+        """
+
+        chat_completion = groq.chat.completions.create(
+        model="llama-3.3-70b-versatile" ,
+        messages=[
+            {
+                "role":"user",
+                "content":prompt,
+
+            }
+        ])
+        return chat_completion.choices[0].message.content
+ 
         
     def extract_publication_date(self, soup):
         """Extract publication date from various sources"""

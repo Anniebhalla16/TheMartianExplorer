@@ -3,9 +3,7 @@
   "subtitle": "ExoMars Rosalind Franklin Mission",
   "url": "https://science.nasa.gov/mission/rosalind-franklin/",
   "date": "2017-12-01T02:11:20-05:00",
-  "paragraphs": [
-    "The European Space Agency's ExoMars rover is part of a series of missions designed to study the potential for past life on the Red Planet."
-  ],
+  "overview": "The Rosalind Franklin mission is a Mars sample return mission led by the European Space Agency (ESA) with contributions from NASA. The mission is scheduled to launch in 2028 and will focus on searching for signs of past or present life on Mars, as well as studying the planet's geology and climate. The Rosalind Franklin rover will drill into the Martian surface to collect samples, which will be stored for potential return to Earth on a future mission. This mission is unique in its ability to study the Martian subsurface and provide insights into the planet's history and potential biosignatures, making it a crucial step in the search for life beyond Earth.",
   "metadata_table": [
     {
       "key": "Type",
@@ -27,5 +25,5 @@
   "stories": [],
   "mission_status": "future",
   "stories_page_url": "https://science.nasa.gov/mission/rosalind-franklin/stories/",
-  "scraped_at": "2025-07-08T14:46:50.952951"
+  "scraped_at": "2025-07-10T14:54:25.151671"
 }

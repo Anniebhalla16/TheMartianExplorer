@@ -3,7 +3,7 @@
   "subtitle": "NASA's Viking Project found a place in history when it became the first U.S. mission to land a spacecraft safely on the surface of Mars and return images of the surface.",
   "url": "https://science.nasa.gov/mission/viking/",
   "date": "2023-09-19T16:54:12-04:00",
-  "paragraphs": [],
+  "overview": "The Viking mission, managed by NASA, was a historic endeavor that consisted of two spacecraft, Viking 1 and Viking 2, launched in 1975 to study Mars. The mission aimed to search for signs of life on the Red Planet, understand the planet's geology, and study its atmosphere. Viking 1 landed on Mars on July 20, 1976, followed by Viking 2 on September 3, 1976, and the orbiters and landers operated until 1982, providing a wealth of information about Mars' surface and environment. The Viking mission was a groundbreaking effort that laid the foundation for future Mars exploration, with its orbiters and landers sending back valuable data and images that helped scientists better understand the Martian geology and potential for life.",
   "metadata_table": [
     {
       "key": "Type",
@@ -25,5 +25,5 @@
   "stories": [],
   "mission_status": "past",
   "stories_page_url": null,
-  "scraped_at": "2025-07-08T14:47:27.396052"
+  "scraped_at": "2025-07-10T14:56:15.763963"
 }

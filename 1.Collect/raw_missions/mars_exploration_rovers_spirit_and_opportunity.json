@@ -3,7 +3,7 @@
   "subtitle": "NASA’s Spirit and Opportunity rovers were identical twin robots that helped rewrite our understanding of the early history of Mars.",
   "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
   "date": "2024-03-22T10:40:31-04:00",
-  "paragraphs": [],
+  "overview": "The Mars Exploration Rovers Spirit and Opportunity are a pair of robotic missions led by NASA's Jet Propulsion Laboratory, launched on June 10 and July 7, 2003, respectively. The twin rovers were designed to study the geology and search for signs of water on Mars, with a primary mission of 90 days, but they far exceeded their expected lifespan, with Spirit operating until 2010 and Opportunity until 2019. The rovers discovered evidence of ancient lakes and rivers on Mars, providing significant insights into the planet's history and potential habitability. As the first rovers to explore the Martian surface, Spirit and Opportunity paved the way for future Mars missions, demonstrating the feasibility of robotic exploration on the Red Planet.",
   "metadata_table": [
     {
       "key": "Mission Type",
@@ -80,5 +80,5 @@
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/",
-  "scraped_at": "2025-07-08T14:47:05.673039"
+  "scraped_at": "2025-07-10T14:55:07.095931"
 }

@@ -3,9 +3,7 @@
   "subtitle": "NASA's Mars Reconnaissance Orbiter searches for evidence that water persisted on the surface of Mars for a long period of time.",
   "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/",
   "date": "2017-12-05T00:31:14-05:00",
-  "paragraphs": [
-    "NASA's Mars Reconnaissance Orbiter blasted off from Cape Canaveral in 2005, on a search for evidence that water persisted on the surface of Mars for long periods of time. While other Mars missions have shown that water flowed across the surface in Mars' history, it remains a mystery whether water was ever around long enough to provide a habitat for life."
-  ],
+  "overview": "The Mars Reconnaissance Orbiter (MRO) is a NASA mission launched on August 12, 2005, and is currently operational. The mission is managed by NASA's Jet Propulsion Laboratory, with participation from the European Space Agency and other international partners. The MRO is designed to study the Martian geology, climate, and potential biosignatures, with a focus on understanding the planet's history, including the role of water and the potential for life. The orbiter is equipped with a range of instruments, including cameras, spectrometers, and radar, which have provided unprecedented high-resolution images and data, making it one of the most successful and long-lived Mars missions to date.",
   "metadata_table": [
     {
       "key": "Type",
@@ -88,5 +86,5 @@
   ],
   "mission_status": "active",
   "stories_page_url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/stories/",
-  "scraped_at": "2025-07-08T14:47:15.716353"
+  "scraped_at": "2025-07-10T14:55:53.324852"
 }

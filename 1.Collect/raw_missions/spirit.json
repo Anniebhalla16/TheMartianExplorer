@@ -3,7 +3,7 @@
   "subtitle": "Mars Exploration Rover – Spirit",
   "url": "https://science.nasa.gov/mission/mer-spirit/",
   "date": "2017-12-05T00:55:21-05:00",
-  "paragraphs": [],
+  "overview": "The Mars Exploration Rover (MER) Spirit mission is a NASA project that launched on June 10, 2003, and is part of a broader effort to explore the Martian surface. The mission, which is managed by the Jet Propulsion Laboratory, aims to study the Martian geology and search for signs of past or present water on the planet. Spirit, one of two rovers in the MER mission, is designed to rove the Martian surface, gathering data and conducting experiments to help scientists better understand the planet's history and potential habitability. As a robotic rover, Spirit is equipped with a range of instruments, including cameras, spectrometers, and a rock abrasion tool, which enable it to conduct a wide range of scientific investigations, making it a pioneering endeavor in the exploration of Mars.",
   "metadata_table": [
     {
       "key": "Type",
@@ -80,5 +80,5 @@
   ],
   "mission_status": null,
   "stories_page_url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/",
-  "scraped_at": "2025-07-08T14:47:23.573017"
+  "scraped_at": "2025-07-10T14:56:09.324362"
 }

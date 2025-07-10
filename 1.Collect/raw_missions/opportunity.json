@@ -3,7 +3,7 @@
   "subtitle": "Mars Exploration Rover Opportunity (MER-B)",
   "url": "https://science.nasa.gov/mission/mer-opportunity/",
   "date": "2017-12-05T00:41:07-05:00",
-  "paragraphs": [],
+  "overview": "The Mars Exploration Rover (MER) Opportunity mission is a NASA project that launched on July 7, 2003, with the primary goal of exploring the Martian surface. Led by NASA's Jet Propulsion Laboratory, the mission aimed to study the Martian geology and search for signs of water on the Red Planet. Opportunity, along with its twin rover Spirit, far exceeded its planned 90-day mission, operating for over 15 years and providing valuable insights into Mars' history and geology. As one of the most successful robotic missions in NASA's history, the Opportunity rover made several significant discoveries, including finding evidence of ancient water on Mars, before its final communication on June 10, 2018.",
   "metadata_table": [
     {
       "key": "Type",
@@ -80,5 +80,5 @@
   ],
   "mission_status": null,
   "stories_page_url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/stories/",
-  "scraped_at": "2025-07-08T14:47:22.438278"
+  "scraped_at": "2025-07-10T14:56:07.240990"
 }

@@ -3,9 +3,7 @@
   "subtitle": "Martian Moons eXploration",
   "url": "https://science.nasa.gov/mission/mmx/",
   "date": "2017-12-05T00:33:14-05:00",
-  "paragraphs": [
-    "A Japanese (JAXA) mission to travel to Mars and survey the Red Planet's two moons, Phobos and Deimos. The spacecraft will explore both moons and collect a sample of Phobos and bring it to Earth."
-  ],
+  "overview": "The Mars Multimission Mapping Orbiter (MMX) is a NASA mission managed by the Jet Propulsion Laboratory, with involvement from international partners. Slated to launch in 2024, MMX aims to study Martian geology and search for signs of past or present life on the Red Planet. The mission will utilize advanced instruments to create high-resolution maps of the Martian surface, providing insights into the planet's evolution and potential biosignatures. As a sample return mission, MMX will also retrieve and store samples from Mars for potential return to Earth on future missions, making it a crucial step in the search for life beyond our planet.",
   "metadata_table": [
     {
       "key": "Type",
@@ -58,5 +56,5 @@
   ],
   "mission_status": "future",
   "stories_page_url": "https://science.nasa.gov/mission/mmx/stories/",
-  "scraped_at": "2025-07-08T14:47:20.182308"
+  "scraped_at": "2025-07-10T14:56:00.623830"
 }

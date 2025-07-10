@@ -3,9 +3,7 @@
   "subtitle": "The Mars Atmosphere and Volatile EvolutioN (MAVEN) mission is the first mission devoted to understanding the Martian upper atmosphere.",
   "url": "https://science.nasa.gov/mission/maven/",
   "date": "2017-12-04T23:25:33-05:00",
-  "paragraphs": [
-    "The Mars Atmosphere and Volatile EvolutioN (MAVEN) mission will determine how much of the Martian atmosphere has been lost over time by measuring the current rate of escape to space and gathering enough information about the relevant processes to allow extrapolation backward in time."
-  ],
+  "overview": "The Mars Atmosphere and Volatile Evolution (MAVEN) mission, led by NASA, is a space orbiter designed to study the Martian atmosphere and its interaction with the solar wind. Launched on November 18, 2013, the mission aims to determine the role that the loss of atmospheric gas to space has played in changing the Martian climate over time. By examining the planet's upper atmosphere, MAVEN seeks to understand what caused the Martian atmosphere to be stripped away, resulting in the cold, barren environment seen today. As a key player in NASA's Mars exploration program, the MAVEN mission provides valuable insights into the Red Planet's history and evolution, helping scientists better understand the Martian climate and its potential for supporting life.",
   "metadata_table": [
     {
       "key": "Type",
@@ -88,5 +86,5 @@
   ],
   "mission_status": "active",
   "stories_page_url": "https://science.nasa.gov/mission/maven/stories/",
-  "scraped_at": "2025-07-08T14:47:19.074128"
+  "scraped_at": "2025-07-10T14:55:58.841283"
 }

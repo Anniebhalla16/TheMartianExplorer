@@ -24,15 +24,9 @@ for entry in data:
     mission_el = etree.SubElement(missions_el, "mission")
     
     # Add simple fields (can be empty)
-    for field in ["title", "subtitle", "url", "date", "stories_page_url", "scraped_at"]:
+    for field in ["title", "subtitle", "url", "date", "stories_page_url", "scraped_at", "overview"]:
         value = entry.get(field, "")
         etree.SubElement(mission_el, field).text = str(value) if value else ""
-    
-    # Add paragraphs (can be empty array)
-    paragraphs_el = etree.SubElement(mission_el, "paragraphs")
-    if "paragraphs" in entry and entry["paragraphs"]:
-        for paragraph in entry["paragraphs"]:
-            etree.SubElement(paragraphs_el, "paragraph").text = paragraph or ""
     
     # Add metadata table (can be empty array)
     metadata_table_el = etree.SubElement(mission_el, "metadata_table")

@@ -3,9 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/mars-express/",
   "date": "2017-12-05T00:26:53-05:00",
-  "paragraphs": [
-    "NASA is participating in a mission of ESA (European Space Agency) and the Italian Space Agency called Mars Express, which has been exploring the atmosphere and surface of Mars from polar orbit since arriving at the Red Planet in 2003. Initially, Mars Express also carried a small lander called Beagle 2, named for the ship in which Charles Darwin set sail to explore uncharted areas of Earth in 1831. The lander was lost on arrival in December 2003."
-  ],
+  "overview": "The Mars Express mission is a European Space Agency (ESA) project, with NASA participating as a major partner, that launched on June 2, 2003. The mission aims to study the Martian environment, geology, and climate, using a range of instruments to gather data on the planet's surface, subsurface, and atmosphere. Mars Express is designed to provide a comprehensive understanding of Mars, including its subsurface, polar ice caps, and geological history, and has been successfully orbiting the planet for over 19 years. As one of the most successful interplanetary missions, Mars Express has greatly advanced our knowledge of the Red Planet, and its findings continue to contribute to the ongoing exploration of Mars.",
   "metadata_table": [
     {
       "key": "Type",
@@ -84,5 +82,5 @@
   ],
   "mission_status": "active",
   "stories_page_url": "https://science.nasa.gov/mars/stories/",
-  "scraped_at": "2025-07-08T14:47:06.797681"
+  "scraped_at": "2025-07-10T14:55:29.656569"
 }

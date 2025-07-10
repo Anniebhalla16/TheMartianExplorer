@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/mariner-program/",
   "date": "2023-10-05T13:00:55-04:00",
-  "paragraphs": [],
+  "overview": "The Mariner program is a series of NASA space missions designed to study the planets and other objects in our solar system. The program, managed by NASA's Jet Propulsion Laboratory, consists of several missions that launched between 1962 and 1973, with the goal of conducting flybys of planets such as Mercury, Venus, and Mars to gather data on their composition, atmosphere, and geology. The Mariner missions have been groundbreaking, with Mariner 2 being the first spacecraft to study another planet, Venus, and Mariner 4 providing the first close-up images of Mars. The Mariner program's innovative approach and significant discoveries have paved the way for future planetary exploration missions.",
   "metadata_table": [
     {
       "key": "Type",
@@ -25,5 +25,5 @@
   "stories": [],
   "mission_status": "past",
   "stories_page_url": null,
-  "scraped_at": "2025-07-08T14:47:00.567659"
+  "scraped_at": "2025-07-10T14:54:41.121849"
 }

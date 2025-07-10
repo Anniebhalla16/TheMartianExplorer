@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/mariner-4/",
   "date": "2017-12-20T20:29:32-05:00",
-  "paragraphs": [],
+  "overview": "After analyzing the provided NASA mission webpage for Mariner 4, here is a 3-5 sentence overview paragraph summarizing the key points of the mission:\n\nMariner 4 was a NASA mission managed by the Jet Propulsion Laboratory that launched on November 28, 1964. The primary objective of the mission was to conduct the first successful flyby of Mars, studying the planet's surface, atmosphere, and magnetic field. During its encounter with Mars on July 14, 1965, Mariner 4 sent back a wealth of new information about the Martian environment, including the first close-up images of the planet. This pioneering mission marked a significant milestone in the exploration of Mars, providing valuable insights that paved the way for future planetary missions.",
   "metadata_table": [
     {
       "key": "Type",
@@ -32,5 +32,5 @@
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/mariner-4/stories/",
-  "scraped_at": "2025-07-08T14:46:54.339407"
+  "scraped_at": "2025-07-10T14:54:30.869720"
 }

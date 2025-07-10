@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/nozomi/",
   "date": "2017-12-05T00:38:24-05:00",
-  "paragraphs": [],
+  "overview": "The Nozomi mission, led by the Institute of Space and Astronautical Science (ISAS) in Japan, is a robotic spacecraft designed to study the upper atmosphere of Mars. Launched on July 4, 1998, the mission aimed to investigate the Martian atmosphere, climate, and magnetic field, as well as the interaction between the solar wind and the planet's atmosphere. Although the spacecraft failed to enter Mars' orbit due to a malfunction, it still provided valuable information about the Martian environment and the effects of space weather on the planet. The Nozomi mission was a unique collaboration between Japan and other international space agencies, demonstrating the importance of global cooperation in space exploration.",
   "metadata_table": [
     {
       "key": "Type",
@@ -25,5 +25,5 @@
   "stories": [],
   "mission_status": null,
   "stories_page_url": "https://science.nasa.gov/mission/nozomi/stories/",
-  "scraped_at": "2025-07-08T14:47:21.313665"
+  "scraped_at": "2025-07-10T14:56:03.451180"
 }

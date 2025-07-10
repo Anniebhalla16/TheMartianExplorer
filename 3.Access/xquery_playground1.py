@@ -108,15 +108,6 @@ if __name__ == "__main__":
         </match>
     '''
 
-    # 9. Distinct partners
-    q9 = '''xquery version "3.1";
-      distinct-values(
-        doc("/db/martian-explorer/missions.xml")
-          /missions/mission
-          /metadata_table/metadata[key='partner']/value/text()
-      )
-    '''
-
     # 10. Missions with “rover” in subtitle
     q10 = '''xquery version "3.1";
       for $m in doc("/db/martian-explorer/missions.xml")/missions/mission
@@ -196,7 +187,6 @@ if __name__ == "__main__":
         'launch_landing': q6,
         'stories_urls': q7,
         'atmosphere_search': q8,
-        'distinct_partners': q9,
         'subtitle_rover': q10,
         'recent_first': q11,
         'story_counts': q12,

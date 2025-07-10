@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/mars-climate-orbiter/",
   "date": "2017-12-20T21:42:15-05:00",
-  "paragraphs": [],
+  "overview": "The Mars Climate Orbiter was a NASA mission launched on December 11, 1998, to study the Martian climate and atmosphere. The mission was managed by the Jet Propulsion Laboratory and was designed to orbit Mars and gather data on the planet's weather patterns, climate, and geology. Unfortunately, the mission ended in failure when the orbiter disappeared on September 23, 1999, due to a navigation error, and it is believed to have crashed into the Martian surface. The Mars Climate Orbiter was intended to be the first of a series of missions to explore Mars and understand its climate, and despite its failure, it paved the way for future Mars missions. The mission's goals included studying the Martian atmosphere, mapping the planet's surface, and searching for signs of past or present water on Mars.",
   "metadata_table": [
     {
       "key": "Type",
@@ -25,5 +25,5 @@
   "stories": [],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/science.nasa.gov/mars/stories/",
-  "scraped_at": "2025-07-08T14:47:03.446905"
+  "scraped_at": "2025-07-10T14:54:45.602162"
 }

@@ -3,7 +3,7 @@
   "subtitle": "NASA’s Mars Pathfinder successfully demonstrated a new way to safely land on the Red Planet and deliver the first-ever robotic rover, Sojourner, to the Martian surface.",
   "url": "https://science.nasa.gov/mission/mars-pathfinder/",
   "date": "2017-12-20T21:48:30-05:00",
-  "paragraphs": [],
+  "overview": "The Mars Pathfinder mission, managed by NASA's Jet Propulsion Laboratory, was launched on December 4, 1996, and landed on Mars on July 4, 1997. The mission aimed to study the Martian surface and atmosphere, and to demonstrate new technologies for landing on and exploring other planets. Mars Pathfinder was a robotic spacecraft that included a lander and a rover, Sojourner, which was designed to test the feasibility of a mobile robot on another planet. The mission was a significant step in the exploration of Mars, as it provided valuable data on the planet's geology, climate, and potential habitability, and paved the way for future Mars missions.",
   "metadata_table": [
     {
       "key": "mission Type",
@@ -62,5 +62,5 @@
   ],
   "mission_status": null,
   "stories_page_url": "https://science.nasa.gov/mission/mars-pathfinder/stories/",
-  "scraped_at": "2025-07-08T14:47:12.372384"
+  "scraped_at": "2025-07-10T14:55:47.186586"
 }

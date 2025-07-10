@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/mars-polar-lander-deep-space-2/",
   "date": "2019-01-17T18:44:28-05:00",
-  "paragraphs": [],
+  "overview": "The Mars Polar Lander mission, led by NASA's Jet Propulsion Laboratory, is a robotic spacecraft designed to study the Martian polar region. The mission was launched on January 3, 1999, but unfortunately, contact was lost during its descent to the Martian surface. The primary goal of the mission was to gather data on the Martian polar ice cap, geology, and climate, as well as to search for evidence of water ice. A unique aspect of the mission is that it was part of NASA's Deep Space 2 program, which aimed to develop and demonstrate new technologies for exploring the Martian surface.",
   "metadata_table": [
     {
       "key": "Type",
@@ -86,5 +86,5 @@
   ],
   "mission_status": null,
   "stories_page_url": "https://science.nasa.gov/mars/stories/",
-  "scraped_at": "2025-07-08T14:47:14.585694"
+  "scraped_at": "2025-07-10T14:55:51.443549"
 }

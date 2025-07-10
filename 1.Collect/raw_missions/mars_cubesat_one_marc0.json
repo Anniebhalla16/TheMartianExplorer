@@ -3,7 +3,7 @@
   "subtitle": "",
   "url": "https://science.nasa.gov/mission/marco/",
   "date": "2017-12-05T00:23:29-05:00",
-  "paragraphs": [],
+  "overview": "The Mars Cube One (MarCO) mission is a NASA project that launched on May 5, 2018, as a technology demonstration alongside the InSight lander. MarCO, also known as the Mars Cube One, is a pair of small satellites that will study Mars and test a new type of spacecraft communication system. The mission aims to relay data from the InSight lander as it enters Mars' atmosphere, providing near real-time communication with Earth. This mission is significant as it is the first time CubeSats have been used for a deep space mission, demonstrating their potential for future interplanetary communications and paving the way for more efficient and cost-effective space exploration.",
   "metadata_table": [
     {
       "key": "Type",
@@ -32,5 +32,5 @@
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/marco/stories/",
-  "scraped_at": "2025-07-08T14:47:04.567119"
+  "scraped_at": "2025-07-10T14:54:56.597447"
 }

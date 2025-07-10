@@ -1,2 +1,4 @@
 venv
-manual_scraper.txt
+
+# contains groq api key 
+.env

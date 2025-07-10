@@ -19,7 +19,7 @@
       <xs:element name="subtitle" type="xs:string" minOccurs="0"/>
       <xs:element name="url" type="EmptyOrURI" minOccurs="0"/>
       <xs:element name="date" type="EmptyOrDateTime" minOccurs="0"/>
-      <xs:element name="paragraphs" type="ParagraphsType" minOccurs="0"/>
+      <xs:element name="overview" type="xs:string" minOccurs="0"/>
       <xs:element name="metadata_table" type="MetadataTableType" minOccurs="0"/>
       <xs:element name="stories" type="StoriesType" minOccurs="0"/>
       <xs:element name="stories_page_url" type="EmptyOrURI" minOccurs="0"/>
@@ -42,12 +42,6 @@
       <xs:enumeration value=""/>
     </xs:restriction>
   </xs:simpleType>
-
-  <xs:complexType name="ParagraphsType">
-    <xs:sequence>
-      <xs:element name="paragraph" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-    </xs:sequence>
-  </xs:complexType>
 
   <xs:complexType name="MetadataTableType">
     <xs:sequence>

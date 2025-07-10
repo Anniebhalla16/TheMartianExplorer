@@ -3,7 +3,7 @@
   "subtitle": "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight)",
   "url": "https://science.nasa.gov/mission/insight/",
   "date": "2017-12-04T23:41:36-05:00",
-  "paragraphs": [],
+  "overview": "After analyzing the provided NASA Science \"Mission\" webpage for the InSight mission, here is a 3-5 sentence overview paragraph:\n\nThe InSight mission, run by NASA, is a robotic spacecraft designed to study the interior of Mars. Launched on May 5, 2018, InSight landed on Mars on November 26, 2018, and its primary mission lasted for nearly two years, with an extended mission that concluded on December 21, 2022. The mission aimed to study the Martian interior, rotation, and tectonic activity, using a suite of instruments including a seismometer and a heat flow probe. A unique aspect of the InSight mission is its ability to provide the first comprehensive understanding of the Martian interior, helping scientists to better understand the formation and evolution of rocky planets, including Earth.",
   "metadata_table": [
     {
       "key": "Type",
@@ -86,5 +86,5 @@
   ],
   "mission_status": "past",
   "stories_page_url": "https://science.nasa.gov/mission/insight/stories/",
-  "scraped_at": "2025-07-08T14:46:52.084952"
+  "scraped_at": "2025-07-10T14:54:27.120785"
 }
