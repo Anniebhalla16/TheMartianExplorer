@@ -3,7 +3,6 @@ import requests
 from requests.auth import HTTPBasicAuth
 from lxml import etree
 
-# 1) Configuration
 EXIST_REST = "http://localhost:8080/exist/rest/db/martian-explorer/missions.xml"
 AUTH       = HTTPBasicAuth("admin", "")   # adjust if you set a password
 

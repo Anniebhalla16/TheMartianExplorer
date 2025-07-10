@@ -17,6 +17,7 @@ for filename in os.listdir(JSON_DIR):
 
 print(f"📁 Loaded {len(data)} JSON files from '{JSON_DIR}'")
 
+# ----- XML Generation ------
 # --- BUILD XML TREE ---
 missions_el = etree.Element("missions")
 
@@ -53,6 +54,7 @@ for entry in data:
 
 xml_tree = etree.ElementTree(missions_el)
 
+# ------- XML Validation ------
 # --- VALIDATE WITH XSD ---
 with open(XSD_PATH, "rb") as xsd_file:
     schema_doc = etree.parse(xsd_file)

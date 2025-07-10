@@ -12,10 +12,10 @@ PASSWORD     = ""
 auth = HTTPBasicAuth(USERNAME, PASSWORD)
 
 # 2) Create the collection via MKCOL
-coll_url = f"{EXIST_URL}/{COLLECTION}"
-resp = requests.request("MKCOL", coll_url, auth=auth)
+collector_url = f"{EXIST_URL}/{COLLECTION}"
+resp = requests.request("MKCOL", collector_url, auth=auth)
 if resp.status_code in (201, 405):
-    # 201 Created, or 405 Method Not Allowed if it already exists
+    # Status Code - 201 Created successfully
     print(f"Collection '{COLLECTION}' ready (HTTP {resp.status_code}).")
 else:
     print(f"Failed to create collection: HTTP {resp.status_code}\n{resp.text}")
@@ -25,7 +25,7 @@ else:
 with open(XML_FILE, "rb") as f:
     xml_bytes = f.read()
 
-upload_url = f"{coll_url}/{XML_FILE}"
+upload_url = f"{collector_url}/{XML_FILE}"
 headers = {"Content-Type": "application/xml; charset=UTF-8"}
 resp = requests.put(upload_url, data=xml_bytes, auth=auth, headers=headers)
 
