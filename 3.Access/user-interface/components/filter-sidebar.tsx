@@ -12,7 +12,7 @@ interface FilterSidebarProps {
 
 export function FilterSidebar({ filters, onFilterChange, onClearFilters, loading }: FilterSidebarProps) {
   const [availableOptions, setAvailableOptions] = useState({
-    missionTypes: ["Orbiter", "Lander", "Rover", "Sample Return", "Fly by"],
+    missionTypes: ["Orbiter", "Lander", "Rover", "Sample Return", "Flyby"],
     targets: ["Mars", "Phobos", "Deimos", "Mars Orbit" , "Jezero Crater, Mars"],
     status: ["past", "active", "future", "all"]
 
