@@ -6,6 +6,15 @@ Explore Mars missions with advanced filtering, summarization, and a web UI backe
 
 ---
 
+## 📑 Web UI Screenshot
+
+<img width="1376" height="828" alt="Screenshot 2025-07-24 at 17 15 22" src="https://github.com/user-attachments/assets/cc68a245-b00a-463e-a784-73c5465264fd" />
+
+
+*Explore missions, filter by type/status/date, and drill into news stories.*
+
+---
+
 ## 🚀 Project Overview
 
 The Martian Explorer is a three-stage data-pipeline + web-app:
@@ -126,14 +135,6 @@ cd 3.Access/user-interface
 npm run dev
 ```
 
----
-
-## 📑 Web UI Screenshot
-
-<img width="1376" height="828" alt="Screenshot 2025-07-24 at 17 15 22" src="https://github.com/user-attachments/assets/cc68a245-b00a-463e-a784-73c5465264fd" />
-
-
-*Explore missions, filter by type/status/date, and drill into news stories.*
 
 ---
 
