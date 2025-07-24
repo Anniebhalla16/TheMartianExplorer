@@ -130,7 +130,8 @@ npm run dev
 
 ## 📑 Web UI Screenshot
 
-![The Martian Explorer UI](./assets/ui-screenshot.png)
+![The Martian Explorer UI](<img width="1376" height="828" alt="Screenshot 2025-07-24 at 17 15 22" src="https://github.com/user-attachments/assets/cc68a245-b00a-463e-a784-73c5465264fd" />
+)
 
 *Explore missions, filter by type/status/date, and drill into news stories.*
 
