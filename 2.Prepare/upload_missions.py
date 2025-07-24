@@ -2,6 +2,7 @@
 import requests
 from requests.auth import HTTPBasicAuth
 
+
 # 1) Configuration
 EXIST_URL    = "http://localhost:8080/exist/webdav/db"
 COLLECTION   = "martian-explorer"
