@@ -83,13 +83,16 @@ The Martian Explorer is a three-stage data-pipeline + web-app:
 3. **Create your .env**
    At the project root, create a file named `.env` and add your GROQ API key:
 
+   Create your free groq api key using this quick tutorial https://youtu.be/TTG7Uo8lS1M?si=-DxERoc_4ZkPEmP6
+   then,
+
    ```bash
    echo "GROQ_API_KEY=your_groq_api_key_here" > .env
    ```
 
    This key is used by the data-collection script to summarize mission overviews via Groq.
 
-4. **Install UI deps**
+5. **Install UI deps**
 
    ```bash
    cd 3.Access/user-interface
