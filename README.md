@@ -38,6 +38,7 @@ The Martian Explorer is a three-stage data-pipeline + web-app:
 / themartianexplorer
 ├─ 1.Collect/
 │   └─ scrapper.py              # MarsMissionScraper → raw JSON in raw_missions/
+│   └─ raw_missions             # JSON format for raw scrapped data
 ├─ 2.Prepare/
 │   ├─ json_to_xml.py           # JSON → missions.xml (+ XSD validation)
 │   ├─ missions.xml             # Generated XML
