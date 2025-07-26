@@ -47,6 +47,7 @@ The Martian Explorer is a three-stage data-pipeline + web-app:
 │   └─ user-interface/          # React/Vite app
 ├─ venv/                        # Python virtualenv
 ├─ .env                         # Environment variables (GROQ_API_KEY)
+├─ requirements.txt             # All python packages required to run the project
 ├─ run_pipeline.sh              # Bash wrapper to bootstrap DB, run all scripts & npm dev
 └─ README.md
 ```
@@ -66,8 +67,8 @@ The Martian Explorer is a three-stage data-pipeline + web-app:
 1. **Clone & enter repo**
 
    ```bash
-   git clone https://github.com/you/martian-explorer.git
-   cd martian-explorer
+   git clone https://github.com/Anniebhalla16/themartianexplorer.git
+   cd themartianexplorer
    ```
 
 2. **Create & activate Python venv**
