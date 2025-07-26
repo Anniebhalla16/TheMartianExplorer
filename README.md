@@ -41,6 +41,7 @@ The Martian Explorer is a three-stage data-pipeline + web-app:
 ├─ 2.Prepare/
 │   ├─ json_to_xml.py           # JSON → missions.xml (+ XSD validation)
 │   ├─ missions.xml             # Generated XML
+│   ├─ mission.xsd              # XML Grammar - XML Schema Definition - XSD
 │   └─ upload_missions.py       # PUT missions.xml into eXist-DB
 ├─ 3.Access/
 │   └─ user-interface/          # React/Vite app
