@@ -44,11 +44,21 @@ The Martian Explorer is a three-stage data-pipeline + web-app:
 │   └─ upload_missions.py       # PUT missions.xml into eXist-DB
 ├─ 3.Access/
 │   └─ user-interface/          # React/Vite app
+│     └─ utils/                
+│        └─ xquery-builder.tsx  # utility to build xquery based on user interaction 
 ├─ venv/                        # Python virtualenv
 ├─ .env                         # Environment variables (GROQ_API_KEY)
 ├─ run_pipeline.sh              # Bash wrapper to bootstrap DB, run all scripts & npm dev
 └─ README.md
 ```
+
+---
+
+## Access Flow
+React UI Components -> Custom Hooks and Utilities -> API Routes & eXist-DB
+
+## User Interaction Flow
+User Input → Filter State → XQuery → eXist-DB → XML → Parsed Data → UI Update
 
 ---
 
