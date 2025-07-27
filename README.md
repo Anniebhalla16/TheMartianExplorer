@@ -35,12 +35,14 @@ The Martian Explorer is a three-stage data-pipeline + web-app:
 ## 🗂 Repo Layout
 
 ```
-/ (project root)
+/ themartianexplorer
 ├─ 1.Collect/
 │   └─ scrapper.py              # MarsMissionScraper → raw JSON in raw_missions/
+│   └─ raw_missions             # JSON format for raw scrapped data
 ├─ 2.Prepare/
 │   ├─ json_to_xml.py           # JSON → missions.xml (+ XSD validation)
 │   ├─ missions.xml             # Generated XML
+│   ├─ mission.xsd              # XML Grammar - XML Schema Definition - XSD
 │   └─ upload_missions.py       # PUT missions.xml into eXist-DB
 ├─ 3.Access/
 │   └─ user-interface/          # React/Vite app
@@ -48,6 +50,7 @@ The Martian Explorer is a three-stage data-pipeline + web-app:
 │        └─ xquery-builder.tsx  # utility to build xquery based on user interaction 
 ├─ venv/                        # Python virtualenv
 ├─ .env                         # Environment variables (GROQ_API_KEY)
+├─ requirements.txt             # All python packages required to run the project
 ├─ run_pipeline.sh              # Bash wrapper to bootstrap DB, run all scripts & npm dev
 └─ README.md
 ```
@@ -75,8 +78,8 @@ User Input → Filter State → XQuery → eXist-DB → XML → Parsed Data → 
 1. **Clone & enter repo**
 
    ```bash
-   git clone https://github.com/you/martian-explorer.git
-   cd martian-explorer
+   git clone https://github.com/Anniebhalla16/themartianexplorer.git
+   cd themartianexplorer
    ```
 
 2. **Create & activate Python venv**
@@ -95,8 +98,9 @@ User Input → Filter State → XQuery → eXist-DB → XML → Parsed Data → 
    ```
 
    This key is used by the data-collection script to summarize mission overviews via Groq.
+   Hint: Create your free groq api key using this quick tutorial https://youtu.be/TTG7Uo8lS1M?si=-DxERoc_4ZkPEmP6
 
-4. **Install UI deps**
+5. **Install UI deps**
 
    ```bash
    cd 3.Access/user-interface
